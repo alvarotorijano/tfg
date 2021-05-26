@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config" kind="class" language="Java" prot="public">
+    <compoundname>com::torijano::autosulivansFeeder::test::BuildConfig</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1a882be0282b9fcb644628c0a1c915a19c" prot="public" static="yes" mutable="no">
+        <type>final boolean</type>
+        <definition>final boolean com.torijano.autosulivansFeeder.test.BuildConfig.DEBUG</definition>
+        <argsstring></argsstring>
+        <name>DEBUG</name>
+        <initializer>= Boolean.parseBoolean(&quot;true&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" line="7" column="31" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1ae2b81434e5ec5c53b404017c79a25bdf" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.torijano.autosulivansFeeder.test.BuildConfig.APPLICATION_ID</definition>
+        <argsstring></argsstring>
+        <name>APPLICATION_ID</name>
+        <initializer>= &quot;com.torijano.autosulivansFeeder.test&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" line="8" column="30" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1a207a06a3372be9a75cda5b7d38f4bbc5" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.torijano.autosulivansFeeder.test.BuildConfig.BUILD_TYPE</definition>
+        <argsstring></argsstring>
+        <name>BUILD_TYPE</name>
+        <initializer>= &quot;debug&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" line="9" column="30" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1a986b3d015fddb40cc424a8050328cf32" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.torijano.autosulivansFeeder.test.BuildConfig.FLAVOR</definition>
+        <argsstring></argsstring>
+        <name>FLAVOR</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" line="10" column="30" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1a60bf32e3512c1107077b9f1240d112d6" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.torijano.autosulivansFeeder.test.BuildConfig.VERSION_CODE</definition>
+        <argsstring></argsstring>
+        <name>VERSION_CODE</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" line="11" column="27" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1a9d5a1301e1628c43d24124e250c2a5c6" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.torijano.autosulivansFeeder.test.BuildConfig.VERSION_NAME</definition>
+        <argsstring></argsstring>
+        <name>VERSION_NAME</name>
+        <initializer>= &quot;3.5&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" line="12" column="30" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" line="6" column="31" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1ae2b81434e5ec5c53b404017c79a25bdf" prot="public" virt="non-virtual"><scope>com::torijano::autosulivansFeeder::test::BuildConfig</scope><name>APPLICATION_ID</name></member>
+      <member refid="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1a207a06a3372be9a75cda5b7d38f4bbc5" prot="public" virt="non-virtual"><scope>com::torijano::autosulivansFeeder::test::BuildConfig</scope><name>BUILD_TYPE</name></member>
+      <member refid="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1a882be0282b9fcb644628c0a1c915a19c" prot="public" virt="non-virtual"><scope>com::torijano::autosulivansFeeder::test::BuildConfig</scope><name>DEBUG</name></member>
+      <member refid="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1a986b3d015fddb40cc424a8050328cf32" prot="public" virt="non-virtual"><scope>com::torijano::autosulivansFeeder::test::BuildConfig</scope><name>FLAVOR</name></member>
+      <member refid="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1a60bf32e3512c1107077b9f1240d112d6" prot="public" virt="non-virtual"><scope>com::torijano::autosulivansFeeder::test::BuildConfig</scope><name>VERSION_CODE</name></member>
+      <member refid="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config_1a9d5a1301e1628c43d24124e250c2a5c6" prot="public" virt="non-virtual"><scope>com::torijano::autosulivansFeeder::test::BuildConfig</scope><name>VERSION_NAME</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

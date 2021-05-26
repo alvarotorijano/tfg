@@ -1,0 +1,204 @@
+\begin{theindex}
+
+  \item {android}, \hyperpage{11}
+  \item {android.support}, \hyperpage{11}
+  \item {android.support.graphics}, \hyperpage{11}
+  \item {android.support.graphics.drawable}, \hyperpage{11}
+  \item {android.support.graphics.drawable.animated}, \hyperpage{12}
+  \item {android.support.graphics.drawable.animated.R}, \hyperpage{23}
+  \item {android.support.graphics.drawable.R}, \hyperpage{23}
+  \item {android.support.v4}, \hyperpage{12}
+  \item {android.support.v4.R}, \hyperpage{24}
+  \item {android.support.v7}, \hyperpage{12}
+  \item {android.support.v7.appcompat}, \hyperpage{12}
+  \item {android.support.v7.appcompat.R}, \hyperpage{24}
+  \item {APPLICATION\_ID}
+    \subitem {com.torijano.autosulivansFeeder.test.BuildConfig}, 
+		\hyperpage{15}
+    \subitem {me.aflak.bluetoothterminal.BuildConfig}, \hyperpage{17}
+
+  \indexspace
+
+  \item {BUILD\_TYPE}
+    \subitem {com.torijano.autosulivansFeeder.test.BuildConfig}, 
+		\hyperpage{15}
+    \subitem {me.aflak.bluetoothterminal.BuildConfig}, \hyperpage{17}
+
+  \indexspace
+
+  \item {c}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{21}
+  \item {com}, \hyperpage{12}
+  \item {com.torijano}, \hyperpage{12}
+  \item {com.torijano.autosulivansFeeder}, \hyperpage{12}
+  \item {com.torijano.autosulivansFeeder.test}, \hyperpage{13}
+  \item {com.torijano.autosulivansFeeder.test.BuildConfig}, 
+		\hyperpage{15}
+    \subitem {APPLICATION\_ID}, \hyperpage{15}
+    \subitem {BUILD\_TYPE}, \hyperpage{15}
+    \subitem {DEBUG}, \hyperpage{15}
+    \subitem {FLAVOR}, \hyperpage{16}
+    \subitem {VERSION\_CODE}, \hyperpage{16}
+    \subitem {VERSION\_NAME}, \hyperpage{16}
+
+  \indexspace
+
+  \item {DEBUG}
+    \subitem {com.torijano.autosulivansFeeder.test.BuildConfig}, 
+		\hyperpage{15}
+    \subitem {me.aflak.bluetoothterminal.BuildConfig}, \hyperpage{17}
+  \item {Display}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{19}
+
+  \indexspace
+
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not\_namespaced\_r\_class\_sources/debug/r/android/support/graphics/drawable/animated/R.java}, 
+		\hyperpage{29}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not\_namespaced\_r\_class\_sources/debug/r/android/support/graphics/drawable/R.java}, 
+		\hyperpage{29}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not\_namespaced\_r\_class\_sources/debug/r/android/support/v4/R.java}, 
+		\hyperpage{30}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not\_namespaced\_r\_class\_sources/debug/r/android/support/v7/appcompat/R.java}, 
+		\hyperpage{30}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not\_namespaced\_r\_class\_sources/debug/r/me/aflak/bluetooth\_library/R.java}, 
+		\hyperpage{31}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not\_namespaced\_r\_class\_sources/debug/r/me/aflak/bluetoothterminal/R.java}, 
+		\hyperpage{31}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not\_namespaced\_r\_class\_sources/debug/r/me/aflak/pulltorefresh/R.java}, 
+		\hyperpage{32}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java}, 
+		\hyperpage{32}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java}, 
+		\hyperpage{33}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-\/renamer-\/state.txt}, 
+		\hyperpage{33}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates/manifest\_merge\_blame\_file/debug/manifest-\/merger-\/blame-\/debug-\/report.txt}, 
+		\hyperpage{33}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates/res/symbol-\/table-\/with-\/package/debug/package-\/aware-\/r.txt}, 
+		\hyperpage{33}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates/symbols/debug/R.txt}, 
+		\hyperpage{33}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/build/outputs/logs/manifest-\/merger-\/debug-\/report.txt}, 
+		\hyperpage{33}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Chat.java}, 
+		\hyperpage{33}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Scan.java}, 
+		\hyperpage{34}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java}, 
+		\hyperpage{34}
+  \item {E:/TFG/appAndroid/autosulivansFeederApp/README.md}, 
+		\hyperpage{34}
+
+  \indexspace
+
+  \item {fijarPeso}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{19}
+  \item {FLAVOR}
+    \subitem {com.torijano.autosulivansFeeder.test.BuildConfig}, 
+		\hyperpage{16}
+    \subitem {me.aflak.bluetoothterminal.BuildConfig}, \hyperpage{17}
+
+  \indexspace
+
+  \item {hideKeyboard}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{19}
+
+  \indexspace
+
+  \item {me}, \hyperpage{13}
+  \item {me.aflak}, \hyperpage{13}
+  \item {me.aflak.bluetooth\_library}, \hyperpage{13}
+  \item {me.aflak.bluetooth\_library.R}, \hyperpage{22}
+  \item {me.aflak.bluetoothterminal}, \hyperpage{13}
+  \item {me.aflak.bluetoothterminal.BuildConfig}, \hyperpage{16}
+    \subitem {APPLICATION\_ID}, \hyperpage{17}
+    \subitem {BUILD\_TYPE}, \hyperpage{17}
+    \subitem {DEBUG}, \hyperpage{17}
+    \subitem {FLAVOR}, \hyperpage{17}
+    \subitem {VERSION\_CODE}, \hyperpage{17}
+    \subitem {VERSION\_NAME}, \hyperpage{17}
+  \item {me.aflak.bluetoothterminal.Chat}, \hyperpage{18}
+    \subitem {c}, \hyperpage{21}
+    \subitem {Display}, \hyperpage{19}
+    \subitem {fijarPeso}, \hyperpage{19}
+    \subitem {hideKeyboard}, \hyperpage{19}
+    \subitem {onBackPressed}, \hyperpage{19}
+    \subitem {onConnect}, \hyperpage{19}
+    \subitem {onConnectError}, \hyperpage{19}
+    \subitem {onCreate}, \hyperpage{20}
+    \subitem {onCreateOptionsMenu}, \hyperpage{20}
+    \subitem {onDateSet}, \hyperpage{20}
+    \subitem {onDestroy}, \hyperpage{20}
+    \subitem {onDisconnect}, \hyperpage{20}
+    \subitem {onError}, \hyperpage{21}
+    \subitem {onMessage}, \hyperpage{21}
+    \subitem {onOptionsItemSelected}, \hyperpage{21}
+  \item {me.aflak.bluetoothterminal.R}, \hyperpage{22}
+  \item {me.aflak.bluetoothterminal.Scan}, \hyperpage{24}
+    \subitem {onCreate}, \hyperpage{25}
+    \subitem {onDevice}, \hyperpage{25}
+    \subitem {onError}, \hyperpage{25}
+    \subitem {onFinish}, \hyperpage{25}
+    \subitem {onItemClick}, \hyperpage{25}
+    \subitem {onPair}, \hyperpage{26}
+    \subitem {onUnpair}, \hyperpage{26}
+  \item {me.aflak.bluetoothterminal.Select}, \hyperpage{26}
+    \subitem {onCreate}, \hyperpage{27}
+    \subitem {onDestroy}, \hyperpage{27}
+    \subitem {onRefresh}, \hyperpage{27}
+  \item {me.aflak.pulltorefresh}, \hyperpage{13}
+  \item {me.aflak.pulltorefresh.R}, \hyperpage{23}
+
+  \indexspace
+
+  \item {onBackPressed}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{19}
+  \item {onConnect}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{19}
+  \item {onConnectError}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{19}
+  \item {onCreate}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{20}
+    \subitem {me.aflak.bluetoothterminal.Scan}, \hyperpage{25}
+    \subitem {me.aflak.bluetoothterminal.Select}, \hyperpage{27}
+  \item {onCreateOptionsMenu}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{20}
+  \item {onDateSet}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{20}
+  \item {onDestroy}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{20}
+    \subitem {me.aflak.bluetoothterminal.Select}, \hyperpage{27}
+  \item {onDevice}
+    \subitem {me.aflak.bluetoothterminal.Scan}, \hyperpage{25}
+  \item {onDisconnect}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{20}
+  \item {onError}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{21}
+    \subitem {me.aflak.bluetoothterminal.Scan}, \hyperpage{25}
+  \item {onFinish}
+    \subitem {me.aflak.bluetoothterminal.Scan}, \hyperpage{25}
+  \item {onItemClick}
+    \subitem {me.aflak.bluetoothterminal.Scan}, \hyperpage{25}
+  \item {onMessage}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{21}
+  \item {onOptionsItemSelected}
+    \subitem {me.aflak.bluetoothterminal.Chat}, \hyperpage{21}
+  \item {onPair}
+    \subitem {me.aflak.bluetoothterminal.Scan}, \hyperpage{26}
+  \item {onRefresh}
+    \subitem {me.aflak.bluetoothterminal.Select}, \hyperpage{27}
+  \item {onUnpair}
+    \subitem {me.aflak.bluetoothterminal.Scan}, \hyperpage{26}
+
+  \indexspace
+
+  \item {VERSION\_CODE}
+    \subitem {com.torijano.autosulivansFeeder.test.BuildConfig}, 
+		\hyperpage{16}
+    \subitem {me.aflak.bluetoothterminal.BuildConfig}, \hyperpage{17}
+  \item {VERSION\_NAME}
+    \subitem {com.torijano.autosulivansFeeder.test.BuildConfig}, 
+		\hyperpage{16}
+    \subitem {me.aflak.bluetoothterminal.BuildConfig}, \hyperpage{17}
+
+\end{theindex}

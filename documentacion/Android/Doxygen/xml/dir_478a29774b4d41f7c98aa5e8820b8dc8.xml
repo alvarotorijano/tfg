@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_478a29774b4d41f7c98aa5e8820b8dc8" kind="dir">
+    <compoundname>E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetooth_library</compoundname>
+    <innerfile refid="me_2aflak_2bluetooth__library_2_r_8java">R.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetooth_library/"/>
+  </compounddef>
+</doxygen>

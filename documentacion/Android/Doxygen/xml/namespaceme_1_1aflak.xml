@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceme_1_1aflak" kind="namespace" language="Java">
+    <compoundname>me::aflak</compoundname>
+    <innernamespace refid="namespaceme_1_1aflak_1_1bluetooth__library">me::aflak::bluetooth_library</innernamespace>
+    <innernamespace refid="namespaceme_1_1aflak_1_1bluetoothterminal">me::aflak::bluetoothterminal</innernamespace>
+    <innernamespace refid="namespaceme_1_1aflak_1_1pulltorefresh">me::aflak::pulltorefresh</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classme_1_1aflak_1_1pulltorefresh_1_1_r" kind="class" language="Java" prot="public">
+    <compoundname>me::aflak::pulltorefresh::R</compoundname>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1anim" prot="public">me::aflak::pulltorefresh::R::anim</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1attr" prot="public">me::aflak::pulltorefresh::R::attr</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1bool" prot="public">me::aflak::pulltorefresh::R::bool</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1color" prot="public">me::aflak::pulltorefresh::R::color</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1dimen" prot="public">me::aflak::pulltorefresh::R::dimen</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1drawable" prot="public">me::aflak::pulltorefresh::R::drawable</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1id" prot="public">me::aflak::pulltorefresh::R::id</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer" prot="public">me::aflak::pulltorefresh::R::integer</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1layout" prot="public">me::aflak::pulltorefresh::R::layout</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string" prot="public">me::aflak::pulltorefresh::R::string</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1style" prot="public">me::aflak::pulltorefresh::R::style</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1styleable" prot="public">me::aflak::pulltorefresh::R::styleable</innerclass>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1a76abf61e5d21c085dd9afe4fadcd829c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>me.aflak.pulltorefresh.R.R</definition>
+        <argsstring>()</argsstring>
+        <name>R</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="10" column="13" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="9" column="21" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="9" bodyend="1308"/>
+    <listofallmembers>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1a76abf61e5d21c085dd9afe4fadcd829c" prot="private" virt="non-virtual"><scope>me::aflak::pulltorefresh::R</scope><name>R</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

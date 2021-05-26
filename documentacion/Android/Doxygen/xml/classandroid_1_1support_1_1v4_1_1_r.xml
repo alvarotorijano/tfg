@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classandroid_1_1support_1_1v4_1_1_r" kind="class" language="Java" prot="public">
+    <compoundname>android::support::v4::R</compoundname>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classandroid_1_1support_1_1v4_1_1_r_1a254130e1af6c1572edc11c48990a7e01" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>android.support.v4.R.R</definition>
+        <argsstring>()</argsstring>
+        <name>R</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v4/R.java" line="10" column="13" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v4/R.java" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v4/R.java" line="9" column="21" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v4/R.java" bodystart="9" bodyend="12"/>
+    <listofallmembers>
+      <member refid="classandroid_1_1support_1_1v4_1_1_r_1a254130e1af6c1572edc11c48990a7e01" prot="private" virt="non-virtual"><scope>android::support::v4::R</scope><name>R</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

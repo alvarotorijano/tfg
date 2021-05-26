@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_44c8e289e3db24e87425cbcd430b3c5f" kind="dir">
+    <compoundname>E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak</compoundname>
+    <innerdir refid="dir_95d8b28947cd1a8d642998aba8f3b060">E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/"/>
+  </compounddef>
+</doxygen>

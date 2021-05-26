@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer" kind="class" language="Java" prot="public">
+    <compoundname>me::aflak::pulltorefresh::R::integer</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1a2ef96ede143534a1b06fb1e3b50973a8" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.integer.abc_config_activityDefaultDur</definition>
+        <argsstring></argsstring>
+        <name>abc_config_activityDefaultDur</name>
+        <initializer>= 0x7f080000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="584" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="584" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1ab20bd781a59d54bb31823f0db293e815" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.integer.abc_config_activityShortDur</definition>
+        <argsstring></argsstring>
+        <name>abc_config_activityShortDur</name>
+        <initializer>= 0x7f080001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="585" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="585" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1a38cf31b1c5b70921b46c9fd02b823a28" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.integer.abc_max_action_buttons</definition>
+        <argsstring></argsstring>
+        <name>abc_max_action_buttons</name>
+        <initializer>= 0x7f080002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="586" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="586" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1a5ee0fe69f3aea99dbcb9fcc6e5566300" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.integer.cancel_button_image_alpha</definition>
+        <argsstring></argsstring>
+        <name>cancel_button_image_alpha</name>
+        <initializer>= 0x7f080003</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="587" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="587" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1a185061c8e916e84afcc0018a8ffb8d3f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.integer.status_bar_notification_info_maxnum</definition>
+        <argsstring></argsstring>
+        <name>status_bar_notification_info_maxnum</name>
+        <initializer>= 0x7f080004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="588" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="588" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1a314c66d2d7d9108290519b10a96eb99e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>me.aflak.pulltorefresh.R.integer.integer</definition>
+        <argsstring>()</argsstring>
+        <name>integer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="582" column="17" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="582" bodyend="582"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="581" column="38" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="581" bodyend="589"/>
+    <listofallmembers>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1a2ef96ede143534a1b06fb1e3b50973a8" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::integer</scope><name>abc_config_activityDefaultDur</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1ab20bd781a59d54bb31823f0db293e815" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::integer</scope><name>abc_config_activityShortDur</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1a38cf31b1c5b70921b46c9fd02b823a28" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::integer</scope><name>abc_max_action_buttons</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1a5ee0fe69f3aea99dbcb9fcc6e5566300" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::integer</scope><name>cancel_button_image_alpha</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1a314c66d2d7d9108290519b10a96eb99e" prot="private" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::integer</scope><name>integer</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1integer_1a185061c8e916e84afcc0018a8ffb8d3f" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::integer</scope><name>status_bar_notification_info_maxnum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

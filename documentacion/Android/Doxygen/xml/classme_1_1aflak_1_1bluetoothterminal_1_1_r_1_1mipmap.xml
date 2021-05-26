@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1mipmap" kind="class" language="Java" prot="public">
+    <compoundname>me::aflak::bluetoothterminal::R::mipmap</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1mipmap_1aa3e86204c981e9c9bb6196d95e8b6fec" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.mipmap.ic_launcher</definition>
+        <argsstring></argsstring>
+        <name>ic_launcher</name>
+        <initializer>=0x7f0b0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1987" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1mipmap_1a3facd8d3835a273e20d7c709e2eaab0e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.mipmap.ic_launcher_foreground</definition>
+        <argsstring></argsstring>
+        <name>ic_launcher_foreground</name>
+        <initializer>=0x7f0b0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1988" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1988" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1mipmap_1a2696abfc6533327e68fb3b23361defe6" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.mipmap.ic_launcher_round</definition>
+        <argsstring></argsstring>
+        <name>ic_launcher_round</name>
+        <initializer>=0x7f0b0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1989" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1989" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1986" column="35" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1986" bodyend="1990"/>
+    <listofallmembers>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1mipmap_1aa3e86204c981e9c9bb6196d95e8b6fec" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::mipmap</scope><name>ic_launcher</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1mipmap_1a3facd8d3835a273e20d7c709e2eaab0e" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::mipmap</scope><name>ic_launcher_foreground</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1mipmap_1a2696abfc6533327e68fb3b23361defe6" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::mipmap</scope><name>ic_launcher_round</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

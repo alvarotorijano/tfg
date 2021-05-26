@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_bf3ec61aeee94ab7909826a4791dca97" kind="dir">
+    <compoundname>E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal</compoundname>
+    <innerfile refid="_chat_8java">Chat.java</innerfile>
+    <innerfile refid="_scan_8java">Scan.java</innerfile>
+    <innerfile refid="_select_8java">Select.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/"/>
+  </compounddef>
+</doxygen>

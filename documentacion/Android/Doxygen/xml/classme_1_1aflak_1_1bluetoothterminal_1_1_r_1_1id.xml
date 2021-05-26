@@ -1,0 +1,1755 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id" kind="class" language="Java" prot="public">
+    <compoundname>me::aflak::bluetoothterminal::R::id</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a3ac82b75dc24c44e935c31b9010532da" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action0</definition>
+        <argsstring></argsstring>
+        <name>action0</name>
+        <initializer>=0x7f070000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1816" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1816" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae31814f0490192de2a46ca5213149629" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_bar</definition>
+        <argsstring></argsstring>
+        <name>action_bar</name>
+        <initializer>=0x7f070001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1817" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1817" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a2d5943f46c106f633a59acedba1073d4" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_bar_activity_content</definition>
+        <argsstring></argsstring>
+        <name>action_bar_activity_content</name>
+        <initializer>=0x7f070002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1818" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1818" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a1ccbc4e9e6c6d99e0ad28987a0c40183" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_bar_container</definition>
+        <argsstring></argsstring>
+        <name>action_bar_container</name>
+        <initializer>=0x7f070003</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1819" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1819" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab6bf0a63ad179e39fc795e8930d01537" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_bar_root</definition>
+        <argsstring></argsstring>
+        <name>action_bar_root</name>
+        <initializer>=0x7f070004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1820" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1820" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab71d99dd7c57b64b3210ed2f87973d8a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_bar_spinner</definition>
+        <argsstring></argsstring>
+        <name>action_bar_spinner</name>
+        <initializer>=0x7f070005</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1821" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1821" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a55280701e73e283a26ee968f2b2c5c98" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_bar_subtitle</definition>
+        <argsstring></argsstring>
+        <name>action_bar_subtitle</name>
+        <initializer>=0x7f070006</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1822" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1822" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1afc27bed3de39e2e09d9b574361c14760" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_bar_title</definition>
+        <argsstring></argsstring>
+        <name>action_bar_title</name>
+        <initializer>=0x7f070007</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1823" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1823" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aaf61ac0c068278bb3e6e50e0d5666859" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_context_bar</definition>
+        <argsstring></argsstring>
+        <name>action_context_bar</name>
+        <initializer>=0x7f070008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1824" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1824" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a65755ae577748146e405712ba20e352c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_divider</definition>
+        <argsstring></argsstring>
+        <name>action_divider</name>
+        <initializer>=0x7f070009</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1825" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1825" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a9a5fe1c0e9184bd1ce2d7fd03aebefba" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_menu_divider</definition>
+        <argsstring></argsstring>
+        <name>action_menu_divider</name>
+        <initializer>=0x7f07000a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1826" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1826" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a1a99be09fabe5890adc6bd5226c30b25" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_menu_presenter</definition>
+        <argsstring></argsstring>
+        <name>action_menu_presenter</name>
+        <initializer>=0x7f07000b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1827" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ad88609de2df02f99511c54f719e5050c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_mode_bar</definition>
+        <argsstring></argsstring>
+        <name>action_mode_bar</name>
+        <initializer>=0x7f07000c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1828" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a158d87d7a025d09cdcb87039fdfd831e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_mode_bar_stub</definition>
+        <argsstring></argsstring>
+        <name>action_mode_bar_stub</name>
+        <initializer>=0x7f07000d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1829" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1829" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a21b44456909b782933526e428a3bd3b0" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.action_mode_close_button</definition>
+        <argsstring></argsstring>
+        <name>action_mode_close_button</name>
+        <initializer>=0x7f07000e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1830" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1830" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ad83ebc938d50042d98d2dd604685b979" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.activity_chooser_view_content</definition>
+        <argsstring></argsstring>
+        <name>activity_chooser_view_content</name>
+        <initializer>=0x7f07000f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1831" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1831" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a2f2476631fe15e2ff2a952666e6763a4" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.alertTitle</definition>
+        <argsstring></argsstring>
+        <name>alertTitle</name>
+        <initializer>=0x7f070010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1832" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1832" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aa28a64715b8dc72c9ff4ce9a9ba32458" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.always</definition>
+        <argsstring></argsstring>
+        <name>always</name>
+        <initializer>=0x7f070011</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1833" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1833" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a09ca95db70db678311284b45798434b1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.beginning</definition>
+        <argsstring></argsstring>
+        <name>beginning</name>
+        <initializer>=0x7f070012</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1834" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1834" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a7d9749b7cb39e6ed6cb009e4ad2b215c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.buttonPanel</definition>
+        <argsstring></argsstring>
+        <name>buttonPanel</name>
+        <initializer>=0x7f070013</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1835" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1835" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8c068635c7d999ee2d06c77874258d51" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.cancel_action</definition>
+        <argsstring></argsstring>
+        <name>cancel_action</name>
+        <initializer>=0x7f070014</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1836" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1836" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a54b6f08902b7213e9123475782719c38" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.checkbox</definition>
+        <argsstring></argsstring>
+        <name>checkbox</name>
+        <initializer>=0x7f070015</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1837" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1837" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a055f94d53c1976a36259584f7b0545ce" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.chronometer</definition>
+        <argsstring></argsstring>
+        <name>chronometer</name>
+        <initializer>=0x7f070016</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1838" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1838" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a54a488818a0f9e954a8e976f898f4e85" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.close</definition>
+        <argsstring></argsstring>
+        <name>close</name>
+        <initializer>=0x7f070017</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1839" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1839" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1adf485ba1f4bfbd8541dd4a0b7fbff7d1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.collapseActionView</definition>
+        <argsstring></argsstring>
+        <name>collapseActionView</name>
+        <initializer>=0x7f070018</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1840" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1840" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ad5b1d4b9c07a0108e58e47c05b899810" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.command_option</definition>
+        <argsstring></argsstring>
+        <name>command_option</name>
+        <initializer>=0x7f070019</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1841" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1841" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a632684ebeaa53d32024110c58a05ab61" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.connectionSatus</definition>
+        <argsstring></argsstring>
+        <name>connectionSatus</name>
+        <initializer>=0x7f07001a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1842" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1842" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a5682717a6f261653c8ef9ce27dfcfd14" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.contentPanel</definition>
+        <argsstring></argsstring>
+        <name>contentPanel</name>
+        <initializer>=0x7f07001b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1843" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1843" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a63e28a6de506dc0f033524598ff4b28b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.custom</definition>
+        <argsstring></argsstring>
+        <name>custom</name>
+        <initializer>=0x7f07001c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1844" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a41d45677c2c2147c0d8870f9cc3f5681" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.customPanel</definition>
+        <argsstring></argsstring>
+        <name>customPanel</name>
+        <initializer>=0x7f07001d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1845" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1845" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aa85b70c77efd479ee8d8b4b363036c16" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.decor_content_parent</definition>
+        <argsstring></argsstring>
+        <name>decor_content_parent</name>
+        <initializer>=0x7f07001e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1846" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1846" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a74e11f6ed64312f1ed31f4501879a1d7" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.default_activity_button</definition>
+        <argsstring></argsstring>
+        <name>default_activity_button</name>
+        <initializer>=0x7f07001f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1847" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1847" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab045543fd93a3e8a79ec594f68b3e3f9" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.disableHome</definition>
+        <argsstring></argsstring>
+        <name>disableHome</name>
+        <initializer>=0x7f070020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1848" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab32e360c1c644fbe9af7577eb135581b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.dosis_input</definition>
+        <argsstring></argsstring>
+        <name>dosis_input</name>
+        <initializer>=0x7f070021</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1849" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1849" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a322cc581969156e4bab9b5e75dbbf7e5" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.edit_query</definition>
+        <argsstring></argsstring>
+        <name>edit_query</name>
+        <initializer>=0x7f070022</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1850" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1850" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8e53457a6b410cae52450aee5ea6cf8a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <initializer>=0x7f070023</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1851" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1851" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8172ffec13f09deb7347c296d5368b05" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.end_padder</definition>
+        <argsstring></argsstring>
+        <name>end_padder</name>
+        <initializer>=0x7f070024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1852" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1852" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab275e3c7c8f7f5fc1bcd0bdaaa514908" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.expand_activities_button</definition>
+        <argsstring></argsstring>
+        <name>expand_activities_button</name>
+        <initializer>=0x7f070025</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1853" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1853" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a07347e76dfcf186becc7ae75c1a130bd" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.expanded_menu</definition>
+        <argsstring></argsstring>
+        <name>expanded_menu</name>
+        <initializer>=0x7f070026</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1854" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1854" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1af39949f44e34e0446cf5db0f774dfea5" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.gramos_input</definition>
+        <argsstring></argsstring>
+        <name>gramos_input</name>
+        <initializer>=0x7f070027</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1855" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1855" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab74f0c5da22653af89a60e9e91d2322a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.home</definition>
+        <argsstring></argsstring>
+        <name>home</name>
+        <initializer>=0x7f070028</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1856" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1856" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aaaa3fefa27a772dd13f03bcbf27bd3ae" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.homeAsUp</definition>
+        <argsstring></argsstring>
+        <name>homeAsUp</name>
+        <initializer>=0x7f070029</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1857" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1857" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a152a0c927db4c457ec6340de306b4a7e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <initializer>=0x7f07002a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1858" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1858" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a233a3741e9503fd2f74f36e0ca0ef5b5" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.ifRoom</definition>
+        <argsstring></argsstring>
+        <name>ifRoom</name>
+        <initializer>=0x7f07002b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1859" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1859" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a0c32e8d98d827dbd26b0a8161c5dac57" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <initializer>=0x7f07002c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1860" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1860" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a538eda758cbbdfa8267cf006cdc86d2d" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <initializer>=0x7f07002d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1861" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1861" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a076cc83cbbba301d8138dde26a320ec0" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.light_button</definition>
+        <argsstring></argsstring>
+        <name>light_button</name>
+        <initializer>=0x7f07002e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1862" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1862" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1adfa9b201e437bee9b8bf752b8d190df7" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.line1</definition>
+        <argsstring></argsstring>
+        <name>line1</name>
+        <initializer>=0x7f07002f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1863" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1863" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab27ad6c32441a9ee8f0a99860d9f5a3e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.line3</definition>
+        <argsstring></argsstring>
+        <name>line3</name>
+        <initializer>=0x7f070030</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1864" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1864" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aa143e8111cd3bf5c0972f17e322cb82b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <initializer>=0x7f070031</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1865" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1865" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae3f89a81d52b6556074b7919de254112" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.listMode</definition>
+        <argsstring></argsstring>
+        <name>listMode</name>
+        <initializer>=0x7f070032</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1866" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1866" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab74832456ac064c99b55ae23bb3a805e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.list_item</definition>
+        <argsstring></argsstring>
+        <name>list_item</name>
+        <initializer>=0x7f070033</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1867" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1867" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a131377126cb3a32f4c1ce6cd4a6c2340" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.media_actions</definition>
+        <argsstring></argsstring>
+        <name>media_actions</name>
+        <initializer>=0x7f070034</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1868" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1868" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a86793c20522d80cde254a567e13d7d2e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <initializer>=0x7f070035</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1869" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1869" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a86505b4bd46a63efb585e86ad8a32548" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.middle</definition>
+        <argsstring></argsstring>
+        <name>middle</name>
+        <initializer>=0x7f070036</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1870" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1870" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a9c82f18b619e0c0371e23045a179beb7" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.multiply</definition>
+        <argsstring></argsstring>
+        <name>multiply</name>
+        <initializer>=0x7f070037</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1871" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1871" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a81124b6d9159637c131bf8d497389541" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.never</definition>
+        <argsstring></argsstring>
+        <name>never</name>
+        <initializer>=0x7f070038</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1872" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1872" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab4ce28e2e2503e90877a1193757c3b6e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.none</definition>
+        <argsstring></argsstring>
+        <name>none</name>
+        <initializer>=0x7f070039</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1873" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1873" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a38095b6b902da9514166a83f8f626d9d" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.normal</definition>
+        <argsstring></argsstring>
+        <name>normal</name>
+        <initializer>=0x7f07003a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1874" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1874" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac7e53e4b399463c357537e85b5a8c010" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.not_in_list</definition>
+        <argsstring></argsstring>
+        <name>not_in_list</name>
+        <initializer>=0x7f07003b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1875" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1875" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a59691d78358a8ce684bdfb7301f3575c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.parentPanel</definition>
+        <argsstring></argsstring>
+        <name>parentPanel</name>
+        <initializer>=0x7f07003c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1876" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1876" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8d408eb2ba16f428a138470bb89bc2dd" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.pesoInput</definition>
+        <argsstring></argsstring>
+        <name>pesoInput</name>
+        <initializer>=0x7f07003d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1877" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1877" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae684f5e573c33efac6799562485b0e1c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.progress_circular</definition>
+        <argsstring></argsstring>
+        <name>progress_circular</name>
+        <initializer>=0x7f07003e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1878" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1878" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a21304fe11f5520302b6321de0ec32b7b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.progress_horizontal</definition>
+        <argsstring></argsstring>
+        <name>progress_horizontal</name>
+        <initializer>=0x7f07003f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1879" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1879" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac7a6fd3fea1bace24ec2a6e239196ecf" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.prueba</definition>
+        <argsstring></argsstring>
+        <name>prueba</name>
+        <initializer>=0x7f070040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1880" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1880" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1af4ce3f0c0c90eef30c0829ba43a8c2c4" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.pull_to_refresh</definition>
+        <argsstring></argsstring>
+        <name>pull_to_refresh</name>
+        <initializer>=0x7f070041</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1881" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1881" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a729fd136fa84f786cda597f8e6078722" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.radio</definition>
+        <argsstring></argsstring>
+        <name>radio</name>
+        <initializer>=0x7f070042</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1882" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1882" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a07aa29aee0d40284d8a9adfe3c03bd2a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.rate</definition>
+        <argsstring></argsstring>
+        <name>rate</name>
+        <initializer>=0x7f070043</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1883" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1883" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ad6d54f5b8356ea0eddfe0edfae5c3d32" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.reset_button</definition>
+        <argsstring></argsstring>
+        <name>reset_button</name>
+        <initializer>=0x7f070044</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1884" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1884" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab30b579be1eee0fa62b74604817d3ce3" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.rl</definition>
+        <argsstring></argsstring>
+        <name>rl</name>
+        <initializer>=0x7f070045</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1885" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1885" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae85c81d96b5394c05e86eb96f94a3a5f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.scan_list</definition>
+        <argsstring></argsstring>
+        <name>scan_list</name>
+        <initializer>=0x7f070046</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1886" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1886" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8bdfacf90f66b71e4f83f65094b4b1c3" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.scan_progress</definition>
+        <argsstring></argsstring>
+        <name>scan_progress</name>
+        <initializer>=0x7f070047</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1887" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aa8a74bd7f5c5dde9a8be4526409b9b63" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.scan_scan_again</definition>
+        <argsstring></argsstring>
+        <name>scan_scan_again</name>
+        <initializer>=0x7f070048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1888" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1888" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aeb7d76c5b2f7e880e520af4fda51e9d9" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.scan_state</definition>
+        <argsstring></argsstring>
+        <name>scan_state</name>
+        <initializer>=0x7f070049</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1889" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1889" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a04af12e16ab64df505485a8b396798a7" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.screen</definition>
+        <argsstring></argsstring>
+        <name>screen</name>
+        <initializer>=0x7f07004a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1890" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a269ad3c3b4ba45cd1c5d84daaf1d5c8a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.scrollIndicatorDown</definition>
+        <argsstring></argsstring>
+        <name>scrollIndicatorDown</name>
+        <initializer>=0x7f07004b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1891" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a9d38398ffa5bd59f69398dca356e479f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.scrollIndicatorUp</definition>
+        <argsstring></argsstring>
+        <name>scrollIndicatorUp</name>
+        <initializer>=0x7f07004c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1892" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae2aed6e1ae954423ece7684392d9f9d7" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.scrollView</definition>
+        <argsstring></argsstring>
+        <name>scrollView</name>
+        <initializer>=0x7f07004d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1893" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1af63fc9e12a78bfdb7ce6647dd7899640" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.search_badge</definition>
+        <argsstring></argsstring>
+        <name>search_badge</name>
+        <initializer>=0x7f07004e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1894" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1894" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a75c80325c3384a767ee863b55959ad7a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.search_bar</definition>
+        <argsstring></argsstring>
+        <name>search_bar</name>
+        <initializer>=0x7f07004f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1895" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1895" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae0d9fc71f3676f6c7b3b21a3aeb2acef" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.search_button</definition>
+        <argsstring></argsstring>
+        <name>search_button</name>
+        <initializer>=0x7f070050</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1896" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a94d2803c09d82be25d51fa085cb5089b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.search_close_btn</definition>
+        <argsstring></argsstring>
+        <name>search_close_btn</name>
+        <initializer>=0x7f070051</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1897" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1897" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a804749d092900619748efec7f8d8409c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.search_edit_frame</definition>
+        <argsstring></argsstring>
+        <name>search_edit_frame</name>
+        <initializer>=0x7f070052</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1898" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1898" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aeb790d137dd83d9b61669f3748195029" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.search_go_btn</definition>
+        <argsstring></argsstring>
+        <name>search_go_btn</name>
+        <initializer>=0x7f070053</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1899" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1899" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a37ea95aa9659f5561cc52c6ca8a4e3b1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.search_mag_icon</definition>
+        <argsstring></argsstring>
+        <name>search_mag_icon</name>
+        <initializer>=0x7f070054</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1900" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1900" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a5f922460bfe358cd2f9acdb284205bc4" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.search_plate</definition>
+        <argsstring></argsstring>
+        <name>search_plate</name>
+        <initializer>=0x7f070055</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1901" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1901" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aed7a068080bd220e5a21ffa8b1709007" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.search_src_text</definition>
+        <argsstring></argsstring>
+        <name>search_src_text</name>
+        <initializer>=0x7f070056</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1902" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1902" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a99a328973130b8821ebffed2cfb0357a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.search_voice_btn</definition>
+        <argsstring></argsstring>
+        <name>search_voice_btn</name>
+        <initializer>=0x7f070057</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1903" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1903" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a2aa1389d3053649c6e09878339113ce6" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.select_dialog_listview</definition>
+        <argsstring></argsstring>
+        <name>select_dialog_listview</name>
+        <initializer>=0x7f070058</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1904" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1904" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8d6a6c055e001a5af7abb5579cf32442" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.send</definition>
+        <argsstring></argsstring>
+        <name>send</name>
+        <initializer>=0x7f070059</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1905" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1905" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac013af2f0e27f74bf3579f6c20e8ab99" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.shortcut</definition>
+        <argsstring></argsstring>
+        <name>shortcut</name>
+        <initializer>=0x7f07005a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1906" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1906" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a411b751f4444c6abaf7c8ff8317a9bec" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.showCustom</definition>
+        <argsstring></argsstring>
+        <name>showCustom</name>
+        <initializer>=0x7f07005b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1907" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1907" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1adbb76f3426c52bb9d3f505babd770f9f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.showHome</definition>
+        <argsstring></argsstring>
+        <name>showHome</name>
+        <initializer>=0x7f07005c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1908" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1908" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a6a1f39f77bf2133431e0501fe79bf501" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.showTitle</definition>
+        <argsstring></argsstring>
+        <name>showTitle</name>
+        <initializer>=0x7f07005d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1909" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a41e02374b93cd53b89d0c87624398da7" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.spacer</definition>
+        <argsstring></argsstring>
+        <name>spacer</name>
+        <initializer>=0x7f07005e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1910" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1910" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a13495b87c399bd09234288dc5102ab02" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.split_action_bar</definition>
+        <argsstring></argsstring>
+        <name>split_action_bar</name>
+        <initializer>=0x7f07005f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1911" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1911" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1abcadadd930a5a428125de0c6297837bf" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.src_atop</definition>
+        <argsstring></argsstring>
+        <name>src_atop</name>
+        <initializer>=0x7f070060</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1912" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1912" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a0c25af08f22e3a32d1ed2c920c704b6f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.src_in</definition>
+        <argsstring></argsstring>
+        <name>src_in</name>
+        <initializer>=0x7f070061</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1913" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1913" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a472c9b20c2a4753eb5bda9f350326707" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.src_over</definition>
+        <argsstring></argsstring>
+        <name>src_over</name>
+        <initializer>=0x7f070062</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1914" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1914" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ad45135f1e21d267894342dd21379bf7f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.status_bar_latest_event_content</definition>
+        <argsstring></argsstring>
+        <name>status_bar_latest_event_content</name>
+        <initializer>=0x7f070063</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1915" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1915" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac256a265ad1156fe9570610d531ec182" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.submit_area</definition>
+        <argsstring></argsstring>
+        <name>submit_area</name>
+        <initializer>=0x7f070064</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1916" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1916" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a34d7356579b52256568ec2e927071dce" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.tabMode</definition>
+        <argsstring></argsstring>
+        <name>tabMode</name>
+        <initializer>=0x7f070065</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1917" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1917" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8b35adfdfef91ed9171c7c9d78353206" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <initializer>=0x7f070066</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1918" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1918" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac0d0f3f21c05cbf404a585461a096291" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.text2</definition>
+        <argsstring></argsstring>
+        <name>text2</name>
+        <initializer>=0x7f070067</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1919" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1919" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a0abce3991de6429fae6aaaeaba5004f2" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.textSpacerNoButtons</definition>
+        <argsstring></argsstring>
+        <name>textSpacerNoButtons</name>
+        <initializer>=0x7f070068</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1920" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1920" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aec47f0a5523ef34bc6ad2ec95b8bb1e4" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.textView2</definition>
+        <argsstring></argsstring>
+        <name>textView2</name>
+        <initializer>=0x7f070069</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1921" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1921" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a0569f25d3a2973eb133b7220e7102367" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.textView3</definition>
+        <argsstring></argsstring>
+        <name>textView3</name>
+        <initializer>=0x7f07006a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1922" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1922" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a52f616274bef2ddba326990229c4a7f5" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <initializer>=0x7f07006b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1923" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1923" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a3f19a050313903e436647747eb98d9eb" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.timePicker</definition>
+        <argsstring></argsstring>
+        <name>timePicker</name>
+        <initializer>=0x7f07006c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1924" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1924" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a289ddd4ba9d5dbd962ecb5b4769690ab" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <initializer>=0x7f07006d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1925" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1925" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aed32761e2494dab577b476275def996e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.title_template</definition>
+        <argsstring></argsstring>
+        <name>title_template</name>
+        <initializer>=0x7f07006e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1926" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1926" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac0b8d5f6c87c88fec138cab8adf69985" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.topPanel</definition>
+        <argsstring></argsstring>
+        <name>topPanel</name>
+        <initializer>=0x7f07006f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1927" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1927" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a28557cd080e378b55a770564b36c0469" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.up</definition>
+        <argsstring></argsstring>
+        <name>up</name>
+        <initializer>=0x7f070070</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1928" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1928" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac3a90f8a6f4f8e0841c318d42533d00b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.useLogo</definition>
+        <argsstring></argsstring>
+        <name>useLogo</name>
+        <initializer>=0x7f070071</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1929" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1929" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a4549c3e4ffb49604b9ad10486c488d5b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.withText</definition>
+        <argsstring></argsstring>
+        <name>withText</name>
+        <initializer>=0x7f070072</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1930" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a1799c02d40686b5954dd55d8f3cf3f1f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.R.id.wrap_content</definition>
+        <argsstring></argsstring>
+        <name>wrap_content</name>
+        <initializer>=0x7f070073</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1931" column="29" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="1815" column="31" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="1815" bodyend="1932"/>
+    <listofallmembers>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a3ac82b75dc24c44e935c31b9010532da" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action0</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae31814f0490192de2a46ca5213149629" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_bar</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a2d5943f46c106f633a59acedba1073d4" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_bar_activity_content</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a1ccbc4e9e6c6d99e0ad28987a0c40183" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_bar_container</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab6bf0a63ad179e39fc795e8930d01537" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_bar_root</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab71d99dd7c57b64b3210ed2f87973d8a" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_bar_spinner</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a55280701e73e283a26ee968f2b2c5c98" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_bar_subtitle</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1afc27bed3de39e2e09d9b574361c14760" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_bar_title</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aaf61ac0c068278bb3e6e50e0d5666859" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_context_bar</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a65755ae577748146e405712ba20e352c" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_divider</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a9a5fe1c0e9184bd1ce2d7fd03aebefba" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_menu_divider</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a1a99be09fabe5890adc6bd5226c30b25" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_menu_presenter</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ad88609de2df02f99511c54f719e5050c" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_mode_bar</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a158d87d7a025d09cdcb87039fdfd831e" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_mode_bar_stub</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a21b44456909b782933526e428a3bd3b0" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>action_mode_close_button</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ad83ebc938d50042d98d2dd604685b979" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>activity_chooser_view_content</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a2f2476631fe15e2ff2a952666e6763a4" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>alertTitle</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aa28a64715b8dc72c9ff4ce9a9ba32458" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>always</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a09ca95db70db678311284b45798434b1" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>beginning</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a7d9749b7cb39e6ed6cb009e4ad2b215c" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>buttonPanel</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8c068635c7d999ee2d06c77874258d51" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>cancel_action</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a54b6f08902b7213e9123475782719c38" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>checkbox</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a055f94d53c1976a36259584f7b0545ce" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>chronometer</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a54a488818a0f9e954a8e976f898f4e85" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>close</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1adf485ba1f4bfbd8541dd4a0b7fbff7d1" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>collapseActionView</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ad5b1d4b9c07a0108e58e47c05b899810" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>command_option</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a632684ebeaa53d32024110c58a05ab61" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>connectionSatus</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a5682717a6f261653c8ef9ce27dfcfd14" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>contentPanel</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a63e28a6de506dc0f033524598ff4b28b" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>custom</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a41d45677c2c2147c0d8870f9cc3f5681" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>customPanel</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aa85b70c77efd479ee8d8b4b363036c16" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>decor_content_parent</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a74e11f6ed64312f1ed31f4501879a1d7" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>default_activity_button</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab045543fd93a3e8a79ec594f68b3e3f9" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>disableHome</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab32e360c1c644fbe9af7577eb135581b" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>dosis_input</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a322cc581969156e4bab9b5e75dbbf7e5" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>edit_query</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8e53457a6b410cae52450aee5ea6cf8a" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>end</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8172ffec13f09deb7347c296d5368b05" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>end_padder</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab275e3c7c8f7f5fc1bcd0bdaaa514908" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>expand_activities_button</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a07347e76dfcf186becc7ae75c1a130bd" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>expanded_menu</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1af39949f44e34e0446cf5db0f774dfea5" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>gramos_input</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab74f0c5da22653af89a60e9e91d2322a" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>home</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aaaa3fefa27a772dd13f03bcbf27bd3ae" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>homeAsUp</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a152a0c927db4c457ec6340de306b4a7e" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>icon</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a233a3741e9503fd2f74f36e0ca0ef5b5" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>ifRoom</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a0c32e8d98d827dbd26b0a8161c5dac57" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>image</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a538eda758cbbdfa8267cf006cdc86d2d" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>info</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a076cc83cbbba301d8138dde26a320ec0" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>light_button</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1adfa9b201e437bee9b8bf752b8d190df7" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>line1</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab27ad6c32441a9ee8f0a99860d9f5a3e" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>line3</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aa143e8111cd3bf5c0972f17e322cb82b" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>list</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab74832456ac064c99b55ae23bb3a805e" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>list_item</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae3f89a81d52b6556074b7919de254112" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>listMode</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a131377126cb3a32f4c1ce6cd4a6c2340" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>media_actions</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a86793c20522d80cde254a567e13d7d2e" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>message</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a86505b4bd46a63efb585e86ad8a32548" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>middle</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a9c82f18b619e0c0371e23045a179beb7" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>multiply</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a81124b6d9159637c131bf8d497389541" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>never</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab4ce28e2e2503e90877a1193757c3b6e" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>none</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a38095b6b902da9514166a83f8f626d9d" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>normal</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac7e53e4b399463c357537e85b5a8c010" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>not_in_list</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a59691d78358a8ce684bdfb7301f3575c" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>parentPanel</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8d408eb2ba16f428a138470bb89bc2dd" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>pesoInput</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae684f5e573c33efac6799562485b0e1c" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>progress_circular</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a21304fe11f5520302b6321de0ec32b7b" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>progress_horizontal</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac7a6fd3fea1bace24ec2a6e239196ecf" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>prueba</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1af4ce3f0c0c90eef30c0829ba43a8c2c4" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>pull_to_refresh</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a729fd136fa84f786cda597f8e6078722" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>radio</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a07aa29aee0d40284d8a9adfe3c03bd2a" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>rate</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ad6d54f5b8356ea0eddfe0edfae5c3d32" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>reset_button</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ab30b579be1eee0fa62b74604817d3ce3" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>rl</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae85c81d96b5394c05e86eb96f94a3a5f" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>scan_list</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8bdfacf90f66b71e4f83f65094b4b1c3" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>scan_progress</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aa8a74bd7f5c5dde9a8be4526409b9b63" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>scan_scan_again</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aeb7d76c5b2f7e880e520af4fda51e9d9" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>scan_state</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a04af12e16ab64df505485a8b396798a7" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>screen</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a269ad3c3b4ba45cd1c5d84daaf1d5c8a" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>scrollIndicatorDown</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a9d38398ffa5bd59f69398dca356e479f" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>scrollIndicatorUp</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae2aed6e1ae954423ece7684392d9f9d7" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>scrollView</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1af63fc9e12a78bfdb7ce6647dd7899640" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>search_badge</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a75c80325c3384a767ee863b55959ad7a" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>search_bar</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ae0d9fc71f3676f6c7b3b21a3aeb2acef" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>search_button</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a94d2803c09d82be25d51fa085cb5089b" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>search_close_btn</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a804749d092900619748efec7f8d8409c" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>search_edit_frame</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aeb790d137dd83d9b61669f3748195029" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>search_go_btn</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a37ea95aa9659f5561cc52c6ca8a4e3b1" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>search_mag_icon</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a5f922460bfe358cd2f9acdb284205bc4" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>search_plate</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aed7a068080bd220e5a21ffa8b1709007" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>search_src_text</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a99a328973130b8821ebffed2cfb0357a" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>search_voice_btn</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a2aa1389d3053649c6e09878339113ce6" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>select_dialog_listview</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8d6a6c055e001a5af7abb5579cf32442" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>send</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac013af2f0e27f74bf3579f6c20e8ab99" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>shortcut</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a411b751f4444c6abaf7c8ff8317a9bec" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>showCustom</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1adbb76f3426c52bb9d3f505babd770f9f" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>showHome</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a6a1f39f77bf2133431e0501fe79bf501" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>showTitle</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a41e02374b93cd53b89d0c87624398da7" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>spacer</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a13495b87c399bd09234288dc5102ab02" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>split_action_bar</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1abcadadd930a5a428125de0c6297837bf" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>src_atop</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a0c25af08f22e3a32d1ed2c920c704b6f" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>src_in</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a472c9b20c2a4753eb5bda9f350326707" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>src_over</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ad45135f1e21d267894342dd21379bf7f" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>status_bar_latest_event_content</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac256a265ad1156fe9570610d531ec182" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>submit_area</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a34d7356579b52256568ec2e927071dce" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>tabMode</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a8b35adfdfef91ed9171c7c9d78353206" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>text</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac0d0f3f21c05cbf404a585461a096291" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>text2</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a0abce3991de6429fae6aaaeaba5004f2" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>textSpacerNoButtons</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aec47f0a5523ef34bc6ad2ec95b8bb1e4" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>textView2</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a0569f25d3a2973eb133b7220e7102367" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>textView3</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a52f616274bef2ddba326990229c4a7f5" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>time</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a3f19a050313903e436647747eb98d9eb" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>timePicker</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a289ddd4ba9d5dbd962ecb5b4769690ab" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>title</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1aed32761e2494dab577b476275def996e" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>title_template</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac0b8d5f6c87c88fec138cab8adf69985" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>topPanel</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a28557cd080e378b55a770564b36c0469" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>up</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1ac3a90f8a6f4f8e0841c318d42533d00b" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>useLogo</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a4549c3e4ffb49604b9ad10486c488d5b" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>withText</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id_1a1799c02d40686b5954dd55d8f3cf3f1f" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::R::id</scope><name>wrap_content</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

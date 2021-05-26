@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="manifest-merger-debug-report_8txt" kind="file" language="C++">
+    <compoundname>manifest-merger-debug-report.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">--<sp/>Merging<sp/>decision<sp/>tree<sp/>log<sp/>---</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">manifest</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:2:1-34:12</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:2:1-34:12</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:2:1-34:12</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:2:1-34:12</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">MERGED<sp/>from<sp/>[<ref refid="namespaceme" kindref="compound">me</ref>.<ref refid="namespaceme_1_1aflak" kindref="compound">aflak</ref>.libraries:bluetooth:1.2.4]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\15b294a6dbad50d6e642f522c1b053d2\bluetooth-1.2.4\AndroidManifest.xml:2:1-20:12</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">MERGED<sp/>from<sp/>[<ref refid="namespaceme" kindref="compound">me</ref>.<ref refid="namespaceme_1_1aflak" kindref="compound">aflak</ref>.libraries:pulltorefresh:1.0]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\0a5a90984c84b95652ee171bf6565640\pulltorefresh-1.0\AndroidManifest.xml:2:1-17:12</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">MERGED<sp/>from<sp/>[<ref refid="namespacecom" kindref="compound">com</ref>.android.support:appcompat-v7:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\e47d7c5ece8caecce2178c1e0438b5c7\appcompat-v7-23.2.1\AndroidManifest.xml:17:1-27:12</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">MERGED<sp/>from<sp/>[<ref refid="namespacecom" kindref="compound">com</ref>.android.support:animated-vector-drawable:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\0e4ba139feb2b5e497a3e0d7e6a6ecb7\animated-vector-drawable-23.2.1\AndroidManifest.xml:2:1-9:12</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">MERGED<sp/>from<sp/>[<ref refid="namespacecom" kindref="compound">com</ref>.android.support:support-vector-drawable:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\b9a475e458135ffcc87d1e100f65c1d5\support-vector-drawable-23.2.1\AndroidManifest.xml:2:1-9:12</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">MERGED<sp/>from<sp/>[<ref refid="namespacecom" kindref="compound">com</ref>.android.support:support-v4:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\34e10d980a51c3272d93ff384dae159d\support-v4-23.2.1\AndroidManifest.xml:17:1-24:12</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:2:1-34:12</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:2:1-34:12</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:2:1-34:12</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">package</highlight></codeline>
+<codeline lineno="17"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:3:5-41</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>android:versionName</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:2:1-34:12</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>android:versionCode</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:2:1-34:12</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlns:android</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:2:11-69</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">application</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:5:5-32:19</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">MERGED<sp/>from<sp/>[me.aflak.libraries:bluetooth:1.2.4]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\15b294a6dbad50d6e642f522c1b053d2\bluetooth-1.2.4\AndroidManifest.xml:14:5-18:19</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">MERGED<sp/>from<sp/>[me.aflak.libraries:bluetooth:1.2.4]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\15b294a6dbad50d6e642f522c1b053d2\bluetooth-1.2.4\AndroidManifest.xml:14:5-18:19</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">MERGED<sp/>from<sp/>[me.aflak.libraries:pulltorefresh:1.0]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\0a5a90984c84b95652ee171bf6565640\pulltorefresh-1.0\AndroidManifest.xml:11:5-15:19</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">MERGED<sp/>from<sp/>[me.aflak.libraries:pulltorefresh:1.0]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\0a5a90984c84b95652ee171bf6565640\pulltorefresh-1.0\AndroidManifest.xml:11:5-15:19</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:appcompat-v7:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\e47d7c5ece8caecce2178c1e0438b5c7\appcompat-v7-23.2.1\AndroidManifest.xml:25:5-20</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:appcompat-v7:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\e47d7c5ece8caecce2178c1e0438b5c7\appcompat-v7-23.2.1\AndroidManifest.xml:25:5-20</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:animated-vector-drawable:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\0e4ba139feb2b5e497a3e0d7e6a6ecb7\animated-vector-drawable-23.2.1\AndroidManifest.xml:7:5-20</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:animated-vector-drawable:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\0e4ba139feb2b5e497a3e0d7e6a6ecb7\animated-vector-drawable-23.2.1\AndroidManifest.xml:7:5-20</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:support-vector-drawable:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\b9a475e458135ffcc87d1e100f65c1d5\support-vector-drawable-23.2.1\AndroidManifest.xml:7:5-20</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:support-vector-drawable:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\b9a475e458135ffcc87d1e100f65c1d5\support-vector-drawable-23.2.1\AndroidManifest.xml:7:5-20</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:support-v4:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\34e10d980a51c3272d93ff384dae159d\support-v4-23.2.1\AndroidManifest.xml:22:5-20</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:support-v4:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\34e10d980a51c3272d93ff384dae159d\support-v4-23.2.1\AndroidManifest.xml:22:5-20</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>android:supportsRtl</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>[me.aflak.libraries:bluetooth:1.2.4]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\15b294a6dbad50d6e642f522c1b053d2\bluetooth-1.2.4\AndroidManifest.xml:17:9-35</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>android:label</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:7:9-41</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>android:allowBackup</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>[me.aflak.libraries:bluetooth:1.2.4]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\15b294a6dbad50d6e642f522c1b053d2\bluetooth-1.2.4\AndroidManifest.xml:15:9-35</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>android:icon</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:6:9-43</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>android:theme</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:8:9-40</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">activity#me.aflak.bluetoothterminal.Chat</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:10:9-14:20</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>android:screenOrientation</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:13:13-49</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>android:label</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:12:13-45</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>android:name</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:11:13-33</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">activity#me.aflak.bluetoothterminal.Scan</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:16:9-20:20</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>android:screenOrientation</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:19:13-49</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>android:label</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:18:13-45</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>android:name</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:17:13-33</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">activity#me.aflak.bluetoothterminal.Select</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:22:9-30:20</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>android:screenOrientation</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:25:13-49</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>android:label</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:24:13-45</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>android:name</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:23:13-35</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:26:13-29:29</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">action#android.intent.action.MAIN</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:27:17-69</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>android:name</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:27:25-66</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">category#android.intent.category.LAUNCHER</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:28:17-77</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>android:name</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml:28:27-74</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">uses-sdk</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml<sp/>reason:<sp/>use-sdk<sp/>injection<sp/>requested</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">MERGED<sp/>from<sp/>[me.aflak.libraries:bluetooth:1.2.4]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\15b294a6dbad50d6e642f522c1b053d2\bluetooth-1.2.4\AndroidManifest.xml:7:5-9:41</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">MERGED<sp/>from<sp/>[me.aflak.libraries:bluetooth:1.2.4]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\15b294a6dbad50d6e642f522c1b053d2\bluetooth-1.2.4\AndroidManifest.xml:7:5-9:41</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">MERGED<sp/>from<sp/>[me.aflak.libraries:pulltorefresh:1.0]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\0a5a90984c84b95652ee171bf6565640\pulltorefresh-1.0\AndroidManifest.xml:7:5-9:41</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">MERGED<sp/>from<sp/>[me.aflak.libraries:pulltorefresh:1.0]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\0a5a90984c84b95652ee171bf6565640\pulltorefresh-1.0\AndroidManifest.xml:7:5-9:41</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:appcompat-v7:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\e47d7c5ece8caecce2178c1e0438b5c7\appcompat-v7-23.2.1\AndroidManifest.xml:21:5-23:78</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:appcompat-v7:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\e47d7c5ece8caecce2178c1e0438b5c7\appcompat-v7-23.2.1\AndroidManifest.xml:21:5-23:78</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:animated-vector-drawable:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\0e4ba139feb2b5e497a3e0d7e6a6ecb7\animated-vector-drawable-23.2.1\AndroidManifest.xml:5:5-44</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:animated-vector-drawable:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\0e4ba139feb2b5e497a3e0d7e6a6ecb7\animated-vector-drawable-23.2.1\AndroidManifest.xml:5:5-44</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:support-vector-drawable:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\b9a475e458135ffcc87d1e100f65c1d5\support-vector-drawable-23.2.1\AndroidManifest.xml:5:5-43</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:support-vector-drawable:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\b9a475e458135ffcc87d1e100f65c1d5\support-vector-drawable-23.2.1\AndroidManifest.xml:5:5-43</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:support-v4:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\34e10d980a51c3272d93ff384dae159d\support-v4-23.2.1\AndroidManifest.xml:20:5-43</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">MERGED<sp/>from<sp/>[com.android.support:support-v4:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\34e10d980a51c3272d93ff384dae159d\support-v4-23.2.1\AndroidManifest.xml:20:5-43</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>tools:overrideLibrary</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>[com.android.support:appcompat-v7:23.2.1]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\e47d7c5ece8caecce2178c1e0438b5c7\appcompat-v7-23.2.1\AndroidManifest.xml:23:9-75</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>android:targetSdkVersion</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>android:minSdkVersion</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INJECTED<sp/>from<sp/>E:\TFG\appAndroid\autosulivansFeederApp\app\src\main\AndroidManifest.xml</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">uses-permission#android.permission.BLUETOOTH</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">ADDED<sp/>from<sp/>[me.aflak.libraries:bluetooth:1.2.4]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\15b294a6dbad50d6e642f522c1b053d2\bluetooth-1.2.4\AndroidManifest.xml:11:5-68</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>android:name</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>[me.aflak.libraries:bluetooth:1.2.4]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\15b294a6dbad50d6e642f522c1b053d2\bluetooth-1.2.4\AndroidManifest.xml:11:22-65</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">uses-permission#android.permission.BLUETOOTH_ADMIN</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">ADDED<sp/>from<sp/>[me.aflak.libraries:bluetooth:1.2.4]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\15b294a6dbad50d6e642f522c1b053d2\bluetooth-1.2.4\AndroidManifest.xml:12:5-74</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>android:name</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADDED<sp/>from<sp/>[me.aflak.libraries:bluetooth:1.2.4]<sp/>C:\Users\The_menda14\.gradle\caches\transforms-2\files-2.1\15b294a6dbad50d6e642f522c1b053d2\bluetooth-1.2.4\AndroidManifest.xml:12:22-71</highlight></codeline>
+    </programlisting>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/outputs/logs/manifest-merger-debug-report.txt"/>
+  </compounddef>
+</doxygen>

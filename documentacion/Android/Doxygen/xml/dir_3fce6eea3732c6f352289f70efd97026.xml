@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_3fce6eea3732c6f352289f70efd97026" kind="dir">
+    <compoundname>E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates</compoundname>
+    <innerdir refid="dir_6b541ad7568404bb9e749c35565f59f7">E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates/incremental</innerdir>
+    <innerdir refid="dir_3d03a2e28f963cefceb42abf44ea9ff6">E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates/manifest_merge_blame_file</innerdir>
+    <innerdir refid="dir_6317270958d77671c3f2cabe73a9281c">E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates/res</innerdir>
+    <innerdir refid="dir_740f07f1a64d57013522236ff9807586">E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates/symbols</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates/"/>
+  </compounddef>
+</doxygen>

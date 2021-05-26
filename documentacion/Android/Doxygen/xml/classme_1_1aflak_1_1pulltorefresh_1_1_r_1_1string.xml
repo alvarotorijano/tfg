@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string" kind="class" language="Java" prot="public">
+    <compoundname>me::aflak::pulltorefresh::R::string</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a5fab93eb5589e3302c19ecc5e0166acd" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_action_bar_home_description</definition>
+        <argsstring></argsstring>
+        <name>abc_action_bar_home_description</name>
+        <initializer>= 0x7f0c0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="634" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="634" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a483bc5e47e820b1f241183a2dbb15e17" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_action_bar_home_description_format</definition>
+        <argsstring></argsstring>
+        <name>abc_action_bar_home_description_format</name>
+        <initializer>= 0x7f0c0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="635" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="635" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ad4f2d21e37b83ca6bd57fc019a47606c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_action_bar_home_subtitle_description_format</definition>
+        <argsstring></argsstring>
+        <name>abc_action_bar_home_subtitle_description_format</name>
+        <initializer>= 0x7f0c0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="636" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a6b330404871322dc6831423e93cb022a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_action_bar_up_description</definition>
+        <argsstring></argsstring>
+        <name>abc_action_bar_up_description</name>
+        <initializer>= 0x7f0c0003</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="637" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="637" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a24d56e9c3b2b4ad81685f4d05e78f764" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_action_menu_overflow_description</definition>
+        <argsstring></argsstring>
+        <name>abc_action_menu_overflow_description</name>
+        <initializer>= 0x7f0c0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="638" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="638" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a19a4858a5e9ae3ee6537f444bd04f848" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_action_mode_done</definition>
+        <argsstring></argsstring>
+        <name>abc_action_mode_done</name>
+        <initializer>= 0x7f0c0005</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="639" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="639" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a3d5358cb7411d2a7cfcaa857ac3c5e7b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_activity_chooser_view_see_all</definition>
+        <argsstring></argsstring>
+        <name>abc_activity_chooser_view_see_all</name>
+        <initializer>= 0x7f0c0006</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="640" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="640" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ab608bebfc98cb6ba3d1d2d1814f28d9f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_activitychooserview_choose_application</definition>
+        <argsstring></argsstring>
+        <name>abc_activitychooserview_choose_application</name>
+        <initializer>= 0x7f0c0007</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="641" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="641" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ad3dd630836846c8c8af9de82f70fd935" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_capital_off</definition>
+        <argsstring></argsstring>
+        <name>abc_capital_off</name>
+        <initializer>= 0x7f0c0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="642" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="642" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ac9ac73d636fe619787e9e89c0156137f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_capital_on</definition>
+        <argsstring></argsstring>
+        <name>abc_capital_on</name>
+        <initializer>= 0x7f0c0009</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="643" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="643" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a9f148cd6b248707b2c7fb680ea29ec4f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_search_hint</definition>
+        <argsstring></argsstring>
+        <name>abc_search_hint</name>
+        <initializer>= 0x7f0c000a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="644" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="644" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a3ee03b3a71b999b8568923482983acae" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_searchview_description_clear</definition>
+        <argsstring></argsstring>
+        <name>abc_searchview_description_clear</name>
+        <initializer>= 0x7f0c000b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="645" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="645" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1adfc2bd185845f62225c44a7803cf388f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_searchview_description_query</definition>
+        <argsstring></argsstring>
+        <name>abc_searchview_description_query</name>
+        <initializer>= 0x7f0c000c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="646" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="646" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a8867a430bcc018dcd47034441bb61e98" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_searchview_description_search</definition>
+        <argsstring></argsstring>
+        <name>abc_searchview_description_search</name>
+        <initializer>= 0x7f0c000d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="647" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="647" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ac1861f96fe3734fa4694b8cad0364ed3" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_searchview_description_submit</definition>
+        <argsstring></argsstring>
+        <name>abc_searchview_description_submit</name>
+        <initializer>= 0x7f0c000e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="648" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="648" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a63ad7619e1d4085fd2ab160012029cad" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_searchview_description_voice</definition>
+        <argsstring></argsstring>
+        <name>abc_searchview_description_voice</name>
+        <initializer>= 0x7f0c000f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="649" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="649" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a94f879e13243e9144b508faef654d600" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_shareactionprovider_share_with</definition>
+        <argsstring></argsstring>
+        <name>abc_shareactionprovider_share_with</name>
+        <initializer>= 0x7f0c0010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="650" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="650" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a4f9922f85cc0b89e6a07bf4920483a72" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_shareactionprovider_share_with_application</definition>
+        <argsstring></argsstring>
+        <name>abc_shareactionprovider_share_with_application</name>
+        <initializer>= 0x7f0c0011</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="651" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="651" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1aa238e6bd8916c9242fd8b29b096ce371" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.abc_toolbar_collapse_description</definition>
+        <argsstring></argsstring>
+        <name>abc_toolbar_collapse_description</name>
+        <initializer>= 0x7f0c0012</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="652" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ac95b4c2f5319d4dd1c5db311bf380dd7" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <initializer>= 0x7f0c0014</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="653" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="653" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1af433b58edd5eb0bce7d5134c75d64a88" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.pulltorefresh.R.string.status_bar_notification_info_overflow</definition>
+        <argsstring></argsstring>
+        <name>status_bar_notification_info_overflow</name>
+        <initializer>= 0x7f0c0016</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="654" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="654" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a3d9bdaeb404398ca57b4584331f5513a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>me.aflak.pulltorefresh.R.string.string</definition>
+        <argsstring>()</argsstring>
+        <name>string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="632" column="17" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="632" bodyend="632"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" line="631" column="37" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java" bodystart="631" bodyend="655"/>
+    <listofallmembers>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a5fab93eb5589e3302c19ecc5e0166acd" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_action_bar_home_description</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a483bc5e47e820b1f241183a2dbb15e17" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_action_bar_home_description_format</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ad4f2d21e37b83ca6bd57fc019a47606c" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_action_bar_home_subtitle_description_format</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a6b330404871322dc6831423e93cb022a" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_action_bar_up_description</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a24d56e9c3b2b4ad81685f4d05e78f764" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_action_menu_overflow_description</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a19a4858a5e9ae3ee6537f444bd04f848" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_action_mode_done</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a3d5358cb7411d2a7cfcaa857ac3c5e7b" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_activity_chooser_view_see_all</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ab608bebfc98cb6ba3d1d2d1814f28d9f" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_activitychooserview_choose_application</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ad3dd630836846c8c8af9de82f70fd935" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_capital_off</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ac9ac73d636fe619787e9e89c0156137f" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_capital_on</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a9f148cd6b248707b2c7fb680ea29ec4f" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_search_hint</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a3ee03b3a71b999b8568923482983acae" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_searchview_description_clear</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1adfc2bd185845f62225c44a7803cf388f" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_searchview_description_query</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a8867a430bcc018dcd47034441bb61e98" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_searchview_description_search</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ac1861f96fe3734fa4694b8cad0364ed3" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_searchview_description_submit</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a63ad7619e1d4085fd2ab160012029cad" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_searchview_description_voice</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a94f879e13243e9144b508faef654d600" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_shareactionprovider_share_with</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a4f9922f85cc0b89e6a07bf4920483a72" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_shareactionprovider_share_with_application</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1aa238e6bd8916c9242fd8b29b096ce371" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>abc_toolbar_collapse_description</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1ac95b4c2f5319d4dd1c5db311bf380dd7" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>app_name</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1af433b58edd5eb0bce7d5134c75d64a88" prot="public" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>status_bar_notification_info_overflow</name></member>
+      <member refid="classme_1_1aflak_1_1pulltorefresh_1_1_r_1_1string_1a3d9bdaeb404398ca57b4584331f5513a" prot="private" virt="non-virtual"><scope>me::aflak::pulltorefresh::R::string</scope><name>string</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config" kind="class" language="Java" prot="public">
+    <compoundname>me::aflak::bluetoothterminal::BuildConfig</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1ad28b9370fc0ce5c012367974a1ea8ff0" prot="public" static="yes" mutable="no">
+        <type>final boolean</type>
+        <definition>final boolean me.aflak.bluetoothterminal.BuildConfig.DEBUG</definition>
+        <argsstring></argsstring>
+        <name>DEBUG</name>
+        <initializer>= Boolean.parseBoolean(&quot;true&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" line="7" column="31" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1a978afec912f1991f533c2b8ceb70946f" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String me.aflak.bluetoothterminal.BuildConfig.APPLICATION_ID</definition>
+        <argsstring></argsstring>
+        <name>APPLICATION_ID</name>
+        <initializer>= &quot;com.torijano.autosulivansFeeder&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" line="8" column="30" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1a37cfb978d4c956d4fa46f1ffcd4c2d57" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String me.aflak.bluetoothterminal.BuildConfig.BUILD_TYPE</definition>
+        <argsstring></argsstring>
+        <name>BUILD_TYPE</name>
+        <initializer>= &quot;debug&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" line="9" column="30" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1aaa1550f84b53f18f7e3bafc80acb162f" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String me.aflak.bluetoothterminal.BuildConfig.FLAVOR</definition>
+        <argsstring></argsstring>
+        <name>FLAVOR</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" line="10" column="30" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1aefa0e7fd5d205aef2925975aa87a05d1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int me.aflak.bluetoothterminal.BuildConfig.VERSION_CODE</definition>
+        <argsstring></argsstring>
+        <name>VERSION_CODE</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" line="11" column="27" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1ac3b8194bfd90eca008695efa0f688987" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String me.aflak.bluetoothterminal.BuildConfig.VERSION_NAME</definition>
+        <argsstring></argsstring>
+        <name>VERSION_NAME</name>
+        <initializer>= &quot;3.5&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" line="12" column="30" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" line="6" column="31" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1a978afec912f1991f533c2b8ceb70946f" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::BuildConfig</scope><name>APPLICATION_ID</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1a37cfb978d4c956d4fa46f1ffcd4c2d57" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::BuildConfig</scope><name>BUILD_TYPE</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1ad28b9370fc0ce5c012367974a1ea8ff0" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::BuildConfig</scope><name>DEBUG</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1aaa1550f84b53f18f7e3bafc80acb162f" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::BuildConfig</scope><name>FLAVOR</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1aefa0e7fd5d205aef2925975aa87a05d1" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::BuildConfig</scope><name>VERSION_CODE</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config_1ac3b8194bfd90eca008695efa0f688987" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::BuildConfig</scope><name>VERSION_NAME</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

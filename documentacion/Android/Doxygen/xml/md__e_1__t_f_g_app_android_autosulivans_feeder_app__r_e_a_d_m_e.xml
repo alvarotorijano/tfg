@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="md__e_1__t_f_g_app_android_autosulivans_feeder_app__r_e_a_d_m_e" kind="page">
+    <compoundname>md_E:_TFG_appAndroid_autosulivansFeederApp_README</compoundname>
+    <title>Bluetooth-Terminal</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Source code of my application &quot;Bluetooth Terminal&quot; on the playstore.</para>
+<para><ulink url="https://play.google.com/store/apps/details?id=me.aflak.bluetoothterminal">https://play.google.com/store/apps/details?id=me.aflak.bluetoothterminal</ulink></para>
+<sect1 id="md__e_1__t_f_g_app_android_autosulivans_feeder_app__r_e_a_d_m_e_1autotoc_md1">
+<title>Bluetooth library</title>
+<para><ulink url="https://github.com/omaflak/Bluetooth-Library">https://github.com/omaflak/Bluetooth-Library</ulink> </para>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

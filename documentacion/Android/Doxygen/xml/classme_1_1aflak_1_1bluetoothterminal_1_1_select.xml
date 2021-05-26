@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classme_1_1aflak_1_1bluetoothterminal_1_1_select" kind="class" language="Java" prot="public">
+    <compoundname>me::aflak::bluetoothterminal::Select</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnRefreshListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a2890fc9b8a0ed8b377aca08df59a112d" prot="private" static="no" mutable="no">
+        <type>Bluetooth</type>
+        <definition>Bluetooth me.aflak.bluetoothterminal.Select.bt</definition>
+        <argsstring></argsstring>
+        <name>bt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="28" column="23" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1acf44dcb397793443305c95d4934ab6eb" prot="private" static="no" mutable="no">
+        <type>ListView</type>
+        <definition>ListView me.aflak.bluetoothterminal.Select.listView</definition>
+        <argsstring></argsstring>
+        <name>listView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="29" column="22" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a4e6960f302f6d47487c313e07e81c662" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button me.aflak.bluetoothterminal.Select.not_found</definition>
+        <argsstring></argsstring>
+        <name>not_found</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="30" column="20" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a5cdbcd7d4428c8640cb7f77c87535fd9" prot="private" static="no" mutable="no">
+        <type>List&lt; BluetoothDevice &gt;</type>
+        <definition>List&lt;BluetoothDevice&gt; me.aflak.bluetoothterminal.Select.paired</definition>
+        <argsstring></argsstring>
+        <name>paired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="31" column="18" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1af43d12171e1433d6d58cc9ce601ee21c" prot="private" static="no" mutable="no">
+        <type>PullToRefresh</type>
+        <definition>PullToRefresh me.aflak.bluetoothterminal.Select.pull_to_refresh</definition>
+        <argsstring></argsstring>
+        <name>pull_to_refresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="32" column="27" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a8dcc13ff1a513694ba18ab09ee551de9" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean me.aflak.bluetoothterminal.Select.registered</definition>
+        <argsstring></argsstring>
+        <name>registered</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="33" column="21" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a4eb0c71353622e660f2ba99166eec830" prot="private" static="no" mutable="no">
+        <type>final BroadcastReceiver</type>
+        <definition>final BroadcastReceiver me.aflak.bluetoothterminal.Select.mReceiver</definition>
+        <argsstring></argsstring>
+        <name>mReceiver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="135" column="37" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a5764d2103ed9e9bd59b29caddc8e7be1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void me.aflak.bluetoothterminal.Select.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="36" column="20" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="36" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a13341493d023361b704ba5e3a9bbc1c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void me.aflak.bluetoothterminal.Select.onRefresh</definition>
+        <argsstring>()</argsstring>
+        <name>onRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="87" column="17" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="87" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a571b5679d9510830cf7265e65ffee653" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void me.aflak.bluetoothterminal.Select.onDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>onDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="109" column="17" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="109" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1ab4294c621fa9276347e5824a0ca1c210" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void me.aflak.bluetoothterminal.Select.addDevicesToList</definition>
+        <argsstring>()</argsstring>
+        <name>addDevicesToList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="117" column="18" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="117" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Created by Omar on 16/07/2015. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Activity</label>
+      </node>
+      <node id="1">
+        <label>me.aflak.bluetoothterminal.Select</label>
+        <link refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PullToRefresh::OnRefreshListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Activity</label>
+      </node>
+      <node id="1">
+        <label>me.aflak.bluetoothterminal.Select</label>
+        <link refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PullToRefresh::OnRefreshListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" line="27" column="41" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/aflak/bluetoothterminal/Select.java" bodystart="27" bodyend="166"/>
+    <listofallmembers>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1ab4294c621fa9276347e5824a0ca1c210" prot="private" virt="non-virtual"><scope>me::aflak::bluetoothterminal::Select</scope><name>addDevicesToList</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a2890fc9b8a0ed8b377aca08df59a112d" prot="private" virt="non-virtual"><scope>me::aflak::bluetoothterminal::Select</scope><name>bt</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1acf44dcb397793443305c95d4934ab6eb" prot="private" virt="non-virtual"><scope>me::aflak::bluetoothterminal::Select</scope><name>listView</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a4eb0c71353622e660f2ba99166eec830" prot="private" virt="non-virtual"><scope>me::aflak::bluetoothterminal::Select</scope><name>mReceiver</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a4e6960f302f6d47487c313e07e81c662" prot="private" virt="non-virtual"><scope>me::aflak::bluetoothterminal::Select</scope><name>not_found</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a5764d2103ed9e9bd59b29caddc8e7be1" prot="protected" virt="non-virtual"><scope>me::aflak::bluetoothterminal::Select</scope><name>onCreate</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a571b5679d9510830cf7265e65ffee653" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::Select</scope><name>onDestroy</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a13341493d023361b704ba5e3a9bbc1c3" prot="public" virt="non-virtual"><scope>me::aflak::bluetoothterminal::Select</scope><name>onRefresh</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a5cdbcd7d4428c8640cb7f77c87535fd9" prot="private" virt="non-virtual"><scope>me::aflak::bluetoothterminal::Select</scope><name>paired</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1af43d12171e1433d6d58cc9ce601ee21c" prot="private" virt="non-virtual"><scope>me::aflak::bluetoothterminal::Select</scope><name>pull_to_refresh</name></member>
+      <member refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select_1a8dcc13ff1a513694ba18ab09ee551de9" prot="private" virt="non-virtual"><scope>me::aflak::bluetoothterminal::Select</scope><name>registered</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

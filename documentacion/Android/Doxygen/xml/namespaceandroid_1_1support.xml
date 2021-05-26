@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceandroid_1_1support" kind="namespace" language="Java">
+    <compoundname>android::support</compoundname>
+    <innernamespace refid="namespaceandroid_1_1support_1_1graphics">android::support::graphics</innernamespace>
+    <innernamespace refid="namespaceandroid_1_1support_1_1v4">android::support::v4</innernamespace>
+    <innernamespace refid="namespaceandroid_1_1support_1_1v7">android::support::v7</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

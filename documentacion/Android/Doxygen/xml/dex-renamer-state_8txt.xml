@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dex-renamer-state_8txt" kind="file" language="C++">
+    <compoundname>dex-renamer-state.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#Tue<sp/>Jan<sp/>07<sp/>09:28:51<sp/>CET<sp/>2020</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">base.0=C\:\\Users\\The_menda14\\Desktop\\appAndroid\\autosulivansFeederApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">path.0=classes.dex</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">renamed.0=classes.dex</highlight></codeline>
+    </programlisting>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_a25e10266e90dd9ae0644cbe8508f57a" kind="dir">
+    <compoundname>E:/TFG</compoundname>
+    <innerdir refid="dir_4d9ca73927c7e106a0bed88fc6621bb8">E:/TFG/appAndroid</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/"/>
+  </compounddef>
+</doxygen>

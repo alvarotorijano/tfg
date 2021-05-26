@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r" kind="class" language="Java" prot="public">
+    <compoundname>android::support::v7::appcompat::R</compoundname>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1anim" prot="public">android::support::v7::appcompat::R::anim</innerclass>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1attr" prot="public">android::support::v7::appcompat::R::attr</innerclass>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1bool" prot="public">android::support::v7::appcompat::R::bool</innerclass>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1color" prot="public">android::support::v7::appcompat::R::color</innerclass>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1dimen" prot="public">android::support::v7::appcompat::R::dimen</innerclass>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable" prot="public">android::support::v7::appcompat::R::drawable</innerclass>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1id" prot="public">android::support::v7::appcompat::R::id</innerclass>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer" prot="public">android::support::v7::appcompat::R::integer</innerclass>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1layout" prot="public">android::support::v7::appcompat::R::layout</innerclass>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1string" prot="public">android::support::v7::appcompat::R::string</innerclass>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1style" prot="public">android::support::v7::appcompat::R::style</innerclass>
+    <innerclass refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1styleable" prot="public">android::support::v7::appcompat::R::styleable</innerclass>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1a1f2b7247035e93db2996bdfd46e318ae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>android.support.v7.appcompat.R.R</definition>
+        <argsstring>()</argsstring>
+        <name>R</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="10" column="13" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="9" column="21" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="9" bodyend="1307"/>
+    <listofallmembers>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1a1f2b7247035e93db2996bdfd46e318ae" prot="private" virt="non-virtual"><scope>android::support::v7::appcompat::R</scope><name>R</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

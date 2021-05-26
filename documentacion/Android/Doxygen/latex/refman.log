@@ -1,0 +1,1396 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.17)  9 SEP 2020 20:04
+entering extended mode
+**./refman.tex
+(refman.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07>
+("C:\Program Files\MiKTeX\tex/latex/base\book.cls"
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\bk10.clo"
+File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@chapter=\count169
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@subparagraph=\count174
+\c@figure=\count175
+\c@table=\count176
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX\tex/latex/tools\array.sty"
+Rollback for package 'array' requested -> date 2016-10-06.
+         Best approximation is the release introduced on 2016-10-06.
+
+("C:\Program Files\MiKTeX\tex/latex/tools\array-2016-10-06.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen135
+\extrarowheight=\dimen136
+\NC@list=\toks15
+\extratabsurround=\skip49
+\backup@length=\skip50
+))
+("C:\Program Files\MiKTeX\tex/latex/base\fixltx2e.sty"
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) ("C:\Program Files\MiKTeX\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count177
+\calc@Bcount=\count178
+\calc@Adimen=\dimen137
+\calc@Bdimen=\dimen138
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count179
+\calc@Cskip=\skip53
+) (doxygen.sty
+Package: doxygen 
+
+("C:\Program Files\MiKTeX\tex/latex/base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count180
+\float@exts=\toks16
+\float@box=\box45
+\@float@everytoks=\toks17
+\@floatcapt=\box46
+)
+("C:\Program Files\MiKTeX\tex/latex/tools\verbatim.sty"
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks18
+\verbatim@line=\toks19
+\verbatim@in@stream=\read2
+)
+("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks20
+\minrowclearance=\skip54
+)
+\rownum=\count181
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(longtable_doxygen.sty
+Package: longtable_doxygen 2014/10/28 v4.11 Multi-page Table package (DPC) - fr
+ozen version for doxygen
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count182
+\LTcapwidth=\dimen139
+\LT@head=\box47
+\LT@firsthead=\box48
+\LT@foot=\box49
+\LT@lastfoot=\box50
+\LT@cols=\count183
+\LT@rows=\count184
+\c@LT@tables=\count185
+\c@LT@chunks=\count186
+\LT@p@ftn=\toks21
+) (tabu_doxygen.sty
+Package: tabu_doxygen 2011/02/26 v2.8 - flexible LaTeX tabulars (FC), frozen ve
+rsion for doxygen
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box51
+\sift@deathcycles=\count187
+\@vwid@loff=\dimen140
+\@vwid@roff=\dimen141
+)
+\c@taburow=\count188
+\tabu@nbcols=\count189
+\tabu@cnt=\count190
+\tabu@Xcol=\count191
+\tabu@alloc=\count192
+\tabu@nested=\count193
+\tabu@target=\dimen142
+\tabu@spreadtarget=\dimen143
+\tabu@naturalX=\dimen144
+\tabucolX=\dimen145
+\tabu@Xsum=\dimen146
+\extrarowdepth=\dimen147
+\abovetabulinesep=\dimen148
+\belowtabulinesep=\dimen149
+\tabustrutrule=\dimen150
+\tabu@thebody=\toks22
+\tabu@footnotes=\toks23
+\tabu@box=\box52
+\tabu@arstrutbox=\box53
+\tabu@hleads=\box54
+\tabu@vleads=\box55
+\tabu@cellskip=\skip59
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+\FV@CodeLineNo=\count194
+\FV@InFile=\read3
+\FV@TabBox=\box56
+\c@FancyVerbLine=\count195
+\FV@StepNumber=\count196
+\FV@OutFile=\write3
+)
+("C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty"
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen151
+\TX@old@table=\dimen152
+\TX@old@col=\dimen153
+\TX@target=\dimen154
+\TX@delta=\dimen155
+\TX@cols=\count197
+\TX@ftn=\toks25
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip60
+\multirow@cntb=\count198
+\multirow@dima=\skip61
+\bigstrutjot=\dimen156
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/hanging\hanging.sty
+Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
+\h@ngcommawd=\skip62
+\h@ngfstopwd=\skip63
+\h@ngquotewd=\skip64
+\h@ngdquotewd=\skip65
+\h@ngquerywd=\skip66
+\h@ngexclwd=\skip67
+\h@ngcolonwd=\skip68
+\h@ngscolonwd=\skip69
+)
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifpdf.sty"
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count199
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/collectbox\collectbox.st
+y
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box57
+)
+\tc@llx=\dimen159
+\tc@lly=\dimen160
+\tc@urx=\dimen161
+\tc@ury=\dimen162
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen163
+\adjbox@Height=\dimen164
+\adjbox@Depth=\dimen165
+\adjbox@Totalheight=\dimen166
+\adjbox@pwidth=\dimen167
+\adjbox@pheight=\dimen168
+\adjbox@pdepth=\dimen169
+\adjbox@ptotalheight=\dimen170
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count266
+)) ("C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks28
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/stackengine\stackengine.
+sty
+Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
+ways
+ ("C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count267
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/listofitems\listofitems.
+sty
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/listofitems\listofitem
+s.tex
+\loi_cnt_foreach_nest=\count268
+\loi_nestcnt=\count269
+)
+Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@stackindex=\count270
+\@boxshift=\skip70
+\stack@tmplength=\skip71
+\temp@stkl=\skip72
+\@stackedboxwidth=\skip73
+\@addedbox=\box58
+\@anchorbox=\box59
+\stackedbox=\box60
+\@centerbox=\box61
+\c@ROWcellindex@=\count271
+) (C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box62
+\UL@hyphenbox=\box63
+\UL@skip=\skip74
+\UL@hook=\toks29
+\UL@height=\dimen171
+\UL@pe=\count272
+\UL@pixel=\dimen172
+\ULC@box=\box64
+Package: ulem 2019/11/18
+\ULdepth=\dimen173
+)
+\xrefbox=\box65
+\xreflength=\skip75
+\CodeWidthChar=\skip76
+\CodeHeightChar=\skip77
+\DoxyCodeWidth=\skip78
+) ("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks30
+\inpenc@posthook=\toks31
+)
+("C:\Program Files\MiKTeX\tex/latex/base\makeidx.sty"
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+("C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty"
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count273
+\mult@box=\box66
+\multicol@leftmargin=\dimen174
+\c@unbalance=\count274
+\c@collectmore=\count275
+\doublecol@number=\count276
+\multicoltolerance=\count277
+\multicolpretolerance=\count278
+\full@width=\dimen175
+\page@free=\dimen176
+\premulticols=\dimen177
+\postmulticols=\dimen178
+\multicolsep=\skip79
+\multicolbaselineskip=\skip80
+\partial@page=\box67
+\last@line=\box68
+\maxbalancingoverflow=\dimen179
+\mult@rightbox=\box69
+\mult@grightbox=\box70
+\mult@gfirstbox=\box71
+\mult@firstbox=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\c@minrows=\count279
+\c@columnbadness=\count280
+\c@finalcolumnbadness=\count281
+\last@try=\dimen180
+\multicolovershoot=\dimen181
+\multicolundershoot=\dimen182
+\mult@nat@firstbox=\box110
+\colbreak@box=\box111
+\mc@col@check@num=\count282
+)
+("C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/wasysym\wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifxetex.sty"
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+("C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/psnfss\helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/psnfss\courier.sty
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/sectsty\sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen183
+\Gm@wd@mp=\dimen184
+\Gm@odd@mp=\dimen185
+\Gm@even@mp=\dimen186
+\Gm@layoutwidth=\dimen187
+\Gm@layoutheight=\dimen188
+\Gm@layouthoffset=\dimen189
+\Gm@layoutvoffset=\dimen190
+\Gm@dimlist=\toks32
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip81
+\f@nch@O@elh=\skip82
+\f@nch@O@erh=\skip83
+\f@nch@O@olh=\skip84
+\f@nch@O@orh=\skip85
+\f@nch@O@elf=\skip86
+\f@nch@O@erf=\skip87
+\f@nch@O@olf=\skip88
+\f@nch@O@orf=\skip89
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip90
+\bibsep=\skip91
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count286
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip92
+\cftbeforetoctitleskip=\skip93
+\cftaftertoctitleskip=\skip94
+\cftbeforepartskip=\skip95
+\cftpartnumwidth=\skip96
+\cftpartindent=\skip97
+\cftbeforechapskip=\skip98
+\cftchapindent=\skip99
+\cftchapnumwidth=\skip100
+\cftbeforesecskip=\skip101
+\cftsecindent=\skip102
+\cftsecnumwidth=\skip103
+\cftbeforesubsecskip=\skip104
+\cftsubsecindent=\skip105
+\cftsubsecnumwidth=\skip106
+\cftbeforesubsubsecskip=\skip107
+\cftsubsubsecindent=\skip108
+\cftsubsubsecnumwidth=\skip109
+\cftbeforeparaskip=\skip110
+\cftparaindent=\skip111
+\cftparanumwidth=\skip112
+\cftbeforesubparaskip=\skip113
+\cftsubparaindent=\skip114
+\cftsubparanumwidth=\skip115
+\cftbeforeloftitleskip=\skip116
+\cftafterloftitleskip=\skip117
+\cftbeforefigskip=\skip118
+\cftfigindent=\skip119
+\cftfignumwidth=\skip120
+\c@lofdepth=\count287
+\c@lotdepth=\count288
+\cftbeforelottitleskip=\skip121
+\cftafterlottitleskip=\skip122
+\cftbeforetabskip=\skip123
+\cfttabindent=\skip124
+\cfttabnumwidth=\skip125
+)
+\@indexfile=\write4
+\openout4 = `refman.idx'.
+
+
+Writing index file refman.idx
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/newunicodechar\newunicod
+echar.sty
+Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
+)
+
+Package newunicodechar Warning: Redefining Unicode character on input line 116.
+
+
+
+Package newunicodechar Warning: Redefining Unicode character on input line 117.
+
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty"
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.st
+y
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
+eys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.st
+y
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/letltxmacro\letltxmacro.
+sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen191
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
+("C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count291
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing ON on input line 4482.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+("C:\Program Files\MiKTeX\tex/latex/hyperref\backref.sty"
+Package: backref 2020/01/14 v1.40 Bibliographical back referencing
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfile
+check.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/atveryend\atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniqueco
+unter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.
+sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+))
+\c@Hy@tempcnt=\count292
+ ("C:\Program Files\MiKTeX\tex/latex/url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen192
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count293
+\Field@Width=\dimen193
+\Fld@charsize=\dimen194
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing ON on input line 6360.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/atbegshi\atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
+)
+Package hyperref Info: Driver: hpdftex.
+ ("C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def"
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
+\Hy@SectionHShift=\skip126
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 135.
+Package hyperref Info: Option `unicode' set `true' on input line 135.
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def"
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/07/20 v1.12b caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen195
+\captionmargin@=\dimen196
+\captionwidth=\dimen197
+\caption@tempdima=\dimen198
+\caption@indent=\dimen199
+\caption@parindent=\dimen256
+\caption@hangindent=\dimen257
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count299
+\c@continuedfloat=\count300
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+))
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/etoc\etoc.sty
+Package: etoc 2020/05/15 v1.09c Completely customisable TOCs (JFB)
+\Etoc@toctoks=\toks33
+\c@etoc@tocid=\count301
+\c@etoc@tocdepth=\count302
+\etoc@framed@titlebox=\box112
+\etoc@framed@contentsbox=\box113
+)
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count303
+\l__pdf_internal_box=\box114
+)
+(refman.aux)
+\openout1 = `refman.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 15
+0.
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 150.
+
+("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count304
+\scratchdimen=\dimen258
+\scratchbox=\box115
+\nofMPsegments=\count305
+\nofMParguments=\count306
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count307
+\MPscratchDim=\dimen259
+\MPnumerator=\count308
+\makeMPintoPDFobject=\count309
+\everyMPtoPDFconversion=\toks35
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-31.2056pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package backref Info: ** backref set up for natbib ** on input line 150.
+\AtBeginShipoutBox=\box116
+Package hyperref Info: Link coloring ON on input line 150.
+("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitl
+estring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count310
+)
+LaTeX Info: Redefining \ref on input line 150.
+LaTeX Info: Redefining \pageref on input line 150.
+LaTeX Info: Redefining \nameref on input line 150.
+ (refman.out) (refman.out)
+\@outlinefile=\write5
+\openout5 = `refman.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\Etoc@tf=\read4
+Package hyperref Info: Option `pageanchor' set `false' on input line 156.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 156.
+
+Package hyperref Info: Option `unicode' set `true' on input line 156.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 161.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
+61.
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 161.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 161.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 161
+.
+
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 161
+.
+
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 16
+1.
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 163.
+
+[1
+
+
+{C:/Users/The_menda14/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+[2
+
+]
+\tf@toc=\write6
+\openout6 = `refman.toc'.
+
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 169.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 169.
+ [1] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.1 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]
+App/app/build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.2 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]
+App/app/build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.3 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]
+App/app/build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.4 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]
+App/app/build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.5 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]
+App/app/build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.6 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]
+App/app/build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.7 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]
+App/app/build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.8 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]
+App/app/build/generated/source/build[]Config/android[] 
+ []
+
+
+Overfull \hbox (76.74704pt too wide) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.9 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]
+App/app/build/generated/source/build[]Config/debug/me/aflak/bluetoothterminal/[
+] 
+ []
+
+
+Overfull \hbox (48.06512pt too wide) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[
+]App/app/build/intermediates/incremental/package[]Debug/tmp/debug/dex- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.11 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[
+]App/app/build/intermediates/manifest[]_[]merge[]_[]blame[]_[] 
+ []
+
+
+Overfull \hbox (62.64497pt too wide) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.12 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[
+]App/app/build/intermediates/res/symbol-table-with-package/debug/package- 
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+ [][] [][]\T1/phv/m/n/10 8.17 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[
+]App/app/src/main/java/me/aflak/bluetoothterminal/[] 
+ []
+
+[4]
+Package hyperref Info: Option `pageanchor' set `true' on input line 171.
+
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 18.66588pt on input line 174.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 18.66588pt on input line 174.
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 18.66588pt on input line 174.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 22.39185pt on input line 174.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 22.39185pt on input line 174.
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 22.39185pt on input line 174.
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 6.29996pt on input line 174.
+(md__e_1__t_f_g_app_android_autosulivans_feeder_app__r_e_a_d_m_e.tex
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 3.
+
+
+(C:\Users\The_menda14\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 3.
+)
+[1
+
+
+] [2
+
+]
+Chapter 2.
+(namespaces.tex) [3] [4
+
+]
+Chapter 3.
+(hierarchy.tex) [5] [6
+
+]
+Chapter 4.
+(annotated.tex) [7] [8
+
+]
+Chapter 5.
+(files.tex
+Overfull \hbox (179.95279pt too wide) in paragraph at lines 3--3
+ [][] \T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/
+build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/android/
+support/graphics/drawable/[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+ []  
+ []
+
+
+Overfull \hbox (219.47096pt too wide) in paragraph at lines 4--4
+ [][] \T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/
+build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/android/
+support/graphics/drawable/animated/[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+ []  
+ []
+
+
+Overfull \hbox (117.19681pt too wide) in paragraph at lines 5--5
+ [][] \T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/
+build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/android/
+support/v4/[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+ []  
+ []
+
+
+Overfull \hbox (164.2209pt too wide) in paragraph at lines 6--6
+ [][] \T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/
+build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/android/
+support/v7/appcompat/[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+ []  
+ []
+
+
+Overfull \hbox (97.03699pt too wide) in paragraph at lines 7--7
+ [][] \T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/
+build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/me/aflak
+/bluetooth[] 
+ []
+
+
+Overfull \hbox (147.8863pt too wide) in paragraph at lines 8--8
+ [][] \T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/
+build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/me/aflak
+/bluetoothterminal/[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+ []  
+ []
+
+
+Overfull \hbox (128.32971pt too wide) in paragraph at lines 9--9
+ [][] \T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/
+build/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/me/aflak
+/pulltorefresh/[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ []  
+ []
+
+
+Overfull \hbox (103.85863pt too wide) in paragraph at lines 10--10
+ [][] \T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/
+build/generated/source/build[]Config/android[]Test/debug/com/torijano/autosuliv
+ans[] 
+ []
+
+
+Overfull \hbox (117.19676pt too wide) in paragraph at lines 11--11
+ [][] \T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/
+build/generated/source/build[]Config/debug/me/aflak/bluetoothterminal/[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+ []  
+ []
+
+) [9] [10
+
+]
+Chapter 6.
+(namespaceandroid.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 3.
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 6.
+) (namespaceandroid_1_1support.tex)
+(namespaceandroid_1_1support_1_1graphics.tex)
+(namespaceandroid_1_1support_1_1graphics_1_1drawable.tex)
+(namespaceandroid_1_1support_1_1graphics_1_1drawable_1_1animated.tex)
+(namespaceandroid_1_1support_1_1v4.tex [11])
+(namespaceandroid_1_1support_1_1v7.tex)
+(namespaceandroid_1_1support_1_1v7_1_1appcompat.tex) (namespacecom.tex)
+(namespacecom_1_1torijano.tex)
+(namespacecom_1_1torijano_1_1autosulivans_feeder.tex)
+(namespacecom_1_1torijano_1_1autosulivans_feeder_1_1test.tex) (namespaceme.tex
+[12]) (namespaceme_1_1aflak.tex)
+(namespaceme_1_1aflak_1_1bluetooth__library.tex)
+(namespaceme_1_1aflak_1_1bluetoothterminal.tex)
+(namespaceme_1_1aflak_1_1pulltorefresh.tex) [13] [14
+
+]
+Chapter 7.
+(classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config.tex
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 32.
+
+Overfull \hbox (19.95619pt too wide) in paragraph at lines 52--53
+\T1/pcr/m/n/8 final boolean com.[]torijano.[]autosulivans[]Feeder.[]test.[]Buil
+d[]Config.[]D[]E[]B[]UG = Boolean.[]parse[]Boolean("true")
+ []
+
+[15]
+Overfull \hbox (91.68243pt too wide) in paragraph at lines 92--92
+[]\T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/buil
+d/generated/source/build[]Config/android[]Test/debug/com/torijano/autosulivans[
+]
+ []
+
+) (classme_1_1aflak_1_1bluetoothterminal_1_1_build_config.tex [16]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\T1/pcr/m/n/8 final boolean me.[]aflak.[]bluetoothterminal.[]Build[]Config.[]D[
+]E[]B[]UG = Boolean.[]parse[]Boolean("true")
+ []
+
+
+Overfull \hbox (105.02057pt too wide) in paragraph at lines 92--92
+[]\T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/buil
+d/generated/source/build[]Config/debug/me/aflak/bluetoothterminal/[] 
+ []
+
+) (classme_1_1aflak_1_1bluetoothterminal_1_1_chat.tex [17]
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 67.
+ [18]
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 129.
+ [19] [20])
+(classme_1_1aflak_1_1bluetoothterminal_1_1_r.tex [21]
+Overfull \hbox (135.71011pt too wide) in paragraph at lines 45--45
+[]\T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/buil
+d/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/me/aflak/blu
+etoothterminal/[] 
+ []
+
+) (classme_1_1aflak_1_1bluetooth__library_1_1_r.tex
+Overfull \hbox (84.8608pt too wide) in paragraph at lines 41--41
+[]\T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/buil
+d/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/me/aflak/blu
+etooth[]
+ []
+
+) (classandroid_1_1support_1_1graphics_1_1drawable_1_1animated_1_1_r.tex
+[22]
+Overfull \hbox (207.29477pt too wide) in paragraph at lines 14--14
+[]\T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/buil
+d/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/android/supp
+ort/graphics/drawable/animated/[] 
+ []
+
+) (classme_1_1aflak_1_1pulltorefresh_1_1_r.tex
+Overfull \hbox (116.15352pt too wide) in paragraph at lines 41--41
+[]\T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/buil
+d/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/me/aflak/pul
+ltorefresh/[] 
+ []
+
+) (classandroid_1_1support_1_1graphics_1_1drawable_1_1_r.tex
+Overfull \hbox (167.7766pt too wide) in paragraph at lines 14--14
+[]\T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/buil
+d/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/android/supp
+ort/graphics/drawable/[] 
+ []
+
+) (classandroid_1_1support_1_1v7_1_1appcompat_1_1_r.tex [23]
+Overfull \hbox (152.04471pt too wide) in paragraph at lines 41--41
+[]\T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/buil
+d/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/android/supp
+ort/v7/appcompat/[] 
+ []
+
+) (classandroid_1_1support_1_1v4_1_1_r.tex
+Overfull \hbox (105.02061pt too wide) in paragraph at lines 14--14
+[]\T1/phv/m/n/10 E[]:/[]T[]F[]G/app[]Android/autosulivans[]Feeder[]App/app/buil
+d/generated/not[]_[]namespaced[]_[]r[]_[]class[]_[]sources/debug/r/android/supp
+ort/v4/[] 
+ []
+
+) (classme_1_1aflak_1_1bluetoothterminal_1_1_scan.tex [24] [25])
+(classme_1_1aflak_1_1bluetoothterminal_1_1_select.tex [26]) [27] [28
+
+]
+Chapter 8.
+(android_2support_2graphics_2drawable_2animated_2_r_8java.tex)
+(android_2support_2graphics_2drawable_2_r_8java.tex)
+(android_2support_2v4_2_r_8java.tex [29])
+(android_2support_2v7_2appcompat_2_r_8java.tex)
+(me_2aflak_2bluetooth__library_2_r_8java.tex [30])
+(me_2aflak_2bluetoothterminal_2_r_8java.tex)
+(me_2aflak_2pulltorefresh_2_r_8java.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 34.16548pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[31])
+(android_test_2debug_2com_2torijano_2autosulivans_feeder_2test_2_build_config_8
+java.tex) (debug_2me_2aflak_2bluetoothterminal_2_build_config_8java.tex
+[32]) (dex-renamer-state_8txt.tex) (manifest-merger-blame-debug-report_8txt.tex
+) (package-aware-r_8txt.tex) (_r_8txt.tex)
+(manifest-merger-debug-report_8txt.tex) (_chat_8java.tex [33]) (_scan_8java.tex
+) (_select_8java.tex) (_r_e_a_d_m_e_8md.tex) [34] (refman.ind
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+[]| \T1/phv/m/n/10 com.torijano.autosulivansFeeder.test.BuildConfig,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+[]| \T1/phv/m/n/10 com.torijano.autosulivansFeeder.test.BuildConfig,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+[]| \T1/phv/m/n/10 com.torijano.autosulivansFeeder.test.BuildConfig,
+ []
+
+
+Overfull \hbox (417.41869pt too wide) in paragraph at lines 55--57
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/no
+t_namespaced_r_class_sources/debug/r/android/support/graphics/drawable/animated
+/R.java,
+ []
+
+
+Overfull \hbox (377.90051pt too wide) in paragraph at lines 57--59
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/no
+t_namespaced_r_class_sources/debug/r/android/support/graphics/drawable/R.java,
+ []
+
+
+Overfull \hbox (315.14453pt too wide) in paragraph at lines 59--61
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/no
+t_namespaced_r_class_sources/debug/r/android/support/v4/R.java,
+ []
+
+
+Overfull \hbox (362.16862pt too wide) in paragraph at lines 61--63
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/no
+t_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java,
+ []
+
+
+Overfull \hbox (343.28708pt too wide) in paragraph at lines 63--65
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/no
+t_namespaced_r_class_sources/debug/r/me/aflak/bluetooth_library/R.java,
+ []
+
+
+Overfull \hbox (345.83403pt too wide) in paragraph at lines 65--67
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/no
+t_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java,
+ []
+
+
+Overfull \hbox (326.27744pt too wide) in paragraph at lines 67--69
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/no
+t_namespaced_r_class_sources/debug/r/me/aflak/pulltorefresh/R.java,
+ []
+
+
+Overfull \hbox (405.19673pt too wide) in paragraph at lines 69--71
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/so
+urce/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildCo
+nfig.java,
+ []
+
+
+Overfull \hbox (315.14449pt too wide) in paragraph at lines 71--73
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/so
+urce/buildConfig/debug/me/aflak/bluetoothterminal/BuildConfig.java,
+ []
+
+
+Overfull \hbox (223.3194pt too wide) in paragraph at lines 73--75
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediate
+s/incremental/packageDebug/tmp/debug/dex-
+ []
+
+
+Overfull \hbox (226.21733pt too wide) in paragraph at lines 75--77
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediate
+s/manifest_merge_blame_file/debug/manifest-
+ []
+
+
+Overfull \hbox (96.0528pt too wide) in paragraph at lines 77--79
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediate
+s/res/symbol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+\T1/phv/m/n/10 table-with-package/debug/package-aware-
+ []
+
+
+Overfull \hbox (133.40195pt too wide) in paragraph at lines 79--81
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediate
+s/symbols/debug/R.txt,
+ []
+
+
+Overfull \hbox (80.57295pt too wide) in paragraph at lines 81--83
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/build/outputs/logs
+/manifest-
+ []
+
+
+Overfull \hbox (174.78314pt too wide) in paragraph at lines 83--85
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/a
+flak/bluetoothterminal/Chat.java,
+ []
+
+
+Overfull \hbox (176.28618pt too wide) in paragraph at lines 85--87
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/a
+flak/bluetoothterminal/Scan.java,
+ []
+
+
+Overfull \hbox (180.78603pt too wide) in paragraph at lines 87--89
+[]\T1/phv/m/n/10 E:/TFG/appAndroid/autosulivansFeederApp/app/src/main/java/me/a
+flak/bluetoothterminal/Select.java,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+[]| \T1/phv/m/n/10 com.torijano.autosulivansFeeder.test.BuildConfig,
+ []
+
+[35
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+[]| \T1/phv/m/n/10 com.torijano.autosulivansFeeder.test.BuildConfig,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
+[]| \T1/phv/m/n/10 com.torijano.autosulivansFeeder.test.BuildConfig,
+ []
+
+[36])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+ (refman.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
+Package rerunfilecheck Info: File `refman.out' has not changed.
+(rerunfilecheck)             Checksum: C8689C2828B4E7AF74ECC542DBCBCCC4;34019.
+ ) 
+Here is how much of TeX's memory you used:
+ 17143 strings out of 481212
+ 265118 string characters out of 2915709
+ 575246 words of memory out of 3000000
+ 32020 multiletter control sequences out of 15000+200000
+ 582050 words of font info for 91 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 59i,16n,96p,1327b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/u
+hvb8ac.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on refman.pdf (42 pages, 324388 bytes).
+PDF statistics:
+ 1348 PDF objects out of 1440 (max. 8388607)
+ 298 named destinations out of 1000 (max. 500000)
+ 945 words of extra memory for PDF output out of 10000 (max. 10000000)
+

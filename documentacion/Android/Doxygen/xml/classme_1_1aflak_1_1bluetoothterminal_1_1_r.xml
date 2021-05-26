@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classme_1_1aflak_1_1bluetoothterminal_1_1_r" kind="class" language="Java" prot="public">
+    <compoundname>me::aflak::bluetoothterminal::R</compoundname>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1anim" prot="public">me::aflak::bluetoothterminal::R::anim</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1attr" prot="public">me::aflak::bluetoothterminal::R::attr</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1bool" prot="public">me::aflak::bluetoothterminal::R::bool</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1color" prot="public">me::aflak::bluetoothterminal::R::color</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1dimen" prot="public">me::aflak::bluetoothterminal::R::dimen</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1drawable" prot="public">me::aflak::bluetoothterminal::R::drawable</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1id" prot="public">me::aflak::bluetoothterminal::R::id</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1integer" prot="public">me::aflak::bluetoothterminal::R::integer</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1layout" prot="public">me::aflak::bluetoothterminal::R::layout</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1menu" prot="public">me::aflak::bluetoothterminal::R::menu</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1mipmap" prot="public">me::aflak::bluetoothterminal::R::mipmap</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1string" prot="public">me::aflak::bluetoothterminal::R::string</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1style" prot="public">me::aflak::bluetoothterminal::R::style</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r_1_1styleable" prot="public">me::aflak::bluetoothterminal::R::styleable</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="10" column="21" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" bodystart="10" bodyend="7153"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

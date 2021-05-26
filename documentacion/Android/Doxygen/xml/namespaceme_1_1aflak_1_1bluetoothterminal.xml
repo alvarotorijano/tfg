@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceme_1_1aflak_1_1bluetoothterminal" kind="namespace" language="Java">
+    <compoundname>me::aflak::bluetoothterminal</compoundname>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_build_config" prot="public">me::aflak::bluetoothterminal::BuildConfig</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_chat" prot="public">me::aflak::bluetoothterminal::Chat</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_r" prot="public">me::aflak::bluetoothterminal::R</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_scan" prot="public">me::aflak::bluetoothterminal::Scan</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetoothterminal_1_1_select" prot="public">me::aflak::bluetoothterminal::Select</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Automatically generated file. DO NOT MODIFY </para>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetoothterminal/R.java" line="8" column="15"/>
+  </compounddef>
+</doxygen>

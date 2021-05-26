@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['s_5fdosis_90',['S_dosis',['../_auto_sulivan__s_feeder_8cpp.html#acc5981d82de7844fc133c4ef3e92f6d8',1,'AutoSulivan_sFeeder.cpp']]],
+  ['s_5fgram_91',['S_gram',['../_auto_sulivan__s_feeder_8cpp.html#afe8500985500e254ee0bbf60e8eb3f2a',1,'AutoSulivan_sFeeder.cpp']]],
+  ['s_5fhora_92',['S_hora',['../_auto_sulivan__s_feeder_8cpp.html#a11cd5c8f420409609ea94303da512132',1,'AutoSulivan_sFeeder.cpp']]],
+  ['s_5fminuto_93',['S_minuto',['../_auto_sulivan__s_feeder_8cpp.html#afa2c6802d954a427780a75fcad655782',1,'AutoSulivan_sFeeder.cpp']]],
+  ['sec_5fanterior_94',['sec_anterior',['../_auto_sulivan__s_feeder_8cpp.html#a973aed7c277476f24cc816a7150a2593',1,'AutoSulivan_sFeeder.cpp']]],
+  ['second_95',['second',['../_auto_sulivan__s_feeder_8cpp.html#a032c585ab20a496193adf397ee216e5b',1,'AutoSulivan_sFeeder.cpp']]],
+  ['sentido_96',['sentido',['../_auto_sulivan__s_feeder_8cpp.html#a32bef1ddaef7b7b80dd04a11d3b5ff62',1,'AutoSulivan_sFeeder.cpp']]],
+  ['setds3231time_97',['setDS3231time',['../_auto_sulivan__s_feeder_8cpp.html#a04e328e25f7ec25f880cfa590b0d2cc0',1,'AutoSulivan_sFeeder.cpp']]],
+  ['setup_98',['setup',['../_auto_sulivan__s_feeder_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d',1,'AutoSulivan_sFeeder.cpp']]],
+  ['sobrepeso_99',['sobrepeso',['../_auto_sulivan__s_feeder_8cpp.html#af96fc17c454a0dd8f041e367212c2920',1,'AutoSulivan_sFeeder.cpp']]],
+  ['splash_100',['SPLASH',['../_auto_sulivan__s_feeder_8cpp.html#a63c4b7554eecffaa1db219ce2d294e96',1,'AutoSulivan_sFeeder.cpp']]],
+  ['stepper_5fdir_101',['STEPPER_DIR',['../_auto_sulivan__s_feeder_8cpp.html#a01a4f3402b6a2c3fa13a1c51137ca5dd',1,'AutoSulivan_sFeeder.cpp']]],
+  ['stepper_5fenable_102',['STEPPER_ENABLE',['../_auto_sulivan__s_feeder_8cpp.html#aec8c7cb6f0576e4dfb824545807c9f9c',1,'AutoSulivan_sFeeder.cpp']]],
+  ['stepper_5fstep_103',['STEPPER_STEP',['../_auto_sulivan__s_feeder_8cpp.html#ae259bc65239c7c98f2046689bd3663ff',1,'AutoSulivan_sFeeder.cpp']]],
+  ['suministran_104',['suministran',['../_auto_sulivan__s_feeder_8cpp.html#a20f2be80280781672b24efae6d903f26',1,'AutoSulivan_sFeeder.cpp']]],
+  ['suministraran_105',['suministraran',['../_auto_sulivan__s_feeder_8cpp.html#a3aabf53f7e66970da4e5315f59414b7d',1,'AutoSulivan_sFeeder.cpp']]],
+  ['suministraron_106',['suministraron',['../_auto_sulivan__s_feeder_8cpp.html#a4378a55de6337b24febfc8742a2f14c5',1,'AutoSulivan_sFeeder.cpp']]]
+];

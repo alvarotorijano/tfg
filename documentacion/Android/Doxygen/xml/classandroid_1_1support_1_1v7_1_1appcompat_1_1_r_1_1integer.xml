@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer" kind="class" language="Java" prot="public">
+    <compoundname>android::support::v7::appcompat::R::integer</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1a4fb2e7826a35c40f397f9f14b86a0c7d" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.integer.abc_config_activityDefaultDur</definition>
+        <argsstring></argsstring>
+        <name>abc_config_activityDefaultDur</name>
+        <initializer>= 0x7f080000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="584" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="584" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1a6687bb8055a5a731b1429884734c9565" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.integer.abc_config_activityShortDur</definition>
+        <argsstring></argsstring>
+        <name>abc_config_activityShortDur</name>
+        <initializer>= 0x7f080001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="585" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="585" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1ab30eab0a2cb415ca7fd68f2c56b48817" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.integer.abc_max_action_buttons</definition>
+        <argsstring></argsstring>
+        <name>abc_max_action_buttons</name>
+        <initializer>= 0x7f080002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="586" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="586" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1a21ede1655715ffc1421fbd057706bfa8" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.integer.cancel_button_image_alpha</definition>
+        <argsstring></argsstring>
+        <name>cancel_button_image_alpha</name>
+        <initializer>= 0x7f080003</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="587" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="587" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1a52a3923b3d9ba3b58e218794b30683dc" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.integer.status_bar_notification_info_maxnum</definition>
+        <argsstring></argsstring>
+        <name>status_bar_notification_info_maxnum</name>
+        <initializer>= 0x7f080004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="588" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="588" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1a4b0c5e6fd8f34e481d9da11e93d1dc1e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>android.support.v7.appcompat.R.integer.integer</definition>
+        <argsstring>()</argsstring>
+        <name>integer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="582" column="17" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="582" bodyend="582"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="581" column="38" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="581" bodyend="589"/>
+    <listofallmembers>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1a4fb2e7826a35c40f397f9f14b86a0c7d" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::integer</scope><name>abc_config_activityDefaultDur</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1a6687bb8055a5a731b1429884734c9565" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::integer</scope><name>abc_config_activityShortDur</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1ab30eab0a2cb415ca7fd68f2c56b48817" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::integer</scope><name>abc_max_action_buttons</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1a21ede1655715ffc1421fbd057706bfa8" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::integer</scope><name>cancel_button_image_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1a4b0c5e6fd8f34e481d9da11e93d1dc1e" prot="private" virt="non-virtual"><scope>android::support::v7::appcompat::R::integer</scope><name>integer</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1integer_1a52a3923b3d9ba3b58e218794b30683dc" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::integer</scope><name>status_bar_notification_info_maxnum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

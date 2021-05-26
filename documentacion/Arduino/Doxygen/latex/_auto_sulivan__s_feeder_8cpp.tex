@@ -1,0 +1,1452 @@
+\hypertarget{_auto_sulivan__s_feeder_8cpp}{}\doxysection{C\+:/\+Users/\+The\+\_\+menda14/\+Desktop/\+Nueva carpeta/\+Auto\+Sulivan\+\_\+s\+Feeder.cpp File Reference}
+\label{_auto_sulivan__s_feeder_8cpp}\index{C:/Users/The\_menda14/Desktop/Nueva carpeta/AutoSulivan\_sFeeder.cpp@{C:/Users/The\_menda14/Desktop/Nueva carpeta/AutoSulivan\_sFeeder.cpp}}
+{\ttfamily \#include $<$Software\+Serial.\+h$>$}\newline
+{\ttfamily \#include $<$E\+E\+P\+R\+O\+M.\+h$>$}\newline
+{\ttfamily \#include $<$Wire.\+h$>$}\newline
+{\ttfamily \#include $<$L\+C\+D.\+h$>$}\newline
+{\ttfamily \#include $<$Liquid\+Crystal\+\_\+\+I2\+C.\+h$>$}\newline
+{\ttfamily \#include $<$avr/pgmspace.\+h$>$}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ab5299c1245edd08e27d2f15705f6e8bb}{V\+E\+R\+S\+I\+O\+N\+\_\+\+D\+E\+L\+\_\+\+C\+O\+M\+E\+D\+E\+RO}}~\char`\"{}V-\/1.\+6\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a63c4b7554eecffaa1db219ce2d294e96}{S\+P\+L\+A\+SH}}~2.\+0
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a4f14c5f033e423b262a3db955d638d59}{T\+I\+E\+M\+P\+O\+\_\+\+B\+R\+I\+L\+LO}}~5.\+0
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ae3649dd952cb2dbd8acae81b9f292cf4}{T\+I\+E\+M\+P\+O\+\_\+\+M\+E\+N\+S\+A\+JE}}~3.\+5
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a85d36b19c7bd5d02dc6b7c3f4d13eac2}{M\+I\+L\+L\+I\+S\+\_\+\+D\+I\+A\+R\+I\+OS}}~86400000
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a99886b0c2e6b50c3be671c7fa2417e81}{espera}}~5
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a450354848631b9a6f13b9a6a82930eba}{A\+D\+D\+R\+\_\+\+A\+\_\+\+S\+E\+C\+O\+ND}}~0x00
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a0323bb7e3dab04107915528f6a0edfda}{A\+D\+D\+R\+\_\+\+A\+\_\+\+M\+I\+N\+U\+TE}}~0x01
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_af380fd091d97159ebd2bd3e522d8357d}{A\+D\+D\+R\+\_\+\+A\+\_\+\+H\+O\+UR}}~0x02
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ae679741ac1aa531c497f10b995e7b8f3}{A\+D\+D\+R\+\_\+\+A\+\_\+day\+Of\+Month}}~0x03
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a930d3abddcc69ce44d187863ba29c852}{A\+D\+D\+R\+\_\+\+A\+\_\+\+M\+O\+N\+TH}}~0x04
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a161a8690de1f0df51bc055351783e55c}{A\+D\+D\+R\+\_\+\+A\+\_\+\+Y\+E\+AR}}~0x05
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ac80485ed51eca17c091b4e09f059a96a}{A\+D\+D\+R\+\_\+\+A\+\_\+\+T\+E\+MP}}~0x06
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ad190e3a126616170a47a71b004fe993a}{A\+D\+D\+R\+\_\+\+A\+\_\+\+T\+E\+M\+P\+\_\+\+D\+EC}}~0x07
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a03a246dbe1da2da9eee9f478f977089b}{A\+D\+D\+R\+\_\+\+S\+\_\+\+H\+O\+RA}}~0x08
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ae987ea64417e02f987d5a4ddd9d64824}{A\+D\+D\+R\+\_\+\+S\+\_\+\+M\+I\+N\+UT}}~0x09
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a93c0455ebe4c7ecc9d357c0b8b1dc132}{A\+D\+D\+R\+\_\+\+A\+\_\+\+D\+O\+S\+IS}}~0x0A
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ad9d8a03b641c9c9c7d11b846185c5297}{A\+D\+D\+R\+\_\+\+S\+\_\+\+D\+O\+S\+IS}}~0x0B
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a0502b5531034db47093b2b1203584690}{A\+D\+D\+R\+\_\+\+A\+\_\+\+G\+R\+A\+M\+OS}}~0x0C
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a7032ee2d1ceb07c0292a3685d4a278dc}{A\+D\+D\+R\+\_\+\+S\+\_\+\+G\+R\+A\+M\+OS}}~0x0D
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a5d3e17478bd7215166c197b07edf4efd}{D\+S3231\+\_\+\+I2\+C\+\_\+\+A\+D\+D\+R\+E\+SS}}~0x68
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ade463bf715040452776242696cac614c}{L\+C\+D16\+X2\+\_\+\+I2\+C\+\_\+\+A\+D\+D\+R\+E\+SS}}~0x3f
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ab4553be4db9860d940f81d7447173b2f}{L\+E\+D\+\_\+\+P\+IN}}~13
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ad76d1750a6cdeebd506bfcd6752554d2}{ON}}~1
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a29e413f6725b2ba32d165ffaa35b01e5}{O\+FF}}~0
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_aec8c7cb6f0576e4dfb824545807c9f9c}{S\+T\+E\+P\+P\+E\+R\+\_\+\+E\+N\+A\+B\+LE}}~4
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ae259bc65239c7c98f2046689bd3663ff}{S\+T\+E\+P\+P\+E\+R\+\_\+\+S\+T\+EP}}~3
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a01a4f3402b6a2c3fa13a1c51137ca5dd}{S\+T\+E\+P\+P\+E\+R\+\_\+\+D\+IR}}~2
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_af31318f5b00506ed7c7de3d525f8d5da}{P\+A\+S\+O\+S\+\_\+\+P\+O\+R\+\_\+\+V\+U\+E\+L\+TA}}~200
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a48c14bd7127e3acc0ff18f465511a5b1}{V\+U\+E\+L\+TA}}~true
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_aa84578bebc3c9087d1d4dde484c5c28e}{C\+O\+N\+T\+R\+A\+V\+U\+E\+L\+TA}}~false
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a0131056d8a740deff0c55542b95d36c9}{B\+T\+\_\+\+RX}}~A2
+\item 
+\#define \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a05bb1b22e8c9e8392be29bed79050adf}{B\+T\+\_\+\+TX}}~A3
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Software\+Serial \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a8a7211174f18ece5f039a48259d267bb}{BT}} (\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a0131056d8a740deff0c55542b95d36c9}{B\+T\+\_\+\+RX}}, \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a05bb1b22e8c9e8392be29bed79050adf}{B\+T\+\_\+\+TX}})
+\item 
+Liquid\+Crystal\+\_\+\+I2C \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a408d60433142799987e0fdd0d1373edd}{lcd}} (\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ade463bf715040452776242696cac614c}{L\+C\+D16\+X2\+\_\+\+I2\+C\+\_\+\+A\+D\+D\+R\+E\+SS}}, 2, 1, 0, 4, 5, 6, 7, 3, P\+O\+S\+I\+T\+I\+VE)
+\item 
+void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a6ecf3393b3930e31938c08906a2c8862}{resetear\+Comedero}} ()
+\item 
+void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a04e328e25f7ec25f880cfa590b0d2cc0}{set\+D\+S3231time}} (byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a032c585ab20a496193adf397ee216e5b}{second}}, byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a0f100646613882af0415f3d97bd67875}{minute}}, byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_aafa4b28cd4cce6ab8fbe430b55b647ad}{hour}}, byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a9cc87213662e3dc39f167b557840a338}{day\+Of\+Week}}, byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a05fa6aa57b34d7042ba94c95fc07df8a}{day\+Of\+Month}}, byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a25f1ca83c8d3073e5bc60a5c2948d17f}{month}}, byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_abe98644d07dbf2cceb2e6b46c029612e}{year}})
+\item 
+void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a2fb4d2d1f9d3145dcbe0c66f7152b48b}{read\+D\+S3231time}} (byte $\ast$\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a032c585ab20a496193adf397ee216e5b}{second}}, byte $\ast$\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a0f100646613882af0415f3d97bd67875}{minute}}, byte $\ast$\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_aafa4b28cd4cce6ab8fbe430b55b647ad}{hour}}, byte $\ast$\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a9cc87213662e3dc39f167b557840a338}{day\+Of\+Week}}, byte $\ast$\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a05fa6aa57b34d7042ba94c95fc07df8a}{day\+Of\+Month}}, byte $\ast$\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a25f1ca83c8d3073e5bc60a5c2948d17f}{month}}, byte $\ast$\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_abe98644d07dbf2cceb2e6b46c029612e}{year}})
+\item 
+void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ab2f29739b10ddbedf9da6febe9c75917}{display\+Time}} ()
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a825d19190ddbe72ed1536d48a6a23229}{dec\+To\+Bcd}} (byte val)
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a212db7b7699776a934657711a6a77d9b}{bcd\+To\+Dec}} (byte val)
+\item 
+void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a3ed03b716fea4ac70e4f0ed2c29ac98d}{encender\+L\+CD}} ()
+\item 
+void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a1d4b9b66b2123ec98a99e53aa69c743d}{mostrar\+Mensaje}} ()
+\item 
+float \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a7bc8fec1dc1e024c1270c3c798f12ea4}{get\+Temperature}} ()
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a316968ce55b869d3374c03cd4024bda6}{compara\+Opcion}} (char $\ast$entrada, String $\ast$opciones, byte $\ast$longitud, byte cant, byte $\ast$p) void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a054327f4c913e234a31c45650fef1c1e}{girar\+Tolva}}(int vueltas
+\item 
+void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ac59ed7944e1f0ba654c069aa701b8566}{dar\+\_\+de\+\_\+comer}} ()
+\item 
+void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a4fc01d736fe50cf5b977f755b675f11d}{setup}} ()
+\item 
+void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_afe461d27b9c48d5921c00d521181f12f}{loop}} ()
+\item 
+void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a16d813ba41b59ac0f32f9cc595639cde}{mostrar\+Cadena}} (const char $\ast$entrada)
+\item 
+void \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a054327f4c913e234a31c45650fef1c1e}{girar\+Tolva}} (int vueltas, bool \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a32bef1ddaef7b7b80dd04a11d3b5ff62}{sentido}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+byte bool \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a32bef1ddaef7b7b80dd04a11d3b5ff62}{sentido}}
+\item 
+char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_af3ffd939096b745ef46cf7f344bbfec7}{nombre}} \mbox{[}32\mbox{]} = \char`\"{}Sulivan\char`\"{}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a032c585ab20a496193adf397ee216e5b}{second}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a0f100646613882af0415f3d97bd67875}{minute}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_aafa4b28cd4cce6ab8fbe430b55b647ad}{hour}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a9cc87213662e3dc39f167b557840a338}{day\+Of\+Week}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a05fa6aa57b34d7042ba94c95fc07df8a}{day\+Of\+Month}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a25f1ca83c8d3073e5bc60a5c2948d17f}{month}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_abe98644d07dbf2cceb2e6b46c029612e}{year}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a994b9c644dd93946ff001346f3c231ff}{A\+\_\+second}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a0e9d7bae6f37e661a4125a0ca97b5b4e}{A\+\_\+minute}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_af93f056547fa06bd6cec1c2fd818c01f}{A\+\_\+hour}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_aa4f2d90cb9e92b73886b25521c5ee3f4}{A\+\_\+day\+Of\+Month}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a87db9d28f82eb89ab9bc6d78392a9c3d}{A\+\_\+month}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_adf6ae721a0e194372e6f2a4b8f34034d}{A\+\_\+year}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a11cd5c8f420409609ea94303da512132}{S\+\_\+hora}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_afa2c6802d954a427780a75fcad655782}{S\+\_\+minuto}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_acc5981d82de7844fc133c4ef3e92f6d8}{S\+\_\+dosis}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ad6fdbbc23e6b4df573a54c84dfc72242}{A\+\_\+dosis}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_afe8500985500e254ee0bbf60e8eb3f2a}{S\+\_\+gram}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_abf9d73c886b86e9b646f734bc57af461}{A\+\_\+gram}}
+\item 
+float \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a1510ec73c5ffbbe2c923ba8d99f74757}{A\+\_\+temperatura}}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a973aed7c277476f24cc816a7150a2593}{sec\+\_\+anterior}} = 0
+\item 
+unsigned long \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_af080cae5a628bbed48ff46a68d1e5267}{iluminacion}} = millis()
+\item 
+unsigned long \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ac46587d6521ae8c4e1bc83bad689a02f}{mensaje}} = millis()
+\item 
+bool \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a8a0db98ce820c93f3cc1c18a027cc2b9}{flag\+\_\+luz}} = true
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ac35fffff17564803b1cd66089fe95c55}{cad\+\_\+separador}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\textbackslash{}n\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ac659d53ff5a677d60a47737e692418e0}{manual}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}Este es el manual del comedero.\textbackslash{}n-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\textbackslash{}n\+Responde a los siguientes comandos\+:\textbackslash{}n\+Ultimo\textbackslash{}n\+Comida\textbackslash{}n\+Hora\textbackslash{}n\+Dosis\textbackslash{}n\+Gramos\textbackslash{}n\+Peso\textbackslash{}n\+Reset\textbackslash{}n\+Luz\textbackslash{}n\+Test\textbackslash{}n\+Velocidad\textbackslash{}n\+Historico\textbackslash{}n\+Man\textbackslash{}n\textbackslash{}n\+Para mostrar el uso de los comandos\textbackslash{}nescribir\+: Man \mbox{[}comando\mbox{]}. P.\+Ej.\+: Man Luz\textbackslash{}n$\ast$$\ast$No distingue mayusculas.\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a2dd5e444402108d53b4d79fd084bce1a}{man\+\_\+ultimo}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\textbackslash{}n\textbackslash{}t\+Ultimo\+: muestra la fecha, la hora y la\textbackslash{}ntemperatura a la que se le dio de comer\textbackslash{}npor ultima vez al gato\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t No necesita argumentos.\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a4bc9a1f83a3cb3f494aa9e072ce5e950}{man\+\_\+comida}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Define la hora a la que se suminsitra la\textbackslash{}ncomida al gato.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}tcomida hh\+:mm\textbackslash{}n\textbackslash{}nhh = hora en formato 24h y dos cifras.\textbackslash{}nmm = minuto en formato de dos cifras.\textbackslash{}n\+P.\+ej.\+: comida 14\+:05\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_adb3f53b434752d16424336e14c1a719b}{man\+\_\+hora}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Hora\+: ajusta la hora y fecha \textbackslash{}n\textbackslash{}tdel reloj.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}thora hh\+:mm\+:ss dd\+:mm\+:aaaa w\textbackslash{}n\textbackslash{}n\textbackslash{}thh\+: hora en formato 24h y dos cifras.\textbackslash{}n\textbackslash{}tmm\+: minutos en formato de dos cifras.\textbackslash{}n\textbackslash{}tss\+: segundos en formato de dos cifras.\textbackslash{}n\textbackslash{}tdd\+: dias en formato de dos cifras.\textbackslash{}n\textbackslash{}tmm\+: mes en formato de dos cifras.\textbackslash{}n\textbackslash{}taa\+: a\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ad4865e7935437671680dec89bdd52044}{man\+\_\+hora2}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}o en formato de dos cifras.\textbackslash{}n\textbackslash{}tw\+: dia de la semana. 1-\/7\textbackslash{}n\textbackslash{}n\+P.\+ej.\+: hora 14\+:30\+:00 01/04/2016 5\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a696f8f8f60d62e1934503f359d528792}{man\+\_\+dosis}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Dosis\+: permite establecer manualmente el\textbackslash{}n\textbackslash{}tnumero de dosis que se suministraran\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Dosis xx\textbackslash{}n\textbackslash{}t\+P.\+ej.\+:\+Dosis 5\textbackslash{}n\textbackslash{}t-\/Valores aceptados\+: 0 -\/ 50\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_aa64480b4d1f6e678fdb372d9fe26e446}{man\+\_\+gramos}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Gramos\+: especifica el numero de gramos\textbackslash{}n\textbackslash{}tque suministra el comedero con cada\textbackslash{}n\textbackslash{}tdosis en su actual configuracion.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}tgramos xxx\textbackslash{}n\textbackslash{}t\+P.\+ej.\+: Gramos 15\textbackslash{}n\textbackslash{}t-\/Valores aceptados\+: 10 -\/ 250\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a33bd9382069850e920ff184c078d7b22}{man\+\_\+peso}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Peso\+: permite especificar el peso en\textbackslash{}n\textbackslash{}tgramos del gato, de tal forma que el\textbackslash{}n\textbackslash{}tcomedero pueda calcular el numero de \textbackslash{}n\textbackslash{}tdosis que hay quesuministrar para que \textbackslash{}n\textbackslash{}tel gato coma.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Peso xxxxx\textbackslash{}n\textbackslash{}t-\/Valores aceptados\+: 001 -\/ 15000\textbackslash{}n\textbackslash{}t-\/Por debajo de 1000gr se considera que\textbackslash{}n\textbackslash{}tel gato pesa un kilo y por encima de \textbackslash{}n\textbackslash{}t15000gr que el animal sufre sobrepeso.\textbackslash{}n\textbackslash{}t\+P.\+ej.\+: Gramos 10600\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_acaf8c22f8bc855de2ab2c1dd53ad5555}{man\+\_\+reset}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Reset\+: permite reiniciar el comedero\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Reset\textbackslash{}n\textbackslash{}t\+No necesita argumentos\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a8df556381977b2d2bc77af0e2eafd372}{man\+\_\+luz}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Luz\+: permite mantener la luz encendida\textbackslash{}n\textbackslash{}t\+Cambia entre el modo autogestionado de\textbackslash{}n\textbackslash{}tla luz o la mantiene encendida.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Luz\textbackslash{}n\textbackslash{}t\+No necesita argumentos\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a6c1f00bdd7d90b4b68a717d7b4e8d0b3}{man\+\_\+test}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Test\+: funcion implementada con el fin de\textbackslash{}n\textbackslash{}tprobar el correcto funcionamiento.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Test \mbox{[}$\,$\mbox{]}\textbackslash{}n\textbackslash{}t\+Vuelta\+: Hace girar la tolva una vez.\textbackslash{}n\textbackslash{}t\+Contravuelta\+: Gira la tolva en \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a32bef1ddaef7b7b80dd04a11d3b5ff62}{sentido}} \textbackslash{}n\textbackslash{}t\textbackslash{}t contrario.\textbackslash{}n\textbackslash{}t$<$Vacio$>$\+: Suministra una comida completa\textbackslash{}n\textbackslash{}n\+Ejemplo\+:\textbackslash{}n\+Test Contravuelta\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ac4761198fd6c8f54dccda0c97a81aade}{man\+\_\+velocidad}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Velocidad\+: permite definir la velocidad\textbackslash{}n\textbackslash{}ta la que girara la tolva, pues hay que\textbackslash{}n\textbackslash{}ttener en cuenta que puesto que la comida\textbackslash{}n\textbackslash{}testa formada por granos, la velocidad\textbackslash{}n\textbackslash{}tinfluira en la cantidad de comida que se\textbackslash{}n\textbackslash{}tsuministre, de tal forma que cuanto\textbackslash{}n\textbackslash{}tmayor sea la velodad menos comida caera.\textbackslash{}n\textbackslash{}t\+Se recomienda hacer varias mediciones.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}tvelocidad xxx\%\%\textbackslash{}n\textbackslash{}txxx = porcentaje de velocidad\textbackslash{}n\textbackslash{}t\+Valores aceptados 1 -\/ 100.\textbackslash{}n\textbackslash{}t\+El simbolo \%\% es opcional.\textbackslash{}n\textbackslash{}t\+P.\+ej.\+: Velocidad 60\%\%\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a8a7c3f35310b16d4ae8c9ef2909bf46b}{man\+\_\+man}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Man\+: muestra el \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ac659d53ff5a677d60a47737e692418e0}{manual}} del comedero asi \textbackslash{}n\textbackslash{}tcomo de los comandos disponibles.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}tman \mbox{[}comando\mbox{]}\textbackslash{}n\textbackslash{}tvacio muestra los comandos aceptados.\textbackslash{}n\textbackslash{}t\+Seguido de un comando muestra la\textbackslash{}n\textbackslash{}tdescripcion y uso de ese comando.\textbackslash{}n\textbackslash{}t\+P.\+ej.\+: Man Peso\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a580034070c45f9f50b51b6d1eb1c398a}{man\+\_\+historico}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Historico\+: mustra el registro de las\textbackslash{}n\textbackslash{}tveces que se le ha dado de comer al gato\textbackslash{}n\textbackslash{}tasi como permite borrar dichos registros\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Historico (Borrar)\textbackslash{}n\textbackslash{}t\+Si se utiliza sin argumento muestra los\textbackslash{}n\textbackslash{}tregistros\textbackslash{}n\textbackslash{}t\+Si se utiliza seguido de la palabra \textbackslash{}n\textbackslash{}t \textbackslash{}\char`\"{}borrar\textbackslash{}\char`\"{} borrara los registros\textbackslash{}n\textbackslash{}t\+P.\+ej.\+: Historico Borrar\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_af8caf97809d3bc07076def61043f186e}{bienvenida}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Alvaro Torijano Garcia\textbackslash{}n-\/-\/-\/Consola de depuracion del comedero-\/-\/-\/\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_af96fc17c454a0dd8f041e367212c2920}{sobrepeso}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Este gato sufre sobrepeso, no se dispensara ninguna cantidad.\textbackslash{}n\+Por favor visita a un veterinario\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ac5eb9b23d6c8afd904c45d8008aa0350}{comando\+\_\+invalido}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+No se ha detectado un comando valido\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a99ecc9e176ecf0ea2828db07eee5fe54}{l\+\_\+auto}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Luz Autogestionada\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_aef9e9842860f6a20b288259b60ebc82a}{l\+\_\+fija}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Luz fijada en encendido\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a9883b3eed519fc0112c7411cf9200a2d}{ultima\+\_\+alimentacion}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Ultima fecha de alimentacion autonoma\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_aa10b918435bb3322eb3b840acf8b9b0b}{hora\+\_\+invalido}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Formato de hora I\+N\+V\+A\+L\+I\+DO\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a939439d3e673c2e3400c4d981478fd78}{hora\+\_\+comida}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+La nueva hora de la comida son las\+:\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a7bafc6f6316603a016d99239a6f1ef00}{dosis\+\_\+invalida}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+No es una dosis valida\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a102f0d42d0526033ed51ad0b97505ac7}{reloj\+\_\+actualizado}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Se ha actualizado el reloj con los siguientes datos\+:\textbackslash{}n\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a1f1c8cfcbc6b37bb96da0d4d62fbb72c}{demasiado\+\_\+peso}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Eso es demasiado peso para un gato\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ab68db3f2ca88a30aaa932daedb2a783f}{fech\+\_\+o\+\_\+invalid}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Formato de hora o fecha incorrecto\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a3aabf53f7e66970da4e5315f59414b7d}{suministraran}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Se suministraran\+: \char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a116866c9b2ce2476c57f00d2f1b399fd}{cantidad\+\_\+invalida}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+No es una cantidad valida\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a20f2be80280781672b24efae6d903f26}{suministran}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Se suministran\+: \char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a6e5d409256a2dd1d60ff4180dc177bfb}{c\+\_\+dosis}} \mbox{[}$\,$\mbox{]} = \{\char`\"{} dosis\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a324d233f6b79215d6b3e519d110cc51f}{gramos\+\_\+dosis}} \mbox{[}$\,$\mbox{]} = \{\char`\"{} gramos por dosis\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a5b0e3884a5d61a820d845e09d20d53cc}{p\+\_\+invalido}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+No es un peso valido\char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a4378a55de6337b24febfc8742a2f14c5}{suministraron}} \mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Se suministraron\+: \char`\"{}\}
+\item 
+const P\+R\+O\+G\+M\+EM char \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a49007334dd48dfbeaf0a0e49204b6eef}{cad\+\_\+gramos}} \mbox{[}$\,$\mbox{]} = \{\char`\"{} Gramos\char`\"{}\}
+\item 
+byte \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ab31d893ba89a7c406a669544ebcfe1de}{grados}} \mbox{[}8\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ae679741ac1aa531c497f10b995e7b8f3}\label{_auto_sulivan__s_feeder_8cpp_ae679741ac1aa531c497f10b995e7b8f3}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_A\_dayOfMonth@{ADDR\_A\_dayOfMonth}}
+\index{ADDR\_A\_dayOfMonth@{ADDR\_A\_dayOfMonth}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_A\_dayOfMonth}{ADDR\_A\_dayOfMonth}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+A\+\_\+day\+Of\+Month~0x03}
+
+
+
+Definition at line 53 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a93c0455ebe4c7ecc9d357c0b8b1dc132}\label{_auto_sulivan__s_feeder_8cpp_a93c0455ebe4c7ecc9d357c0b8b1dc132}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_A\_DOSIS@{ADDR\_A\_DOSIS}}
+\index{ADDR\_A\_DOSIS@{ADDR\_A\_DOSIS}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_A\_DOSIS}{ADDR\_A\_DOSIS}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+A\+\_\+\+D\+O\+S\+IS~0x0A}
+
+
+
+Definition at line 60 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a0502b5531034db47093b2b1203584690}\label{_auto_sulivan__s_feeder_8cpp_a0502b5531034db47093b2b1203584690}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_A\_GRAMOS@{ADDR\_A\_GRAMOS}}
+\index{ADDR\_A\_GRAMOS@{ADDR\_A\_GRAMOS}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_A\_GRAMOS}{ADDR\_A\_GRAMOS}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+A\+\_\+\+G\+R\+A\+M\+OS~0x0C}
+
+
+
+Definition at line 62 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_af380fd091d97159ebd2bd3e522d8357d}\label{_auto_sulivan__s_feeder_8cpp_af380fd091d97159ebd2bd3e522d8357d}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_A\_HOUR@{ADDR\_A\_HOUR}}
+\index{ADDR\_A\_HOUR@{ADDR\_A\_HOUR}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_A\_HOUR}{ADDR\_A\_HOUR}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+A\+\_\+\+H\+O\+UR~0x02}
+
+
+
+Definition at line 52 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a0323bb7e3dab04107915528f6a0edfda}\label{_auto_sulivan__s_feeder_8cpp_a0323bb7e3dab04107915528f6a0edfda}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_A\_MINUTE@{ADDR\_A\_MINUTE}}
+\index{ADDR\_A\_MINUTE@{ADDR\_A\_MINUTE}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_A\_MINUTE}{ADDR\_A\_MINUTE}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+A\+\_\+\+M\+I\+N\+U\+TE~0x01}
+
+
+
+Definition at line 51 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a930d3abddcc69ce44d187863ba29c852}\label{_auto_sulivan__s_feeder_8cpp_a930d3abddcc69ce44d187863ba29c852}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_A\_MONTH@{ADDR\_A\_MONTH}}
+\index{ADDR\_A\_MONTH@{ADDR\_A\_MONTH}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_A\_MONTH}{ADDR\_A\_MONTH}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+A\+\_\+\+M\+O\+N\+TH~0x04}
+
+
+
+Definition at line 54 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a450354848631b9a6f13b9a6a82930eba}\label{_auto_sulivan__s_feeder_8cpp_a450354848631b9a6f13b9a6a82930eba}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_A\_SECOND@{ADDR\_A\_SECOND}}
+\index{ADDR\_A\_SECOND@{ADDR\_A\_SECOND}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_A\_SECOND}{ADDR\_A\_SECOND}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+A\+\_\+\+S\+E\+C\+O\+ND~0x00}
+
+
+
+Definition at line 50 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ac80485ed51eca17c091b4e09f059a96a}\label{_auto_sulivan__s_feeder_8cpp_ac80485ed51eca17c091b4e09f059a96a}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_A\_TEMP@{ADDR\_A\_TEMP}}
+\index{ADDR\_A\_TEMP@{ADDR\_A\_TEMP}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_A\_TEMP}{ADDR\_A\_TEMP}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+A\+\_\+\+T\+E\+MP~0x06}
+
+
+
+Definition at line 56 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ad190e3a126616170a47a71b004fe993a}\label{_auto_sulivan__s_feeder_8cpp_ad190e3a126616170a47a71b004fe993a}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_A\_TEMP\_DEC@{ADDR\_A\_TEMP\_DEC}}
+\index{ADDR\_A\_TEMP\_DEC@{ADDR\_A\_TEMP\_DEC}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_A\_TEMP\_DEC}{ADDR\_A\_TEMP\_DEC}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+A\+\_\+\+T\+E\+M\+P\+\_\+\+D\+EC~0x07}
+
+
+
+Definition at line 57 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a161a8690de1f0df51bc055351783e55c}\label{_auto_sulivan__s_feeder_8cpp_a161a8690de1f0df51bc055351783e55c}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_A\_YEAR@{ADDR\_A\_YEAR}}
+\index{ADDR\_A\_YEAR@{ADDR\_A\_YEAR}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_A\_YEAR}{ADDR\_A\_YEAR}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+A\+\_\+\+Y\+E\+AR~0x05}
+
+
+
+Definition at line 55 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ad9d8a03b641c9c9c7d11b846185c5297}\label{_auto_sulivan__s_feeder_8cpp_ad9d8a03b641c9c9c7d11b846185c5297}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_S\_DOSIS@{ADDR\_S\_DOSIS}}
+\index{ADDR\_S\_DOSIS@{ADDR\_S\_DOSIS}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_S\_DOSIS}{ADDR\_S\_DOSIS}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+S\+\_\+\+D\+O\+S\+IS~0x0B}
+
+
+
+Definition at line 61 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a7032ee2d1ceb07c0292a3685d4a278dc}\label{_auto_sulivan__s_feeder_8cpp_a7032ee2d1ceb07c0292a3685d4a278dc}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_S\_GRAMOS@{ADDR\_S\_GRAMOS}}
+\index{ADDR\_S\_GRAMOS@{ADDR\_S\_GRAMOS}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_S\_GRAMOS}{ADDR\_S\_GRAMOS}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+S\+\_\+\+G\+R\+A\+M\+OS~0x0D}
+
+
+
+Definition at line 63 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a03a246dbe1da2da9eee9f478f977089b}\label{_auto_sulivan__s_feeder_8cpp_a03a246dbe1da2da9eee9f478f977089b}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_S\_HORA@{ADDR\_S\_HORA}}
+\index{ADDR\_S\_HORA@{ADDR\_S\_HORA}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_S\_HORA}{ADDR\_S\_HORA}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+S\+\_\+\+H\+O\+RA~0x08}
+
+
+
+Definition at line 58 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ae987ea64417e02f987d5a4ddd9d64824}\label{_auto_sulivan__s_feeder_8cpp_ae987ea64417e02f987d5a4ddd9d64824}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ADDR\_S\_MINUT@{ADDR\_S\_MINUT}}
+\index{ADDR\_S\_MINUT@{ADDR\_S\_MINUT}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ADDR\_S\_MINUT}{ADDR\_S\_MINUT}}
+{\footnotesize\ttfamily \#define A\+D\+D\+R\+\_\+\+S\+\_\+\+M\+I\+N\+UT~0x09}
+
+
+
+Definition at line 59 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a0131056d8a740deff0c55542b95d36c9}\label{_auto_sulivan__s_feeder_8cpp_a0131056d8a740deff0c55542b95d36c9}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!BT\_RX@{BT\_RX}}
+\index{BT\_RX@{BT\_RX}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{BT\_RX}{BT\_RX}}
+{\footnotesize\ttfamily \#define B\+T\+\_\+\+RX~A2}
+
+
+
+Definition at line 92 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a05bb1b22e8c9e8392be29bed79050adf}\label{_auto_sulivan__s_feeder_8cpp_a05bb1b22e8c9e8392be29bed79050adf}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!BT\_TX@{BT\_TX}}
+\index{BT\_TX@{BT\_TX}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{BT\_TX}{BT\_TX}}
+{\footnotesize\ttfamily \#define B\+T\+\_\+\+TX~A3}
+
+
+
+Definition at line 93 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_aa84578bebc3c9087d1d4dde484c5c28e}\label{_auto_sulivan__s_feeder_8cpp_aa84578bebc3c9087d1d4dde484c5c28e}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!CONTRAVUELTA@{CONTRAVUELTA}}
+\index{CONTRAVUELTA@{CONTRAVUELTA}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{CONTRAVUELTA}{CONTRAVUELTA}}
+{\footnotesize\ttfamily \#define C\+O\+N\+T\+R\+A\+V\+U\+E\+L\+TA~false}
+
+
+
+Definition at line 87 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a5d3e17478bd7215166c197b07edf4efd}\label{_auto_sulivan__s_feeder_8cpp_a5d3e17478bd7215166c197b07edf4efd}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!DS3231\_I2C\_ADDRESS@{DS3231\_I2C\_ADDRESS}}
+\index{DS3231\_I2C\_ADDRESS@{DS3231\_I2C\_ADDRESS}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{DS3231\_I2C\_ADDRESS}{DS3231\_I2C\_ADDRESS}}
+{\footnotesize\ttfamily \#define D\+S3231\+\_\+\+I2\+C\+\_\+\+A\+D\+D\+R\+E\+SS~0x68}
+
+
+
+Definition at line 67 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a99886b0c2e6b50c3be671c7fa2417e81}\label{_auto_sulivan__s_feeder_8cpp_a99886b0c2e6b50c3be671c7fa2417e81}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!espera@{espera}}
+\index{espera@{espera}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{espera}{espera}}
+{\footnotesize\ttfamily \#define espera~5}
+
+
+
+Definition at line 33 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ade463bf715040452776242696cac614c}\label{_auto_sulivan__s_feeder_8cpp_ade463bf715040452776242696cac614c}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!LCD16X2\_I2C\_ADDRESS@{LCD16X2\_I2C\_ADDRESS}}
+\index{LCD16X2\_I2C\_ADDRESS@{LCD16X2\_I2C\_ADDRESS}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{LCD16X2\_I2C\_ADDRESS}{LCD16X2\_I2C\_ADDRESS}}
+{\footnotesize\ttfamily \#define L\+C\+D16\+X2\+\_\+\+I2\+C\+\_\+\+A\+D\+D\+R\+E\+SS~0x3f}
+
+
+
+Definition at line 68 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ab4553be4db9860d940f81d7447173b2f}\label{_auto_sulivan__s_feeder_8cpp_ab4553be4db9860d940f81d7447173b2f}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!LED\_PIN@{LED\_PIN}}
+\index{LED\_PIN@{LED\_PIN}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{LED\_PIN}{LED\_PIN}}
+{\footnotesize\ttfamily \#define L\+E\+D\+\_\+\+P\+IN~13}
+
+
+
+Definition at line 72 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a85d36b19c7bd5d02dc6b7c3f4d13eac2}\label{_auto_sulivan__s_feeder_8cpp_a85d36b19c7bd5d02dc6b7c3f4d13eac2}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!MILLIS\_DIARIOS@{MILLIS\_DIARIOS}}
+\index{MILLIS\_DIARIOS@{MILLIS\_DIARIOS}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{MILLIS\_DIARIOS}{MILLIS\_DIARIOS}}
+{\footnotesize\ttfamily \#define M\+I\+L\+L\+I\+S\+\_\+\+D\+I\+A\+R\+I\+OS~86400000}
+
+
+
+Definition at line 32 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a29e413f6725b2ba32d165ffaa35b01e5}\label{_auto_sulivan__s_feeder_8cpp_a29e413f6725b2ba32d165ffaa35b01e5}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!OFF@{OFF}}
+\index{OFF@{OFF}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{OFF}{OFF}}
+{\footnotesize\ttfamily \#define O\+FF~0}
+
+
+
+Definition at line 76 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ad76d1750a6cdeebd506bfcd6752554d2}\label{_auto_sulivan__s_feeder_8cpp_ad76d1750a6cdeebd506bfcd6752554d2}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ON@{ON}}
+\index{ON@{ON}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ON}{ON}}
+{\footnotesize\ttfamily \#define ON~1}
+
+
+
+Definition at line 75 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_af31318f5b00506ed7c7de3d525f8d5da}\label{_auto_sulivan__s_feeder_8cpp_af31318f5b00506ed7c7de3d525f8d5da}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!PASOS\_POR\_VUELTA@{PASOS\_POR\_VUELTA}}
+\index{PASOS\_POR\_VUELTA@{PASOS\_POR\_VUELTA}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{PASOS\_POR\_VUELTA}{PASOS\_POR\_VUELTA}}
+{\footnotesize\ttfamily \#define P\+A\+S\+O\+S\+\_\+\+P\+O\+R\+\_\+\+V\+U\+E\+L\+TA~200}
+
+
+
+Definition at line 83 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a63c4b7554eecffaa1db219ce2d294e96}\label{_auto_sulivan__s_feeder_8cpp_a63c4b7554eecffaa1db219ce2d294e96}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!SPLASH@{SPLASH}}
+\index{SPLASH@{SPLASH}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{SPLASH}{SPLASH}}
+{\footnotesize\ttfamily \#define S\+P\+L\+A\+SH~2.\+0}
+
+
+
+Definition at line 29 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a01a4f3402b6a2c3fa13a1c51137ca5dd}\label{_auto_sulivan__s_feeder_8cpp_a01a4f3402b6a2c3fa13a1c51137ca5dd}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!STEPPER\_DIR@{STEPPER\_DIR}}
+\index{STEPPER\_DIR@{STEPPER\_DIR}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{STEPPER\_DIR}{STEPPER\_DIR}}
+{\footnotesize\ttfamily \#define S\+T\+E\+P\+P\+E\+R\+\_\+\+D\+IR~2}
+
+
+
+Definition at line 82 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_aec8c7cb6f0576e4dfb824545807c9f9c}\label{_auto_sulivan__s_feeder_8cpp_aec8c7cb6f0576e4dfb824545807c9f9c}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!STEPPER\_ENABLE@{STEPPER\_ENABLE}}
+\index{STEPPER\_ENABLE@{STEPPER\_ENABLE}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{STEPPER\_ENABLE}{STEPPER\_ENABLE}}
+{\footnotesize\ttfamily \#define S\+T\+E\+P\+P\+E\+R\+\_\+\+E\+N\+A\+B\+LE~4}
+
+
+
+Definition at line 80 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ae259bc65239c7c98f2046689bd3663ff}\label{_auto_sulivan__s_feeder_8cpp_ae259bc65239c7c98f2046689bd3663ff}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!STEPPER\_STEP@{STEPPER\_STEP}}
+\index{STEPPER\_STEP@{STEPPER\_STEP}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{STEPPER\_STEP}{STEPPER\_STEP}}
+{\footnotesize\ttfamily \#define S\+T\+E\+P\+P\+E\+R\+\_\+\+S\+T\+EP~3}
+
+
+
+Definition at line 81 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a4f14c5f033e423b262a3db955d638d59}\label{_auto_sulivan__s_feeder_8cpp_a4f14c5f033e423b262a3db955d638d59}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!TIEMPO\_BRILLO@{TIEMPO\_BRILLO}}
+\index{TIEMPO\_BRILLO@{TIEMPO\_BRILLO}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{TIEMPO\_BRILLO}{TIEMPO\_BRILLO}}
+{\footnotesize\ttfamily \#define T\+I\+E\+M\+P\+O\+\_\+\+B\+R\+I\+L\+LO~5.\+0}
+
+
+
+Definition at line 30 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ae3649dd952cb2dbd8acae81b9f292cf4}\label{_auto_sulivan__s_feeder_8cpp_ae3649dd952cb2dbd8acae81b9f292cf4}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!TIEMPO\_MENSAJE@{TIEMPO\_MENSAJE}}
+\index{TIEMPO\_MENSAJE@{TIEMPO\_MENSAJE}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{TIEMPO\_MENSAJE}{TIEMPO\_MENSAJE}}
+{\footnotesize\ttfamily \#define T\+I\+E\+M\+P\+O\+\_\+\+M\+E\+N\+S\+A\+JE~3.\+5}
+
+
+
+Definition at line 31 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ab5299c1245edd08e27d2f15705f6e8bb}\label{_auto_sulivan__s_feeder_8cpp_ab5299c1245edd08e27d2f15705f6e8bb}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!VERSION\_DEL\_COMEDERO@{VERSION\_DEL\_COMEDERO}}
+\index{VERSION\_DEL\_COMEDERO@{VERSION\_DEL\_COMEDERO}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{VERSION\_DEL\_COMEDERO}{VERSION\_DEL\_COMEDERO}}
+{\footnotesize\ttfamily \#define V\+E\+R\+S\+I\+O\+N\+\_\+\+D\+E\+L\+\_\+\+C\+O\+M\+E\+D\+E\+RO~\char`\"{}V-\/1.\+6\char`\"{}}
+
+
+
+Definition at line 28 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a48c14bd7127e3acc0ff18f465511a5b1}\label{_auto_sulivan__s_feeder_8cpp_a48c14bd7127e3acc0ff18f465511a5b1}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!VUELTA@{VUELTA}}
+\index{VUELTA@{VUELTA}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{VUELTA}{VUELTA}}
+{\footnotesize\ttfamily \#define V\+U\+E\+L\+TA~true}
+
+
+
+Definition at line 86 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a212db7b7699776a934657711a6a77d9b}\label{_auto_sulivan__s_feeder_8cpp_a212db7b7699776a934657711a6a77d9b}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!bcdToDec@{bcdToDec}}
+\index{bcdToDec@{bcdToDec}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{bcdToDec()}{bcdToDec()}}
+{\footnotesize\ttfamily byte bcd\+To\+Dec (\begin{DoxyParamCaption}\item[{byte}]{val }\end{DoxyParamCaption})}
+
+\mbox{[}Funcion que convierte de binario a decimal\mbox{]} 
+\begin{DoxyParams}{Parameters}
+{\em val} & \mbox{[}Valor binario\mbox{]} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{[}Valor decimal\mbox{]} 
+\end{DoxyReturn}
+
+
+Definition at line 1228 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a8a7211174f18ece5f039a48259d267bb}\label{_auto_sulivan__s_feeder_8cpp_a8a7211174f18ece5f039a48259d267bb}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!BT@{BT}}
+\index{BT@{BT}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{BT()}{BT()}}
+{\footnotesize\ttfamily Software\+Serial BT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a0131056d8a740deff0c55542b95d36c9}{B\+T\+\_\+\+RX}}}]{,  }\item[{\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a05bb1b22e8c9e8392be29bed79050adf}{B\+T\+\_\+\+TX}}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a316968ce55b869d3374c03cd4024bda6}\label{_auto_sulivan__s_feeder_8cpp_a316968ce55b869d3374c03cd4024bda6}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!comparaOpcion@{comparaOpcion}}
+\index{comparaOpcion@{comparaOpcion}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{comparaOpcion()}{comparaOpcion()}}
+{\footnotesize\ttfamily byte compara\+Opcion (\begin{DoxyParamCaption}\item[{char $\ast$}]{entrada,  }\item[{String $\ast$}]{opciones,  }\item[{byte $\ast$}]{longitud,  }\item[{byte}]{cant,  }\item[{byte $\ast$}]{p }\end{DoxyParamCaption})}
+
+\mbox{[}compara\+Opcion description\mbox{]} 
+\begin{DoxyParams}{Parameters}
+{\em entrada} & \mbox{[}Caena de texto a evaluar\mbox{]} \\
+\hline
+{\em opciones} & \mbox{[}Puntero a un array de cadenas para comparar\mbox{]} \\
+\hline
+{\em longitud} & \mbox{[}Puntero a un array con la longitud de cada cadena a comparar\mbox{]} \\
+\hline
+{\em cant} & \mbox{[}Numero de elementos en los arrays de cadenas\mbox{]} \\
+\hline
+{\em p} & \mbox{[}Numero de caracteres desechados \mbox{]} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{[}Posicion en el vector mas uno de la cadena encontrada\mbox{]} \mbox{[}Gira la tolva\mbox{]} 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em vueltas} & \mbox{[}Numero de vueltas que tiene que girar la tolvaº\mbox{]} \\
+\hline
+{\em sentido} & \mbox{[}Sentido horario true y antihorario false\mbox{]} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1082 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ac59ed7944e1f0ba654c069aa701b8566}\label{_auto_sulivan__s_feeder_8cpp_ac59ed7944e1f0ba654c069aa701b8566}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!dar\_de\_comer@{dar\_de\_comer}}
+\index{dar\_de\_comer@{dar\_de\_comer}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{dar\_de\_comer()}{dar\_de\_comer()}}
+{\footnotesize\ttfamily void dar\+\_\+de\+\_\+comer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{[}Ejecuta un ciclo completo de alimentacion con el numero de dosis establecidas\mbox{]} 
+
+Definition at line 991 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a825d19190ddbe72ed1536d48a6a23229}\label{_auto_sulivan__s_feeder_8cpp_a825d19190ddbe72ed1536d48a6a23229}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!decToBcd@{decToBcd}}
+\index{decToBcd@{decToBcd}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{decToBcd()}{decToBcd()}}
+{\footnotesize\ttfamily byte dec\+To\+Bcd (\begin{DoxyParamCaption}\item[{byte}]{val }\end{DoxyParamCaption})}
+
+\mbox{[}Convierte un valor de decimal a binario \mbox{]} 
+\begin{DoxyParams}{Parameters}
+{\em val} & \mbox{[}Valor decimal\mbox{]} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{[}Valor binario\mbox{]} 
+\end{DoxyReturn}
+
+
+Definition at line 1219 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ab2f29739b10ddbedf9da6febe9c75917}\label{_auto_sulivan__s_feeder_8cpp_ab2f29739b10ddbedf9da6febe9c75917}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!displayTime@{displayTime}}
+\index{displayTime@{displayTime}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{displayTime()}{displayTime()}}
+{\footnotesize\ttfamily void display\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{[}Comprueba si la hora debe ser actualizada en la pantalla, y de ser asi la muestra\mbox{]} \mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a3ed03b716fea4ac70e4f0ed2c29ac98d}\label{_auto_sulivan__s_feeder_8cpp_a3ed03b716fea4ac70e4f0ed2c29ac98d}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!encenderLCD@{encenderLCD}}
+\index{encenderLCD@{encenderLCD}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{encenderLCD()}{encenderLCD()}}
+{\footnotesize\ttfamily void encender\+L\+CD (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{[}Cambia el tiempo que la pantalla tiene que permanecer encendida\mbox{]} 
+
+Definition at line 1111 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a7bc8fec1dc1e024c1270c3c798f12ea4}\label{_auto_sulivan__s_feeder_8cpp_a7bc8fec1dc1e024c1270c3c798f12ea4}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!getTemperature@{getTemperature}}
+\index{getTemperature@{getTemperature}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{getTemperature()}{getTemperature()}}
+{\footnotesize\ttfamily float get\+Temperature (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{[}Esta funcion permite leer la temperatura que regista el reloj en su oscilador\mbox{]} \begin{DoxyReturn}{Returns}
+\mbox{[}Tempertaura\mbox{]} 
+\end{DoxyReturn}
+
+
+Definition at line 1235 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a054327f4c913e234a31c45650fef1c1e}\label{_auto_sulivan__s_feeder_8cpp_a054327f4c913e234a31c45650fef1c1e}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!girarTolva@{girarTolva}}
+\index{girarTolva@{girarTolva}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{girarTolva()}{girarTolva()}}
+{\footnotesize\ttfamily void girar\+Tolva (\begin{DoxyParamCaption}\item[{int}]{vueltas,  }\item[{bool}]{sentido }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1248 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a408d60433142799987e0fdd0d1373edd}\label{_auto_sulivan__s_feeder_8cpp_a408d60433142799987e0fdd0d1373edd}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!lcd@{lcd}}
+\index{lcd@{lcd}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{lcd()}{lcd()}}
+{\footnotesize\ttfamily Liquid\+Crystal\+\_\+\+I2C lcd (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ade463bf715040452776242696cac614c}{L\+C\+D16\+X2\+\_\+\+I2\+C\+\_\+\+A\+D\+D\+R\+E\+SS}}}]{,  }\item[{2}]{,  }\item[{1}]{,  }\item[{0}]{,  }\item[{4}]{,  }\item[{5}]{,  }\item[{6}]{,  }\item[{7}]{,  }\item[{3}]{,  }\item[{P\+O\+S\+I\+T\+I\+VE}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_afe461d27b9c48d5921c00d521181f12f}\label{_auto_sulivan__s_feeder_8cpp_afe461d27b9c48d5921c00d521181f12f}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!loop@{loop}}
+\index{loop@{loop}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{loop()}{loop()}}
+{\footnotesize\ttfamily void loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 355 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a16d813ba41b59ac0f32f9cc595639cde}\label{_auto_sulivan__s_feeder_8cpp_a16d813ba41b59ac0f32f9cc595639cde}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!mostrarCadena@{mostrarCadena}}
+\index{mostrarCadena@{mostrarCadena}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{mostrarCadena()}{mostrarCadena()}}
+{\footnotesize\ttfamily void mostrar\+Cadena (\begin{DoxyParamCaption}\item[{const char $\ast$}]{entrada }\end{DoxyParamCaption})}
+
+
+
+Definition at line 1064 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a1d4b9b66b2123ec98a99e53aa69c743d}\label{_auto_sulivan__s_feeder_8cpp_a1d4b9b66b2123ec98a99e53aa69c743d}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!mostrarMensaje@{mostrarMensaje}}
+\index{mostrarMensaje@{mostrarMensaje}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{mostrarMensaje()}{mostrarMensaje()}}
+{\footnotesize\ttfamily void mostrar\+Mensaje (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{[}Cambia el tiempo que un mensaje tiene que aparecer en la pantalla sin cambiar\mbox{]} 
+
+Definition at line 1105 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a2fb4d2d1f9d3145dcbe0c66f7152b48b}\label{_auto_sulivan__s_feeder_8cpp_a2fb4d2d1f9d3145dcbe0c66f7152b48b}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!readDS3231time@{readDS3231time}}
+\index{readDS3231time@{readDS3231time}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{readDS3231time()}{readDS3231time()}}
+{\footnotesize\ttfamily void read\+D\+S3231time (\begin{DoxyParamCaption}\item[{byte $\ast$}]{second,  }\item[{byte $\ast$}]{minute,  }\item[{byte $\ast$}]{hour,  }\item[{byte $\ast$}]{day\+Of\+Week,  }\item[{byte $\ast$}]{day\+Of\+Month,  }\item[{byte $\ast$}]{month,  }\item[{byte $\ast$}]{year }\end{DoxyParamCaption})}
+
+\mbox{[}Lee la hora del reloj de tiempo real\mbox{]} 
+\begin{DoxyParams}{Parameters}
+{\em second} & \mbox{[}Segundo actual\mbox{]} \\
+\hline
+{\em minute} & \mbox{[}Minuto actual\mbox{]} \\
+\hline
+{\em hour} & \mbox{[}Hora actual\mbox{]} \\
+\hline
+{\em day\+Of\+Week} & \mbox{[}Dia de la semana actual. De 1 a 7, siendo 1 el domingo, a pesar de que esta interpretacion es arbitraria\mbox{]} \\
+\hline
+{\em day\+Of\+Month} & \mbox{[}Dia del mes actual\mbox{]} \\
+\hline
+{\em month} & \mbox{[}Mes actual\mbox{]} \\
+\hline
+{\em year} & \mbox{[}Año actual\mbox{]} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1145 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a6ecf3393b3930e31938c08906a2c8862}\label{_auto_sulivan__s_feeder_8cpp_a6ecf3393b3930e31938c08906a2c8862}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!resetearComedero@{resetearComedero}}
+\index{resetearComedero@{resetearComedero}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{resetearComedero()}{resetearComedero()}}
+{\footnotesize\ttfamily void resetear\+Comedero (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{[}Esta funcion permite reiniciar el contador de programa. Equivale a un reset electrico del microcontrolador\mbox{]} 
+
+Definition at line 1118 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a04e328e25f7ec25f880cfa590b0d2cc0}\label{_auto_sulivan__s_feeder_8cpp_a04e328e25f7ec25f880cfa590b0d2cc0}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!setDS3231time@{setDS3231time}}
+\index{setDS3231time@{setDS3231time}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{setDS3231time()}{setDS3231time()}}
+{\footnotesize\ttfamily void set\+D\+S3231time (\begin{DoxyParamCaption}\item[{byte}]{second,  }\item[{byte}]{minute,  }\item[{byte}]{hour,  }\item[{byte}]{day\+Of\+Week,  }\item[{byte}]{day\+Of\+Month,  }\item[{byte}]{month,  }\item[{byte}]{year }\end{DoxyParamCaption})}
+
+\mbox{[}Actualiza la fecha y hora de reloj.\mbox{]} 
+\begin{DoxyParams}{Parameters}
+{\em second} & \mbox{[}Segundo. De 0 a 59\mbox{]} \\
+\hline
+{\em minute} & \mbox{[}Minuto. De 0 a 59\mbox{]} \\
+\hline
+{\em hour} & \mbox{[}Hora en formato 24 horas\mbox{]} \\
+\hline
+{\em day\+Of\+Week} & \mbox{[}dia de la semana de 1 a 7, siendo 1 el domingo, a pesar de que esta interpretacion es arbitraria\mbox{]} \\
+\hline
+{\em day\+Of\+Month} & \mbox{[}Dia del mes. De 1 a 31 en los meses que sea posible\mbox{]} \\
+\hline
+{\em month} & \mbox{[}Mes del año. De 1 a 12\mbox{]} \\
+\hline
+{\em year} & \mbox{[}Año. De 0 a 99 siendo este el numero que se suma al año 2000\mbox{]} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1125 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a4fc01d736fe50cf5b977f755b675f11d}\label{_auto_sulivan__s_feeder_8cpp_a4fc01d736fe50cf5b977f755b675f11d}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!setup@{setup}}
+\index{setup@{setup}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily void setup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 272 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_aa4f2d90cb9e92b73886b25521c5ee3f4}\label{_auto_sulivan__s_feeder_8cpp_aa4f2d90cb9e92b73886b25521c5ee3f4}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!A\_dayOfMonth@{A\_dayOfMonth}}
+\index{A\_dayOfMonth@{A\_dayOfMonth}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{A\_dayOfMonth}{A\_dayOfMonth}}
+{\footnotesize\ttfamily byte A\+\_\+day\+Of\+Month}
+
+
+
+Definition at line 189 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ad6fdbbc23e6b4df573a54c84dfc72242}\label{_auto_sulivan__s_feeder_8cpp_ad6fdbbc23e6b4df573a54c84dfc72242}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!A\_dosis@{A\_dosis}}
+\index{A\_dosis@{A\_dosis}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{A\_dosis}{A\_dosis}}
+{\footnotesize\ttfamily byte A\+\_\+dosis}
+
+
+
+Definition at line 190 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_abf9d73c886b86e9b646f734bc57af461}\label{_auto_sulivan__s_feeder_8cpp_abf9d73c886b86e9b646f734bc57af461}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!A\_gram@{A\_gram}}
+\index{A\_gram@{A\_gram}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{A\_gram}{A\_gram}}
+{\footnotesize\ttfamily byte A\+\_\+gram}
+
+
+
+Definition at line 190 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_af93f056547fa06bd6cec1c2fd818c01f}\label{_auto_sulivan__s_feeder_8cpp_af93f056547fa06bd6cec1c2fd818c01f}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!A\_hour@{A\_hour}}
+\index{A\_hour@{A\_hour}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{A\_hour}{A\_hour}}
+{\footnotesize\ttfamily byte A\+\_\+hour}
+
+
+
+Definition at line 189 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a0e9d7bae6f37e661a4125a0ca97b5b4e}\label{_auto_sulivan__s_feeder_8cpp_a0e9d7bae6f37e661a4125a0ca97b5b4e}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!A\_minute@{A\_minute}}
+\index{A\_minute@{A\_minute}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{A\_minute}{A\_minute}}
+{\footnotesize\ttfamily byte A\+\_\+minute}
+
+
+
+Definition at line 189 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a87db9d28f82eb89ab9bc6d78392a9c3d}\label{_auto_sulivan__s_feeder_8cpp_a87db9d28f82eb89ab9bc6d78392a9c3d}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!A\_month@{A\_month}}
+\index{A\_month@{A\_month}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{A\_month}{A\_month}}
+{\footnotesize\ttfamily byte A\+\_\+month}
+
+
+
+Definition at line 189 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a994b9c644dd93946ff001346f3c231ff}\label{_auto_sulivan__s_feeder_8cpp_a994b9c644dd93946ff001346f3c231ff}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!A\_second@{A\_second}}
+\index{A\_second@{A\_second}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{A\_second}{A\_second}}
+{\footnotesize\ttfamily byte A\+\_\+second}
+
+
+
+Definition at line 189 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a1510ec73c5ffbbe2c923ba8d99f74757}\label{_auto_sulivan__s_feeder_8cpp_a1510ec73c5ffbbe2c923ba8d99f74757}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!A\_temperatura@{A\_temperatura}}
+\index{A\_temperatura@{A\_temperatura}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{A\_temperatura}{A\_temperatura}}
+{\footnotesize\ttfamily float A\+\_\+temperatura}
+
+
+
+Definition at line 191 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_adf6ae721a0e194372e6f2a4b8f34034d}\label{_auto_sulivan__s_feeder_8cpp_adf6ae721a0e194372e6f2a4b8f34034d}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!A\_year@{A\_year}}
+\index{A\_year@{A\_year}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{A\_year}{A\_year}}
+{\footnotesize\ttfamily byte A\+\_\+year}
+
+
+
+Definition at line 189 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_af8caf97809d3bc07076def61043f186e}\label{_auto_sulivan__s_feeder_8cpp_af8caf97809d3bc07076def61043f186e}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!bienvenida@{bienvenida}}
+\index{bienvenida@{bienvenida}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{bienvenida}{bienvenida}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char bienvenida\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Alvaro Torijano Garcia\textbackslash{}n-\/-\/-\/Consola de depuracion del comedero-\/-\/-\/\char`\"{}\}}
+
+
+
+Definition at line 214 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a6e5d409256a2dd1d60ff4180dc177bfb}\label{_auto_sulivan__s_feeder_8cpp_a6e5d409256a2dd1d60ff4180dc177bfb}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!c\_dosis@{c\_dosis}}
+\index{c\_dosis@{c\_dosis}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{c\_dosis}{c\_dosis}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char c\+\_\+dosis\mbox{[}$\,$\mbox{]} = \{\char`\"{} dosis\char`\"{}\}}
+
+
+
+Definition at line 229 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a49007334dd48dfbeaf0a0e49204b6eef}\label{_auto_sulivan__s_feeder_8cpp_a49007334dd48dfbeaf0a0e49204b6eef}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!cad\_gramos@{cad\_gramos}}
+\index{cad\_gramos@{cad\_gramos}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{cad\_gramos}{cad\_gramos}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char cad\+\_\+gramos\mbox{[}$\,$\mbox{]} = \{\char`\"{} Gramos\char`\"{}\}}
+
+
+
+Definition at line 233 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ac35fffff17564803b1cd66089fe95c55}\label{_auto_sulivan__s_feeder_8cpp_ac35fffff17564803b1cd66089fe95c55}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!cad\_separador@{cad\_separador}}
+\index{cad\_separador@{cad\_separador}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{cad\_separador}{cad\_separador}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char cad\+\_\+separador\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\textbackslash{}n\char`\"{}\}}
+
+
+
+Definition at line 199 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a116866c9b2ce2476c57f00d2f1b399fd}\label{_auto_sulivan__s_feeder_8cpp_a116866c9b2ce2476c57f00d2f1b399fd}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!cantidad\_invalida@{cantidad\_invalida}}
+\index{cantidad\_invalida@{cantidad\_invalida}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{cantidad\_invalida}{cantidad\_invalida}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char cantidad\+\_\+invalida\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+No es una cantidad valida\char`\"{}\}}
+
+
+
+Definition at line 227 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ac5eb9b23d6c8afd904c45d8008aa0350}\label{_auto_sulivan__s_feeder_8cpp_ac5eb9b23d6c8afd904c45d8008aa0350}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!comando\_invalido@{comando\_invalido}}
+\index{comando\_invalido@{comando\_invalido}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{comando\_invalido}{comando\_invalido}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char comando\+\_\+invalido\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+No se ha detectado un comando valido\char`\"{}\}}
+
+
+
+Definition at line 216 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a05fa6aa57b34d7042ba94c95fc07df8a}\label{_auto_sulivan__s_feeder_8cpp_a05fa6aa57b34d7042ba94c95fc07df8a}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!dayOfMonth@{dayOfMonth}}
+\index{dayOfMonth@{dayOfMonth}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{dayOfMonth}{dayOfMonth}}
+{\footnotesize\ttfamily byte day\+Of\+Month}
+
+
+
+Definition at line 188 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a9cc87213662e3dc39f167b557840a338}\label{_auto_sulivan__s_feeder_8cpp_a9cc87213662e3dc39f167b557840a338}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!dayOfWeek@{dayOfWeek}}
+\index{dayOfWeek@{dayOfWeek}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{dayOfWeek}{dayOfWeek}}
+{\footnotesize\ttfamily byte day\+Of\+Week}
+
+
+
+Definition at line 188 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a1f1c8cfcbc6b37bb96da0d4d62fbb72c}\label{_auto_sulivan__s_feeder_8cpp_a1f1c8cfcbc6b37bb96da0d4d62fbb72c}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!demasiado\_peso@{demasiado\_peso}}
+\index{demasiado\_peso@{demasiado\_peso}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{demasiado\_peso}{demasiado\_peso}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char demasiado\+\_\+peso\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Eso es demasiado peso para un gato\char`\"{}\}}
+
+
+
+Definition at line 224 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a7bafc6f6316603a016d99239a6f1ef00}\label{_auto_sulivan__s_feeder_8cpp_a7bafc6f6316603a016d99239a6f1ef00}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!dosis\_invalida@{dosis\_invalida}}
+\index{dosis\_invalida@{dosis\_invalida}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{dosis\_invalida}{dosis\_invalida}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char dosis\+\_\+invalida\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+No es una dosis valida\char`\"{}\}}
+
+
+
+Definition at line 222 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ab68db3f2ca88a30aaa932daedb2a783f}\label{_auto_sulivan__s_feeder_8cpp_ab68db3f2ca88a30aaa932daedb2a783f}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!fech\_o\_invalid@{fech\_o\_invalid}}
+\index{fech\_o\_invalid@{fech\_o\_invalid}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{fech\_o\_invalid}{fech\_o\_invalid}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char fech\+\_\+o\+\_\+invalid\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Formato de hora o fecha incorrecto\char`\"{}\}}
+
+
+
+Definition at line 225 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a8a0db98ce820c93f3cc1c18a027cc2b9}\label{_auto_sulivan__s_feeder_8cpp_a8a0db98ce820c93f3cc1c18a027cc2b9}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!flag\_luz@{flag\_luz}}
+\index{flag\_luz@{flag\_luz}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{flag\_luz}{flag\_luz}}
+{\footnotesize\ttfamily bool flag\+\_\+luz = true}
+
+
+
+Definition at line 195 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ab31d893ba89a7c406a669544ebcfe1de}\label{_auto_sulivan__s_feeder_8cpp_ab31d893ba89a7c406a669544ebcfe1de}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!grados@{grados}}
+\index{grados@{grados}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{grados}{grados}}
+{\footnotesize\ttfamily byte grados\mbox{[}8\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    B00110, }
+\DoxyCodeLine{    B01001,                           }
+\DoxyCodeLine{    B01001,                           }
+\DoxyCodeLine{    B00110,}
+\DoxyCodeLine{    B00000,}
+\DoxyCodeLine{    B00000,}
+\DoxyCodeLine{    B00000,}
+\DoxyCodeLine{    B00000,}
+\DoxyCodeLine{}
+\DoxyCodeLine{    }
+\DoxyCodeLine{}
+\DoxyCodeLine{    }
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+Definition at line 237 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a324d233f6b79215d6b3e519d110cc51f}\label{_auto_sulivan__s_feeder_8cpp_a324d233f6b79215d6b3e519d110cc51f}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!gramos\_dosis@{gramos\_dosis}}
+\index{gramos\_dosis@{gramos\_dosis}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{gramos\_dosis}{gramos\_dosis}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char gramos\+\_\+dosis\mbox{[}$\,$\mbox{]} = \{\char`\"{} gramos por dosis\char`\"{}\}}
+
+
+
+Definition at line 230 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a939439d3e673c2e3400c4d981478fd78}\label{_auto_sulivan__s_feeder_8cpp_a939439d3e673c2e3400c4d981478fd78}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!hora\_comida@{hora\_comida}}
+\index{hora\_comida@{hora\_comida}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{hora\_comida}{hora\_comida}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char hora\+\_\+comida\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+La nueva hora de la comida son las\+:\char`\"{}\}}
+
+
+
+Definition at line 221 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_aa10b918435bb3322eb3b840acf8b9b0b}\label{_auto_sulivan__s_feeder_8cpp_aa10b918435bb3322eb3b840acf8b9b0b}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!hora\_invalido@{hora\_invalido}}
+\index{hora\_invalido@{hora\_invalido}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{hora\_invalido}{hora\_invalido}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char hora\+\_\+invalido\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Formato de hora I\+N\+V\+A\+L\+I\+DO\char`\"{}\}}
+
+
+
+Definition at line 220 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_aafa4b28cd4cce6ab8fbe430b55b647ad}\label{_auto_sulivan__s_feeder_8cpp_aafa4b28cd4cce6ab8fbe430b55b647ad}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!hour@{hour}}
+\index{hour@{hour}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{hour}{hour}}
+{\footnotesize\ttfamily byte hour}
+
+
+
+Definition at line 188 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_af080cae5a628bbed48ff46a68d1e5267}\label{_auto_sulivan__s_feeder_8cpp_af080cae5a628bbed48ff46a68d1e5267}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!iluminacion@{iluminacion}}
+\index{iluminacion@{iluminacion}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{iluminacion}{iluminacion}}
+{\footnotesize\ttfamily unsigned long iluminacion = millis()}
+
+
+
+Definition at line 193 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a99ecc9e176ecf0ea2828db07eee5fe54}\label{_auto_sulivan__s_feeder_8cpp_a99ecc9e176ecf0ea2828db07eee5fe54}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!l\_auto@{l\_auto}}
+\index{l\_auto@{l\_auto}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{l\_auto}{l\_auto}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char l\+\_\+auto\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Luz Autogestionada\char`\"{}\}}
+
+
+
+Definition at line 217 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_aef9e9842860f6a20b288259b60ebc82a}\label{_auto_sulivan__s_feeder_8cpp_aef9e9842860f6a20b288259b60ebc82a}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!l\_fija@{l\_fija}}
+\index{l\_fija@{l\_fija}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{l\_fija}{l\_fija}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char l\+\_\+fija\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Luz fijada en encendido\char`\"{}\}}
+
+
+
+Definition at line 218 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a4bc9a1f83a3cb3f494aa9e072ce5e950}\label{_auto_sulivan__s_feeder_8cpp_a4bc9a1f83a3cb3f494aa9e072ce5e950}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_comida@{man\_comida}}
+\index{man\_comida@{man\_comida}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_comida}{man\_comida}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+comida\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Define la hora a la que se suminsitra la\textbackslash{}ncomida al gato.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}tcomida hh\+:mm\textbackslash{}n\textbackslash{}nhh = hora en formato 24h y dos cifras.\textbackslash{}nmm = minuto en formato de dos cifras.\textbackslash{}n\+P.\+ej.\+: comida 14\+:05\char`\"{}\}}
+
+
+
+Definition at line 202 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a696f8f8f60d62e1934503f359d528792}\label{_auto_sulivan__s_feeder_8cpp_a696f8f8f60d62e1934503f359d528792}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_dosis@{man\_dosis}}
+\index{man\_dosis@{man\_dosis}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_dosis}{man\_dosis}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+dosis\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Dosis\+: permite establecer manualmente el\textbackslash{}n\textbackslash{}tnumero de dosis que se suministraran\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Dosis xx\textbackslash{}n\textbackslash{}t\+P.\+ej.\+:\+Dosis 5\textbackslash{}n\textbackslash{}t-\/Valores aceptados\+: 0 -\/ 50\char`\"{}\}}
+
+
+
+Definition at line 205 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_aa64480b4d1f6e678fdb372d9fe26e446}\label{_auto_sulivan__s_feeder_8cpp_aa64480b4d1f6e678fdb372d9fe26e446}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_gramos@{man\_gramos}}
+\index{man\_gramos@{man\_gramos}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_gramos}{man\_gramos}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+gramos\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Gramos\+: especifica el numero de gramos\textbackslash{}n\textbackslash{}tque suministra el comedero con cada\textbackslash{}n\textbackslash{}tdosis en su actual configuracion.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}tgramos xxx\textbackslash{}n\textbackslash{}t\+P.\+ej.\+: Gramos 15\textbackslash{}n\textbackslash{}t-\/Valores aceptados\+: 10 -\/ 250\char`\"{}\}}
+
+
+
+Definition at line 206 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a580034070c45f9f50b51b6d1eb1c398a}\label{_auto_sulivan__s_feeder_8cpp_a580034070c45f9f50b51b6d1eb1c398a}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_historico@{man\_historico}}
+\index{man\_historico@{man\_historico}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_historico}{man\_historico}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+historico\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Historico\+: mustra el registro de las\textbackslash{}n\textbackslash{}tveces que se le ha dado de comer al gato\textbackslash{}n\textbackslash{}tasi como permite borrar dichos registros\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Historico (Borrar)\textbackslash{}n\textbackslash{}t\+Si se utiliza sin argumento muestra los\textbackslash{}n\textbackslash{}tregistros\textbackslash{}n\textbackslash{}t\+Si se utiliza seguido de la palabra \textbackslash{}n\textbackslash{}t \textbackslash{}\char`\"{}borrar\textbackslash{}\char`\"{} borrara los registros\textbackslash{}n\textbackslash{}t\+P.\+ej.\+: Historico Borrar\char`\"{}\}}
+
+
+
+Definition at line 213 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_adb3f53b434752d16424336e14c1a719b}\label{_auto_sulivan__s_feeder_8cpp_adb3f53b434752d16424336e14c1a719b}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_hora@{man\_hora}}
+\index{man\_hora@{man\_hora}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_hora}{man\_hora}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+hora\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Hora\+: ajusta la hora y fecha \textbackslash{}n\textbackslash{}tdel reloj.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}thora hh\+:mm\+:ss dd\+:mm\+:aaaa w\textbackslash{}n\textbackslash{}n\textbackslash{}thh\+: hora en formato 24h y dos cifras.\textbackslash{}n\textbackslash{}tmm\+: minutos en formato de dos cifras.\textbackslash{}n\textbackslash{}tss\+: segundos en formato de dos cifras.\textbackslash{}n\textbackslash{}tdd\+: dias en formato de dos cifras.\textbackslash{}n\textbackslash{}tmm\+: mes en formato de dos cifras.\textbackslash{}n\textbackslash{}taa\+: a\char`\"{}\}}
+
+
+
+Definition at line 203 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ad4865e7935437671680dec89bdd52044}\label{_auto_sulivan__s_feeder_8cpp_ad4865e7935437671680dec89bdd52044}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_hora2@{man\_hora2}}
+\index{man\_hora2@{man\_hora2}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_hora2}{man\_hora2}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+hora2\mbox{[}$\,$\mbox{]} = \{\char`\"{}o en formato de dos cifras.\textbackslash{}n\textbackslash{}tw\+: dia de la semana. 1-\/7\textbackslash{}n\textbackslash{}n\+P.\+ej.\+: hora 14\+:30\+:00 01/04/2016 5\char`\"{}\}}
+
+
+
+Definition at line 204 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a8df556381977b2d2bc77af0e2eafd372}\label{_auto_sulivan__s_feeder_8cpp_a8df556381977b2d2bc77af0e2eafd372}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_luz@{man\_luz}}
+\index{man\_luz@{man\_luz}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_luz}{man\_luz}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+luz\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Luz\+: permite mantener la luz encendida\textbackslash{}n\textbackslash{}t\+Cambia entre el modo autogestionado de\textbackslash{}n\textbackslash{}tla luz o la mantiene encendida.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Luz\textbackslash{}n\textbackslash{}t\+No necesita argumentos\char`\"{}\}}
+
+
+
+Definition at line 209 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a8a7c3f35310b16d4ae8c9ef2909bf46b}\label{_auto_sulivan__s_feeder_8cpp_a8a7c3f35310b16d4ae8c9ef2909bf46b}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_man@{man\_man}}
+\index{man\_man@{man\_man}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_man}{man\_man}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+man\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Man\+: muestra el \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_ac659d53ff5a677d60a47737e692418e0}{manual}} del comedero asi \textbackslash{}n\textbackslash{}tcomo de los comandos disponibles.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}tman \mbox{[}comando\mbox{]}\textbackslash{}n\textbackslash{}tvacio muestra los comandos aceptados.\textbackslash{}n\textbackslash{}t\+Seguido de un comando muestra la\textbackslash{}n\textbackslash{}tdescripcion y uso de ese comando.\textbackslash{}n\textbackslash{}t\+P.\+ej.\+: Man Peso\char`\"{}\}}
+
+
+
+Definition at line 212 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a33bd9382069850e920ff184c078d7b22}\label{_auto_sulivan__s_feeder_8cpp_a33bd9382069850e920ff184c078d7b22}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_peso@{man\_peso}}
+\index{man\_peso@{man\_peso}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_peso}{man\_peso}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+peso\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Peso\+: permite especificar el peso en\textbackslash{}n\textbackslash{}tgramos del gato, de tal forma que el\textbackslash{}n\textbackslash{}tcomedero pueda calcular el numero de \textbackslash{}n\textbackslash{}tdosis que hay quesuministrar para que \textbackslash{}n\textbackslash{}tel gato coma.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Peso xxxxx\textbackslash{}n\textbackslash{}t-\/Valores aceptados\+: 001 -\/ 15000\textbackslash{}n\textbackslash{}t-\/Por debajo de 1000gr se considera que\textbackslash{}n\textbackslash{}tel gato pesa un kilo y por encima de \textbackslash{}n\textbackslash{}t15000gr que el animal sufre sobrepeso.\textbackslash{}n\textbackslash{}t\+P.\+ej.\+: Gramos 10600\char`\"{}\}}
+
+
+
+Definition at line 207 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_acaf8c22f8bc855de2ab2c1dd53ad5555}\label{_auto_sulivan__s_feeder_8cpp_acaf8c22f8bc855de2ab2c1dd53ad5555}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_reset@{man\_reset}}
+\index{man\_reset@{man\_reset}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_reset}{man\_reset}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+reset\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Reset\+: permite reiniciar el comedero\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Reset\textbackslash{}n\textbackslash{}t\+No necesita argumentos\char`\"{}\}}
+
+
+
+Definition at line 208 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a6c1f00bdd7d90b4b68a717d7b4e8d0b3}\label{_auto_sulivan__s_feeder_8cpp_a6c1f00bdd7d90b4b68a717d7b4e8d0b3}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_test@{man\_test}}
+\index{man\_test@{man\_test}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_test}{man\_test}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+test\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Test\+: funcion implementada con el fin de\textbackslash{}n\textbackslash{}tprobar el correcto funcionamiento.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t\+Test \mbox{[}$\,$\mbox{]}\textbackslash{}n\textbackslash{}t\+Vuelta\+: Hace girar la tolva una vez.\textbackslash{}n\textbackslash{}t\+Contravuelta\+: Gira la tolva en \mbox{\hyperlink{_auto_sulivan__s_feeder_8cpp_a32bef1ddaef7b7b80dd04a11d3b5ff62}{sentido}} \textbackslash{}n\textbackslash{}t\textbackslash{}t contrario.\textbackslash{}n\textbackslash{}t$<$Vacio$>$\+: Suministra una comida completa\textbackslash{}n\textbackslash{}n\+Ejemplo\+:\textbackslash{}n\+Test Contravuelta\char`\"{}\}}
+
+
+
+Definition at line 210 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a2dd5e444402108d53b4d79fd084bce1a}\label{_auto_sulivan__s_feeder_8cpp_a2dd5e444402108d53b4d79fd084bce1a}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_ultimo@{man\_ultimo}}
+\index{man\_ultimo@{man\_ultimo}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_ultimo}{man\_ultimo}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+ultimo\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\textbackslash{}n\textbackslash{}t\+Ultimo\+: muestra la fecha, la hora y la\textbackslash{}ntemperatura a la que se le dio de comer\textbackslash{}npor ultima vez al gato\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}t No necesita argumentos.\char`\"{}\}}
+
+
+
+Definition at line 201 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ac4761198fd6c8f54dccda0c97a81aade}\label{_auto_sulivan__s_feeder_8cpp_ac4761198fd6c8f54dccda0c97a81aade}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!man\_velocidad@{man\_velocidad}}
+\index{man\_velocidad@{man\_velocidad}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{man\_velocidad}{man\_velocidad}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char man\+\_\+velocidad\mbox{[}$\,$\mbox{]} = \{\char`\"{}N\+O\+M\+B\+R\+E\+:\textbackslash{}n\textbackslash{}t\+Velocidad\+: permite definir la velocidad\textbackslash{}n\textbackslash{}ta la que girara la tolva, pues hay que\textbackslash{}n\textbackslash{}ttener en cuenta que puesto que la comida\textbackslash{}n\textbackslash{}testa formada por granos, la velocidad\textbackslash{}n\textbackslash{}tinfluira en la cantidad de comida que se\textbackslash{}n\textbackslash{}tsuministre, de tal forma que cuanto\textbackslash{}n\textbackslash{}tmayor sea la velodad menos comida caera.\textbackslash{}n\textbackslash{}t\+Se recomienda hacer varias mediciones.\textbackslash{}n\textbackslash{}n\+Sinopsis\+:\textbackslash{}n\textbackslash{}tvelocidad xxx\%\%\textbackslash{}n\textbackslash{}txxx = porcentaje de velocidad\textbackslash{}n\textbackslash{}t\+Valores aceptados 1 -\/ 100.\textbackslash{}n\textbackslash{}t\+El simbolo \%\% es opcional.\textbackslash{}n\textbackslash{}t\+P.\+ej.\+: Velocidad 60\%\%\char`\"{}\}}
+
+
+
+Definition at line 211 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ac659d53ff5a677d60a47737e692418e0}\label{_auto_sulivan__s_feeder_8cpp_ac659d53ff5a677d60a47737e692418e0}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!manual@{manual}}
+\index{manual@{manual}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{manual}{manual}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char manual\mbox{[}$\,$\mbox{]} = \{\char`\"{}Este es el manual del comedero.\textbackslash{}n-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\textbackslash{}n\+Responde a los siguientes comandos\+:\textbackslash{}n\+Ultimo\textbackslash{}n\+Comida\textbackslash{}n\+Hora\textbackslash{}n\+Dosis\textbackslash{}n\+Gramos\textbackslash{}n\+Peso\textbackslash{}n\+Reset\textbackslash{}n\+Luz\textbackslash{}n\+Test\textbackslash{}n\+Velocidad\textbackslash{}n\+Historico\textbackslash{}n\+Man\textbackslash{}n\textbackslash{}n\+Para mostrar el uso de los comandos\textbackslash{}nescribir\+: Man \mbox{[}comando\mbox{]}. P.\+Ej.\+: Man Luz\textbackslash{}n$\ast$$\ast$No distingue mayusculas.\char`\"{}\}}
+
+
+
+Definition at line 200 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_ac46587d6521ae8c4e1bc83bad689a02f}\label{_auto_sulivan__s_feeder_8cpp_ac46587d6521ae8c4e1bc83bad689a02f}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!mensaje@{mensaje}}
+\index{mensaje@{mensaje}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{mensaje}{mensaje}}
+{\footnotesize\ttfamily unsigned long mensaje = millis()}
+
+
+
+Definition at line 194 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a0f100646613882af0415f3d97bd67875}\label{_auto_sulivan__s_feeder_8cpp_a0f100646613882af0415f3d97bd67875}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!minute@{minute}}
+\index{minute@{minute}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{minute}{minute}}
+{\footnotesize\ttfamily byte minute}
+
+
+
+Definition at line 188 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a25f1ca83c8d3073e5bc60a5c2948d17f}\label{_auto_sulivan__s_feeder_8cpp_a25f1ca83c8d3073e5bc60a5c2948d17f}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!month@{month}}
+\index{month@{month}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{month}{month}}
+{\footnotesize\ttfamily byte month}
+
+
+
+Definition at line 188 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_af3ffd939096b745ef46cf7f344bbfec7}\label{_auto_sulivan__s_feeder_8cpp_af3ffd939096b745ef46cf7f344bbfec7}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!nombre@{nombre}}
+\index{nombre@{nombre}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{nombre}{nombre}}
+{\footnotesize\ttfamily char nombre\mbox{[}32\mbox{]} = \char`\"{}Sulivan\char`\"{}}
+
+
+
+Definition at line 187 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a5b0e3884a5d61a820d845e09d20d53cc}\label{_auto_sulivan__s_feeder_8cpp_a5b0e3884a5d61a820d845e09d20d53cc}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!p\_invalido@{p\_invalido}}
+\index{p\_invalido@{p\_invalido}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{p\_invalido}{p\_invalido}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char p\+\_\+invalido\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+No es un peso valido\char`\"{}\}}
+
+
+
+Definition at line 231 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a102f0d42d0526033ed51ad0b97505ac7}\label{_auto_sulivan__s_feeder_8cpp_a102f0d42d0526033ed51ad0b97505ac7}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!reloj\_actualizado@{reloj\_actualizado}}
+\index{reloj\_actualizado@{reloj\_actualizado}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{reloj\_actualizado}{reloj\_actualizado}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char reloj\+\_\+actualizado\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Se ha actualizado el reloj con los siguientes datos\+:\textbackslash{}n\char`\"{}\}}
+
+
+
+Definition at line 223 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_acc5981d82de7844fc133c4ef3e92f6d8}\label{_auto_sulivan__s_feeder_8cpp_acc5981d82de7844fc133c4ef3e92f6d8}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!S\_dosis@{S\_dosis}}
+\index{S\_dosis@{S\_dosis}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{S\_dosis}{S\_dosis}}
+{\footnotesize\ttfamily byte S\+\_\+dosis}
+
+
+
+Definition at line 190 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_afe8500985500e254ee0bbf60e8eb3f2a}\label{_auto_sulivan__s_feeder_8cpp_afe8500985500e254ee0bbf60e8eb3f2a}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!S\_gram@{S\_gram}}
+\index{S\_gram@{S\_gram}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{S\_gram}{S\_gram}}
+{\footnotesize\ttfamily byte S\+\_\+gram}
+
+
+
+Definition at line 190 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a11cd5c8f420409609ea94303da512132}\label{_auto_sulivan__s_feeder_8cpp_a11cd5c8f420409609ea94303da512132}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!S\_hora@{S\_hora}}
+\index{S\_hora@{S\_hora}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{S\_hora}{S\_hora}}
+{\footnotesize\ttfamily byte S\+\_\+hora}
+
+
+
+Definition at line 190 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_afa2c6802d954a427780a75fcad655782}\label{_auto_sulivan__s_feeder_8cpp_afa2c6802d954a427780a75fcad655782}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!S\_minuto@{S\_minuto}}
+\index{S\_minuto@{S\_minuto}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{S\_minuto}{S\_minuto}}
+{\footnotesize\ttfamily byte S\+\_\+minuto}
+
+
+
+Definition at line 190 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a973aed7c277476f24cc816a7150a2593}\label{_auto_sulivan__s_feeder_8cpp_a973aed7c277476f24cc816a7150a2593}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!sec\_anterior@{sec\_anterior}}
+\index{sec\_anterior@{sec\_anterior}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{sec\_anterior}{sec\_anterior}}
+{\footnotesize\ttfamily byte sec\+\_\+anterior = 0}
+
+
+
+Definition at line 192 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a032c585ab20a496193adf397ee216e5b}\label{_auto_sulivan__s_feeder_8cpp_a032c585ab20a496193adf397ee216e5b}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!second@{second}}
+\index{second@{second}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{second}{second}}
+{\footnotesize\ttfamily byte second}
+
+
+
+Definition at line 188 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a32bef1ddaef7b7b80dd04a11d3b5ff62}\label{_auto_sulivan__s_feeder_8cpp_a32bef1ddaef7b7b80dd04a11d3b5ff62}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!sentido@{sentido}}
+\index{sentido@{sentido}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{sentido}{sentido}}
+{\footnotesize\ttfamily byte bool sentido}
+
+
+
+Definition at line 178 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_af96fc17c454a0dd8f041e367212c2920}\label{_auto_sulivan__s_feeder_8cpp_af96fc17c454a0dd8f041e367212c2920}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!sobrepeso@{sobrepeso}}
+\index{sobrepeso@{sobrepeso}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{sobrepeso}{sobrepeso}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char sobrepeso\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Este gato sufre sobrepeso, no se dispensara ninguna cantidad.\textbackslash{}n\+Por favor visita a un veterinario\char`\"{}\}}
+
+
+
+Definition at line 215 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a20f2be80280781672b24efae6d903f26}\label{_auto_sulivan__s_feeder_8cpp_a20f2be80280781672b24efae6d903f26}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!suministran@{suministran}}
+\index{suministran@{suministran}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{suministran}{suministran}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char suministran\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Se suministran\+: \char`\"{}\}}
+
+
+
+Definition at line 228 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a3aabf53f7e66970da4e5315f59414b7d}\label{_auto_sulivan__s_feeder_8cpp_a3aabf53f7e66970da4e5315f59414b7d}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!suministraran@{suministraran}}
+\index{suministraran@{suministraran}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{suministraran}{suministraran}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char suministraran\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Se suministraran\+: \char`\"{}\}}
+
+
+
+Definition at line 226 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a4378a55de6337b24febfc8742a2f14c5}\label{_auto_sulivan__s_feeder_8cpp_a4378a55de6337b24febfc8742a2f14c5}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!suministraron@{suministraron}}
+\index{suministraron@{suministraron}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{suministraron}{suministraron}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char suministraron\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Se suministraron\+: \char`\"{}\}}
+
+
+
+Definition at line 232 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_a9883b3eed519fc0112c7411cf9200a2d}\label{_auto_sulivan__s_feeder_8cpp_a9883b3eed519fc0112c7411cf9200a2d}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!ultima\_alimentacion@{ultima\_alimentacion}}
+\index{ultima\_alimentacion@{ultima\_alimentacion}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{ultima\_alimentacion}{ultima\_alimentacion}}
+{\footnotesize\ttfamily const P\+R\+O\+G\+M\+EM char ultima\+\_\+alimentacion\mbox{[}$\,$\mbox{]} = \{\char`\"{}\textbackslash{}n\+Ultima fecha de alimentacion autonoma\char`\"{}\}}
+
+
+
+Definition at line 219 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+
+\mbox{\Hypertarget{_auto_sulivan__s_feeder_8cpp_abe98644d07dbf2cceb2e6b46c029612e}\label{_auto_sulivan__s_feeder_8cpp_abe98644d07dbf2cceb2e6b46c029612e}} 
+\index{AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}!year@{year}}
+\index{year@{year}!AutoSulivan\_sFeeder.cpp@{AutoSulivan\_sFeeder.cpp}}
+\doxysubsubsection{\texorpdfstring{year}{year}}
+{\footnotesize\ttfamily byte year}
+
+
+
+Definition at line 188 of file Auto\+Sulivan\+\_\+s\+Feeder.\+cpp.
+

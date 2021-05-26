@@ -1,0 +1,933 @@
+.TH "C:/Users/The_menda14/Desktop/Nueva carpeta/AutoSulivan_sFeeder.cpp" 3 "Wed Sep 9 2020" "Autosulivan's Feeder Firmware" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+C:/Users/The_menda14/Desktop/Nueva carpeta/AutoSulivan_sFeeder.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <SoftwareSerial\&.h>\fP
+.br
+\fC#include <EEPROM\&.h>\fP
+.br
+\fC#include <Wire\&.h>\fP
+.br
+\fC#include <LCD\&.h>\fP
+.br
+\fC#include <LiquidCrystal_I2C\&.h>\fP
+.br
+\fC#include <avr/pgmspace\&.h>\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBVERSION_DEL_COMEDERO\fP   'V\-1\&.6'"
+.br
+.ti -1c
+.RI "#define \fBSPLASH\fP   2\&.0"
+.br
+.ti -1c
+.RI "#define \fBTIEMPO_BRILLO\fP   5\&.0"
+.br
+.ti -1c
+.RI "#define \fBTIEMPO_MENSAJE\fP   3\&.5"
+.br
+.ti -1c
+.RI "#define \fBMILLIS_DIARIOS\fP   86400000"
+.br
+.ti -1c
+.RI "#define \fBespera\fP   5"
+.br
+.ti -1c
+.RI "#define \fBADDR_A_SECOND\fP   0x00"
+.br
+.ti -1c
+.RI "#define \fBADDR_A_MINUTE\fP   0x01"
+.br
+.ti -1c
+.RI "#define \fBADDR_A_HOUR\fP   0x02"
+.br
+.ti -1c
+.RI "#define \fBADDR_A_dayOfMonth\fP   0x03"
+.br
+.ti -1c
+.RI "#define \fBADDR_A_MONTH\fP   0x04"
+.br
+.ti -1c
+.RI "#define \fBADDR_A_YEAR\fP   0x05"
+.br
+.ti -1c
+.RI "#define \fBADDR_A_TEMP\fP   0x06"
+.br
+.ti -1c
+.RI "#define \fBADDR_A_TEMP_DEC\fP   0x07"
+.br
+.ti -1c
+.RI "#define \fBADDR_S_HORA\fP   0x08"
+.br
+.ti -1c
+.RI "#define \fBADDR_S_MINUT\fP   0x09"
+.br
+.ti -1c
+.RI "#define \fBADDR_A_DOSIS\fP   0x0A"
+.br
+.ti -1c
+.RI "#define \fBADDR_S_DOSIS\fP   0x0B"
+.br
+.ti -1c
+.RI "#define \fBADDR_A_GRAMOS\fP   0x0C"
+.br
+.ti -1c
+.RI "#define \fBADDR_S_GRAMOS\fP   0x0D"
+.br
+.ti -1c
+.RI "#define \fBDS3231_I2C_ADDRESS\fP   0x68"
+.br
+.ti -1c
+.RI "#define \fBLCD16X2_I2C_ADDRESS\fP   0x3f"
+.br
+.ti -1c
+.RI "#define \fBLED_PIN\fP   13"
+.br
+.ti -1c
+.RI "#define \fBON\fP   1"
+.br
+.ti -1c
+.RI "#define \fBOFF\fP   0"
+.br
+.ti -1c
+.RI "#define \fBSTEPPER_ENABLE\fP   4"
+.br
+.ti -1c
+.RI "#define \fBSTEPPER_STEP\fP   3"
+.br
+.ti -1c
+.RI "#define \fBSTEPPER_DIR\fP   2"
+.br
+.ti -1c
+.RI "#define \fBPASOS_POR_VUELTA\fP   200"
+.br
+.ti -1c
+.RI "#define \fBVUELTA\fP   true"
+.br
+.ti -1c
+.RI "#define \fBCONTRAVUELTA\fP   false"
+.br
+.ti -1c
+.RI "#define \fBBT_RX\fP   A2"
+.br
+.ti -1c
+.RI "#define \fBBT_TX\fP   A3"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "SoftwareSerial \fBBT\fP (\fBBT_RX\fP, \fBBT_TX\fP)"
+.br
+.ti -1c
+.RI "LiquidCrystal_I2C \fBlcd\fP (\fBLCD16X2_I2C_ADDRESS\fP, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE)"
+.br
+.ti -1c
+.RI "void \fBresetearComedero\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetDS3231time\fP (byte \fBsecond\fP, byte \fBminute\fP, byte \fBhour\fP, byte \fBdayOfWeek\fP, byte \fBdayOfMonth\fP, byte \fBmonth\fP, byte \fByear\fP)"
+.br
+.ti -1c
+.RI "void \fBreadDS3231time\fP (byte *\fBsecond\fP, byte *\fBminute\fP, byte *\fBhour\fP, byte *\fBdayOfWeek\fP, byte *\fBdayOfMonth\fP, byte *\fBmonth\fP, byte *\fByear\fP)"
+.br
+.ti -1c
+.RI "void \fBdisplayTime\fP ()"
+.br
+.ti -1c
+.RI "byte \fBdecToBcd\fP (byte val)"
+.br
+.ti -1c
+.RI "byte \fBbcdToDec\fP (byte val)"
+.br
+.ti -1c
+.RI "void \fBencenderLCD\fP ()"
+.br
+.ti -1c
+.RI "void \fBmostrarMensaje\fP ()"
+.br
+.ti -1c
+.RI "float \fBgetTemperature\fP ()"
+.br
+.ti -1c
+.RI "byte \fBcomparaOpcion\fP (char *entrada, String *opciones, byte *longitud, byte cant, byte *p) void \fBgirarTolva\fP(int vueltas"
+.br
+.ti -1c
+.RI "void \fBdar_de_comer\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetup\fP ()"
+.br
+.ti -1c
+.RI "void \fBloop\fP ()"
+.br
+.ti -1c
+.RI "void \fBmostrarCadena\fP (const char *entrada)"
+.br
+.ti -1c
+.RI "void \fBgirarTolva\fP (int vueltas, bool \fBsentido\fP)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "byte bool \fBsentido\fP"
+.br
+.ti -1c
+.RI "char \fBnombre\fP [32] = 'Sulivan'"
+.br
+.ti -1c
+.RI "byte \fBsecond\fP"
+.br
+.ti -1c
+.RI "byte \fBminute\fP"
+.br
+.ti -1c
+.RI "byte \fBhour\fP"
+.br
+.ti -1c
+.RI "byte \fBdayOfWeek\fP"
+.br
+.ti -1c
+.RI "byte \fBdayOfMonth\fP"
+.br
+.ti -1c
+.RI "byte \fBmonth\fP"
+.br
+.ti -1c
+.RI "byte \fByear\fP"
+.br
+.ti -1c
+.RI "byte \fBA_second\fP"
+.br
+.ti -1c
+.RI "byte \fBA_minute\fP"
+.br
+.ti -1c
+.RI "byte \fBA_hour\fP"
+.br
+.ti -1c
+.RI "byte \fBA_dayOfMonth\fP"
+.br
+.ti -1c
+.RI "byte \fBA_month\fP"
+.br
+.ti -1c
+.RI "byte \fBA_year\fP"
+.br
+.ti -1c
+.RI "byte \fBS_hora\fP"
+.br
+.ti -1c
+.RI "byte \fBS_minuto\fP"
+.br
+.ti -1c
+.RI "byte \fBS_dosis\fP"
+.br
+.ti -1c
+.RI "byte \fBA_dosis\fP"
+.br
+.ti -1c
+.RI "byte \fBS_gram\fP"
+.br
+.ti -1c
+.RI "byte \fBA_gram\fP"
+.br
+.ti -1c
+.RI "float \fBA_temperatura\fP"
+.br
+.ti -1c
+.RI "byte \fBsec_anterior\fP = 0"
+.br
+.ti -1c
+.RI "unsigned long \fBiluminacion\fP = millis()"
+.br
+.ti -1c
+.RI "unsigned long \fBmensaje\fP = millis()"
+.br
+.ti -1c
+.RI "bool \fBflag_luz\fP = true"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBcad_separador\fP [] = {'\\n\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\\n'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBmanual\fP [] = {'Este es el manual del comedero\&.\\n\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\\nResponde a los siguientes comandos:\\nUltimo\\nComida\\nHora\\nDosis\\nGramos\\nPeso\\nReset\\nLuz\\nTest\\nVelocidad\\nHistorico\\nMan\\n\\nPara mostrar el uso de los comandos\\nescribir: Man [comando]\&. P\&.Ej\&.: Man Luz\\n**No distingue mayusculas\&.'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_ultimo\fP [] = {'NOMBRE\\n\\tUltimo: muestra la fecha, la hora y la\\ntemperatura a la que se le dio de comer\\npor ultima vez al gato\\n\\nSinopsis:\\n\\t No necesita argumentos\&.'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_comida\fP [] = {'NOMBRE:\\n\\tDefine la hora a la que se suminsitra la\\ncomida al gato\&.\\n\\nSinopsis:\\n\\tcomida hh:mm\\n\\nhh = hora en formato 24h y dos cifras\&.\\nmm = minuto en formato de dos cifras\&.\\nP\&.ej\&.: comida 14:05'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_hora\fP [] = {'NOMBRE:\\n\\tHora: ajusta la hora y fecha \\n\\tdel reloj\&.\\n\\nSinopsis:\\n\\thora hh:mm:ss dd:mm:aaaa w\\n\\n\\thh: hora en formato 24h y dos cifras\&.\\n\\tmm: minutos en formato de dos cifras\&.\\n\\tss: segundos en formato de dos cifras\&.\\n\\tdd: dias en formato de dos cifras\&.\\n\\tmm: mes en formato de dos cifras\&.\\n\\taa: a'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_hora2\fP [] = {'o en formato de dos cifras\&.\\n\\tw: dia de la semana\&. 1\-7\\n\\nP\&.ej\&.: hora 14:30:00 01/04/2016 5'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_dosis\fP [] = {'NOMBRE:\\n\\tDosis: permite establecer manualmente el\\n\\tnumero de dosis que se suministraran\\n\\nSinopsis:\\n\\tDosis xx\\n\\tP\&.ej\&.:Dosis 5\\n\\t\-Valores aceptados: 0 \- 50'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_gramos\fP [] = {'NOMBRE:\\n\\tGramos: especifica el numero de gramos\\n\\tque suministra el comedero con cada\\n\\tdosis en su actual configuracion\&.\\n\\nSinopsis:\\n\\tgramos xxx\\n\\tP\&.ej\&.: Gramos 15\\n\\t\-Valores aceptados: 10 \- 250'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_peso\fP [] = {'NOMBRE:\\n\\tPeso: permite especificar el peso en\\n\\tgramos del gato, de tal forma que el\\n\\tcomedero pueda calcular el numero de \\n\\tdosis que hay quesuministrar para que \\n\\tel gato coma\&.\\n\\nSinopsis:\\n\\tPeso xxxxx\\n\\t\-Valores aceptados: 001 \- 15000\\n\\t\-Por debajo de 1000gr se considera que\\n\\tel gato pesa un kilo y por encima de \\n\\t15000gr que el animal sufre sobrepeso\&.\\n\\tP\&.ej\&.: Gramos 10600'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_reset\fP [] = {'NOMBRE:\\n\\tReset: permite reiniciar el comedero\\n\\nSinopsis:\\n\\tReset\\n\\tNo necesita argumentos'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_luz\fP [] = {'NOMBRE:\\n\\tLuz: permite mantener la luz encendida\\n\\tCambia entre el modo autogestionado de\\n\\tla luz o la mantiene encendida\&.\\n\\nSinopsis:\\n\\tLuz\\n\\tNo necesita argumentos'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_test\fP [] = {'NOMBRE:\\n\\tTest: funcion implementada con el fin de\\n\\tprobar el correcto funcionamiento\&.\\n\\nSinopsis:\\n\\tTest []\\n\\tVuelta: Hace girar la tolva una vez\&.\\n\\tContravuelta: Gira la tolva en \fBsentido\fP \\n\\t\\t contrario\&.\\n\\t<Vacio>: Suministra una comida completa\\n\\nEjemplo:\\nTest Contravuelta'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_velocidad\fP [] = {'NOMBRE:\\n\\tVelocidad: permite definir la velocidad\\n\\ta la que girara la tolva, pues hay que\\n\\ttener en cuenta que puesto que la comida\\n\\testa formada por granos, la velocidad\\n\\tinfluira en la cantidad de comida que se\\n\\tsuministre, de tal forma que cuanto\\n\\tmayor sea la velodad menos comida caera\&.\\n\\tSe recomienda hacer varias mediciones\&.\\n\\nSinopsis:\\n\\tvelocidad xxx%%\\n\\txxx = porcentaje de velocidad\\n\\tValores aceptados 1 \- 100\&.\\n\\tEl simbolo %% es opcional\&.\\n\\tP\&.ej\&.: Velocidad 60%%'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_man\fP [] = {'NOMBRE:\\n\\tMan: muestra el \fBmanual\fP del comedero asi \\n\\tcomo de los comandos disponibles\&.\\n\\nSinopsis:\\n\\tman [comando]\\n\\tvacio muestra los comandos aceptados\&.\\n\\tSeguido de un comando muestra la\\n\\tdescripcion y uso de ese comando\&.\\n\\tP\&.ej\&.: Man Peso'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBman_historico\fP [] = {'NOMBRE:\\n\\tHistorico: mustra el registro de las\\n\\tveces que se le ha dado de comer al gato\\n\\tasi como permite borrar dichos registros\\n\\nSinopsis:\\n\\tHistorico (Borrar)\\n\\tSi se utiliza sin argumento muestra los\\n\\tregistros\\n\\tSi se utiliza seguido de la palabra \\n\\t \\'borrar\\' borrara los registros\\n\\tP\&.ej\&.: Historico Borrar'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBbienvenida\fP [] = {'\\nAlvaro Torijano Garcia\\n\-\-\-Consola de depuracion del comedero\-\-\-'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBsobrepeso\fP [] = {'\\nEste gato sufre sobrepeso, no se dispensara ninguna cantidad\&.\\nPor favor visita a un veterinario'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBcomando_invalido\fP [] = {'\\nNo se ha detectado un comando valido'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBl_auto\fP [] = {'\\nLuz Autogestionada'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBl_fija\fP [] = {'\\nLuz fijada en encendido'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBultima_alimentacion\fP [] = {'\\nUltima fecha de alimentacion autonoma'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBhora_invalido\fP [] = {'\\nFormato de hora INVALIDO'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBhora_comida\fP [] = {'\\nLa nueva hora de la comida son las:'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBdosis_invalida\fP [] = {'\\nNo es una dosis valida'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBreloj_actualizado\fP [] = {'\\nSe ha actualizado el reloj con los siguientes datos:\\n'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBdemasiado_peso\fP [] = {'\\nEso es demasiado peso para un gato'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBfech_o_invalid\fP [] = {'\\nFormato de hora o fecha incorrecto'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBsuministraran\fP [] = {'\\nSe suministraran: '}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBcantidad_invalida\fP [] = {'\\nNo es una cantidad valida'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBsuministran\fP [] = {'\\nSe suministran: '}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBc_dosis\fP [] = {' dosis'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBgramos_dosis\fP [] = {' gramos por dosis'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBp_invalido\fP [] = {'\\nNo es un peso valido'}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBsuministraron\fP [] = {'\\nSe suministraron: '}"
+.br
+.ti -1c
+.RI "const PROGMEM char \fBcad_gramos\fP [] = {' Gramos'}"
+.br
+.ti -1c
+.RI "byte \fBgrados\fP [8]"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define ADDR_A_dayOfMonth   0x03"
+
+.PP
+Definition at line 53 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_A_DOSIS   0x0A"
+
+.PP
+Definition at line 60 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_A_GRAMOS   0x0C"
+
+.PP
+Definition at line 62 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_A_HOUR   0x02"
+
+.PP
+Definition at line 52 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_A_MINUTE   0x01"
+
+.PP
+Definition at line 51 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_A_MONTH   0x04"
+
+.PP
+Definition at line 54 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_A_SECOND   0x00"
+
+.PP
+Definition at line 50 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_A_TEMP   0x06"
+
+.PP
+Definition at line 56 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_A_TEMP_DEC   0x07"
+
+.PP
+Definition at line 57 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_A_YEAR   0x05"
+
+.PP
+Definition at line 55 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_S_DOSIS   0x0B"
+
+.PP
+Definition at line 61 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_S_GRAMOS   0x0D"
+
+.PP
+Definition at line 63 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_S_HORA   0x08"
+
+.PP
+Definition at line 58 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ADDR_S_MINUT   0x09"
+
+.PP
+Definition at line 59 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define BT_RX   A2"
+
+.PP
+Definition at line 92 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define BT_TX   A3"
+
+.PP
+Definition at line 93 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define CONTRAVUELTA   false"
+
+.PP
+Definition at line 87 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define DS3231_I2C_ADDRESS   0x68"
+
+.PP
+Definition at line 67 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define espera   5"
+
+.PP
+Definition at line 33 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define LCD16X2_I2C_ADDRESS   0x3f"
+
+.PP
+Definition at line 68 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define LED_PIN   13"
+
+.PP
+Definition at line 72 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define MILLIS_DIARIOS   86400000"
+
+.PP
+Definition at line 32 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define OFF   0"
+
+.PP
+Definition at line 76 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define ON   1"
+
+.PP
+Definition at line 75 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define PASOS_POR_VUELTA   200"
+
+.PP
+Definition at line 83 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define SPLASH   2\&.0"
+
+.PP
+Definition at line 29 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define STEPPER_DIR   2"
+
+.PP
+Definition at line 82 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define STEPPER_ENABLE   4"
+
+.PP
+Definition at line 80 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define STEPPER_STEP   3"
+
+.PP
+Definition at line 81 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define TIEMPO_BRILLO   5\&.0"
+
+.PP
+Definition at line 30 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define TIEMPO_MENSAJE   3\&.5"
+
+.PP
+Definition at line 31 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define VERSION_DEL_COMEDERO   'V\-1\&.6'"
+
+.PP
+Definition at line 28 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "#define VUELTA   true"
+
+.PP
+Definition at line 86 of file AutoSulivan_sFeeder\&.cpp\&.
+.SH "Function Documentation"
+.PP 
+.SS "byte bcdToDec (byte val)"
+[Funcion que convierte de binario a decimal] 
+.PP
+\fBParameters\fP
+.RS 4
+\fIval\fP [Valor binario] 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+[Valor decimal] 
+.RE
+.PP
+
+.PP
+Definition at line 1228 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "SoftwareSerial BT (\fBBT_RX\fP, \fBBT_TX\fP)"
+
+.SS "byte comparaOpcion (char * entrada, String * opciones, byte * longitud, byte cant, byte * p)"
+[comparaOpcion description] 
+.PP
+\fBParameters\fP
+.RS 4
+\fIentrada\fP [Caena de texto a evaluar] 
+.br
+\fIopciones\fP [Puntero a un array de cadenas para comparar] 
+.br
+\fIlongitud\fP [Puntero a un array con la longitud de cada cadena a comparar] 
+.br
+\fIcant\fP [Numero de elementos en los arrays de cadenas] 
+.br
+\fIp\fP [Numero de caracteres desechados ] 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+[Posicion en el vector mas uno de la cadena encontrada] [Gira la tolva] 
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fIvueltas\fP [Numero de vueltas que tiene que girar la tolvaº] 
+.br
+\fIsentido\fP [Sentido horario true y antihorario false] 
+.RE
+.PP
+
+.PP
+Definition at line 1082 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "void dar_de_comer ()"
+[Ejecuta un ciclo completo de alimentacion con el numero de dosis establecidas] 
+.PP
+Definition at line 991 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte decToBcd (byte val)"
+[Convierte un valor de decimal a binario ] 
+.PP
+\fBParameters\fP
+.RS 4
+\fIval\fP [Valor decimal] 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+[Valor binario] 
+.RE
+.PP
+
+.PP
+Definition at line 1219 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "void displayTime ()"
+[Comprueba si la hora debe ser actualizada en la pantalla, y de ser asi la muestra] 
+.SS "void encenderLCD ()"
+[Cambia el tiempo que la pantalla tiene que permanecer encendida] 
+.PP
+Definition at line 1111 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "float getTemperature ()"
+[Esta funcion permite leer la temperatura que regista el reloj en su oscilador] 
+.PP
+\fBReturns\fP
+.RS 4
+[Tempertaura] 
+.RE
+.PP
+
+.PP
+Definition at line 1235 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "void girarTolva (int vueltas, bool sentido)"
+
+.PP
+Definition at line 1248 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "LiquidCrystal_I2C lcd (\fBLCD16X2_I2C_ADDRESS\fP, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE)"
+
+.SS "void loop ()"
+
+.PP
+Definition at line 355 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "void mostrarCadena (const char * entrada)"
+
+.PP
+Definition at line 1064 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "void mostrarMensaje ()"
+[Cambia el tiempo que un mensaje tiene que aparecer en la pantalla sin cambiar] 
+.PP
+Definition at line 1105 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "void readDS3231time (byte * second, byte * minute, byte * hour, byte * dayOfWeek, byte * dayOfMonth, byte * month, byte * year)"
+[Lee la hora del reloj de tiempo real] 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsecond\fP [Segundo actual] 
+.br
+\fIminute\fP [Minuto actual] 
+.br
+\fIhour\fP [Hora actual] 
+.br
+\fIdayOfWeek\fP [Dia de la semana actual\&. De 1 a 7, siendo 1 el domingo, a pesar de que esta interpretacion es arbitraria] 
+.br
+\fIdayOfMonth\fP [Dia del mes actual] 
+.br
+\fImonth\fP [Mes actual] 
+.br
+\fIyear\fP [Año actual] 
+.RE
+.PP
+
+.PP
+Definition at line 1145 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "void resetearComedero ()"
+[Esta funcion permite reiniciar el contador de programa\&. Equivale a un reset electrico del microcontrolador] 
+.PP
+Definition at line 1118 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "void setDS3231time (byte second, byte minute, byte hour, byte dayOfWeek, byte dayOfMonth, byte month, byte year)"
+[Actualiza la fecha y hora de reloj\&.] 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsecond\fP [Segundo\&. De 0 a 59] 
+.br
+\fIminute\fP [Minuto\&. De 0 a 59] 
+.br
+\fIhour\fP [Hora en formato 24 horas] 
+.br
+\fIdayOfWeek\fP [dia de la semana de 1 a 7, siendo 1 el domingo, a pesar de que esta interpretacion es arbitraria] 
+.br
+\fIdayOfMonth\fP [Dia del mes\&. De 1 a 31 en los meses que sea posible] 
+.br
+\fImonth\fP [Mes del año\&. De 1 a 12] 
+.br
+\fIyear\fP [Año\&. De 0 a 99 siendo este el numero que se suma al año 2000] 
+.RE
+.PP
+
+.PP
+Definition at line 1125 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "void setup ()"
+
+.PP
+Definition at line 272 of file AutoSulivan_sFeeder\&.cpp\&.
+.SH "Variable Documentation"
+.PP 
+.SS "byte A_dayOfMonth"
+
+.PP
+Definition at line 189 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte A_dosis"
+
+.PP
+Definition at line 190 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte A_gram"
+
+.PP
+Definition at line 190 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte A_hour"
+
+.PP
+Definition at line 189 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte A_minute"
+
+.PP
+Definition at line 189 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte A_month"
+
+.PP
+Definition at line 189 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte A_second"
+
+.PP
+Definition at line 189 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "float A_temperatura"
+
+.PP
+Definition at line 191 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte A_year"
+
+.PP
+Definition at line 189 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char bienvenida[] = {'\\nAlvaro Torijano Garcia\\n\-\-\-Consola de depuracion del comedero\-\-\-'}"
+
+.PP
+Definition at line 214 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char c_dosis[] = {' dosis'}"
+
+.PP
+Definition at line 229 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char cad_gramos[] = {' Gramos'}"
+
+.PP
+Definition at line 233 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char cad_separador[] = {'\\n\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\\n'}"
+
+.PP
+Definition at line 199 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char cantidad_invalida[] = {'\\nNo es una cantidad valida'}"
+
+.PP
+Definition at line 227 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char comando_invalido[] = {'\\nNo se ha detectado un comando valido'}"
+
+.PP
+Definition at line 216 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte dayOfMonth"
+
+.PP
+Definition at line 188 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte dayOfWeek"
+
+.PP
+Definition at line 188 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char demasiado_peso[] = {'\\nEso es demasiado peso para un gato'}"
+
+.PP
+Definition at line 224 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char dosis_invalida[] = {'\\nNo es una dosis valida'}"
+
+.PP
+Definition at line 222 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char fech_o_invalid[] = {'\\nFormato de hora o fecha incorrecto'}"
+
+.PP
+Definition at line 225 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "bool flag_luz = true"
+
+.PP
+Definition at line 195 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte grados[8]"
+\fBInitial value:\fP
+.PP
+.nf
+= {
+    B00110, 
+    B01001,                           
+    B01001,                           
+    B00110,
+    B00000,
+    B00000,
+    B00000,
+    B00000,
+
+    
+
+    
+}
+.fi
+.PP
+Definition at line 237 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char gramos_dosis[] = {' gramos por dosis'}"
+
+.PP
+Definition at line 230 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char hora_comida[] = {'\\nLa nueva hora de la comida son las:'}"
+
+.PP
+Definition at line 221 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char hora_invalido[] = {'\\nFormato de hora INVALIDO'}"
+
+.PP
+Definition at line 220 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte hour"
+
+.PP
+Definition at line 188 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "unsigned long iluminacion = millis()"
+
+.PP
+Definition at line 193 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char l_auto[] = {'\\nLuz Autogestionada'}"
+
+.PP
+Definition at line 217 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char l_fija[] = {'\\nLuz fijada en encendido'}"
+
+.PP
+Definition at line 218 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_comida[] = {'NOMBRE:\\n\\tDefine la hora a la que se suminsitra la\\ncomida al gato\&.\\n\\nSinopsis:\\n\\tcomida hh:mm\\n\\nhh = hora en formato 24h y dos cifras\&.\\nmm = minuto en formato de dos cifras\&.\\nP\&.ej\&.: comida 14:05'}"
+
+.PP
+Definition at line 202 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_dosis[] = {'NOMBRE:\\n\\tDosis: permite establecer manualmente el\\n\\tnumero de dosis que se suministraran\\n\\nSinopsis:\\n\\tDosis xx\\n\\tP\&.ej\&.:Dosis 5\\n\\t\-Valores aceptados: 0 \- 50'}"
+
+.PP
+Definition at line 205 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_gramos[] = {'NOMBRE:\\n\\tGramos: especifica el numero de gramos\\n\\tque suministra el comedero con cada\\n\\tdosis en su actual configuracion\&.\\n\\nSinopsis:\\n\\tgramos xxx\\n\\tP\&.ej\&.: Gramos 15\\n\\t\-Valores aceptados: 10 \- 250'}"
+
+.PP
+Definition at line 206 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_historico[] = {'NOMBRE:\\n\\tHistorico: mustra el registro de las\\n\\tveces que se le ha dado de comer al gato\\n\\tasi como permite borrar dichos registros\\n\\nSinopsis:\\n\\tHistorico (Borrar)\\n\\tSi se utiliza sin argumento muestra los\\n\\tregistros\\n\\tSi se utiliza seguido de la palabra \\n\\t \\'borrar\\' borrara los registros\\n\\tP\&.ej\&.: Historico Borrar'}"
+
+.PP
+Definition at line 213 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_hora[] = {'NOMBRE:\\n\\tHora: ajusta la hora y fecha \\n\\tdel reloj\&.\\n\\nSinopsis:\\n\\thora hh:mm:ss dd:mm:aaaa w\\n\\n\\thh: hora en formato 24h y dos cifras\&.\\n\\tmm: minutos en formato de dos cifras\&.\\n\\tss: segundos en formato de dos cifras\&.\\n\\tdd: dias en formato de dos cifras\&.\\n\\tmm: mes en formato de dos cifras\&.\\n\\taa: a'}"
+
+.PP
+Definition at line 203 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_hora2[] = {'o en formato de dos cifras\&.\\n\\tw: dia de la semana\&. 1\-7\\n\\nP\&.ej\&.: hora 14:30:00 01/04/2016 5'}"
+
+.PP
+Definition at line 204 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_luz[] = {'NOMBRE:\\n\\tLuz: permite mantener la luz encendida\\n\\tCambia entre el modo autogestionado de\\n\\tla luz o la mantiene encendida\&.\\n\\nSinopsis:\\n\\tLuz\\n\\tNo necesita argumentos'}"
+
+.PP
+Definition at line 209 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_man[] = {'NOMBRE:\\n\\tMan: muestra el \fBmanual\fP del comedero asi \\n\\tcomo de los comandos disponibles\&.\\n\\nSinopsis:\\n\\tman [comando]\\n\\tvacio muestra los comandos aceptados\&.\\n\\tSeguido de un comando muestra la\\n\\tdescripcion y uso de ese comando\&.\\n\\tP\&.ej\&.: Man Peso'}"
+
+.PP
+Definition at line 212 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_peso[] = {'NOMBRE:\\n\\tPeso: permite especificar el peso en\\n\\tgramos del gato, de tal forma que el\\n\\tcomedero pueda calcular el numero de \\n\\tdosis que hay quesuministrar para que \\n\\tel gato coma\&.\\n\\nSinopsis:\\n\\tPeso xxxxx\\n\\t\-Valores aceptados: 001 \- 15000\\n\\t\-Por debajo de 1000gr se considera que\\n\\tel gato pesa un kilo y por encima de \\n\\t15000gr que el animal sufre sobrepeso\&.\\n\\tP\&.ej\&.: Gramos 10600'}"
+
+.PP
+Definition at line 207 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_reset[] = {'NOMBRE:\\n\\tReset: permite reiniciar el comedero\\n\\nSinopsis:\\n\\tReset\\n\\tNo necesita argumentos'}"
+
+.PP
+Definition at line 208 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_test[] = {'NOMBRE:\\n\\tTest: funcion implementada con el fin de\\n\\tprobar el correcto funcionamiento\&.\\n\\nSinopsis:\\n\\tTest []\\n\\tVuelta: Hace girar la tolva una vez\&.\\n\\tContravuelta: Gira la tolva en \fBsentido\fP \\n\\t\\t contrario\&.\\n\\t<Vacio>: Suministra una comida completa\\n\\nEjemplo:\\nTest Contravuelta'}"
+
+.PP
+Definition at line 210 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_ultimo[] = {'NOMBRE\\n\\tUltimo: muestra la fecha, la hora y la\\ntemperatura a la que se le dio de comer\\npor ultima vez al gato\\n\\nSinopsis:\\n\\t No necesita argumentos\&.'}"
+
+.PP
+Definition at line 201 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char man_velocidad[] = {'NOMBRE:\\n\\tVelocidad: permite definir la velocidad\\n\\ta la que girara la tolva, pues hay que\\n\\ttener en cuenta que puesto que la comida\\n\\testa formada por granos, la velocidad\\n\\tinfluira en la cantidad de comida que se\\n\\tsuministre, de tal forma que cuanto\\n\\tmayor sea la velodad menos comida caera\&.\\n\\tSe recomienda hacer varias mediciones\&.\\n\\nSinopsis:\\n\\tvelocidad xxx%%\\n\\txxx = porcentaje de velocidad\\n\\tValores aceptados 1 \- 100\&.\\n\\tEl simbolo %% es opcional\&.\\n\\tP\&.ej\&.: Velocidad 60%%'}"
+
+.PP
+Definition at line 211 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char manual[] = {'Este es el manual del comedero\&.\\n\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\\nResponde a los siguientes comandos:\\nUltimo\\nComida\\nHora\\nDosis\\nGramos\\nPeso\\nReset\\nLuz\\nTest\\nVelocidad\\nHistorico\\nMan\\n\\nPara mostrar el uso de los comandos\\nescribir: Man [comando]\&. P\&.Ej\&.: Man Luz\\n**No distingue mayusculas\&.'}"
+
+.PP
+Definition at line 200 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "unsigned long mensaje = millis()"
+
+.PP
+Definition at line 194 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte minute"
+
+.PP
+Definition at line 188 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte month"
+
+.PP
+Definition at line 188 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "char nombre[32] = 'Sulivan'"
+
+.PP
+Definition at line 187 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char p_invalido[] = {'\\nNo es un peso valido'}"
+
+.PP
+Definition at line 231 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char reloj_actualizado[] = {'\\nSe ha actualizado el reloj con los siguientes datos:\\n'}"
+
+.PP
+Definition at line 223 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte S_dosis"
+
+.PP
+Definition at line 190 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte S_gram"
+
+.PP
+Definition at line 190 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte S_hora"
+
+.PP
+Definition at line 190 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte S_minuto"
+
+.PP
+Definition at line 190 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte sec_anterior = 0"
+
+.PP
+Definition at line 192 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte second"
+
+.PP
+Definition at line 188 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte bool sentido"
+
+.PP
+Definition at line 178 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char sobrepeso[] = {'\\nEste gato sufre sobrepeso, no se dispensara ninguna cantidad\&.\\nPor favor visita a un veterinario'}"
+
+.PP
+Definition at line 215 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char suministran[] = {'\\nSe suministran: '}"
+
+.PP
+Definition at line 228 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char suministraran[] = {'\\nSe suministraran: '}"
+
+.PP
+Definition at line 226 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char suministraron[] = {'\\nSe suministraron: '}"
+
+.PP
+Definition at line 232 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "const PROGMEM char ultima_alimentacion[] = {'\\nUltima fecha de alimentacion autonoma'}"
+
+.PP
+Definition at line 219 of file AutoSulivan_sFeeder\&.cpp\&.
+.SS "byte year"
+
+.PP
+Definition at line 188 of file AutoSulivan_sFeeder\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Autosulivan's Feeder Firmware from the source code\&.

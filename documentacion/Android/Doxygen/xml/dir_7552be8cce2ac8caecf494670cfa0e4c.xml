@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_7552be8cce2ac8caecf494670cfa0e4c" kind="dir">
+    <compoundname>E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source</compoundname>
+    <innerdir refid="dir_57f8fda3a82904092758d1158740b7f9">E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/"/>
+  </compounddef>
+</doxygen>

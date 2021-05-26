@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacecom_1_1torijano_1_1autosulivans_feeder_1_1test" kind="namespace" language="Java">
+    <compoundname>com::torijano::autosulivansFeeder::test</compoundname>
+    <innerclass refid="classcom_1_1torijano_1_1autosulivans_feeder_1_1test_1_1_build_config" prot="public">com::torijano::autosulivansFeeder::test::BuildConfig</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Automatically generated file. DO NOT MODIFY </para>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/source/buildConfig/androidTest/debug/com/torijano/autosulivansFeeder/test/BuildConfig.java" line="4" column="15"/>
+  </compounddef>
+</doxygen>

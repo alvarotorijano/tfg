@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classme_1_1aflak_1_1bluetooth__library_1_1_r" kind="class" language="Java" prot="public">
+    <compoundname>me::aflak::bluetooth_library::R</compoundname>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1anim" prot="public">me::aflak::bluetooth_library::R::anim</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1attr" prot="public">me::aflak::bluetooth_library::R::attr</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1bool" prot="public">me::aflak::bluetooth_library::R::bool</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1color" prot="public">me::aflak::bluetooth_library::R::color</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1dimen" prot="public">me::aflak::bluetooth_library::R::dimen</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1drawable" prot="public">me::aflak::bluetooth_library::R::drawable</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1id" prot="public">me::aflak::bluetooth_library::R::id</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1integer" prot="public">me::aflak::bluetooth_library::R::integer</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1layout" prot="public">me::aflak::bluetooth_library::R::layout</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1string" prot="public">me::aflak::bluetooth_library::R::string</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1style" prot="public">me::aflak::bluetooth_library::R::style</innerclass>
+    <innerclass refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1_1styleable" prot="public">me::aflak::bluetooth_library::R::styleable</innerclass>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classme_1_1aflak_1_1bluetooth__library_1_1_r_1a48530cecc6a7a22c19e8f6a582ece3f9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>me.aflak.bluetooth_library.R.R</definition>
+        <argsstring>()</argsstring>
+        <name>R</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetooth_library/R.java" line="10" column="13" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetooth_library/R.java" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetooth_library/R.java" line="9" column="21" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/me/aflak/bluetooth_library/R.java" bodystart="9" bodyend="1308"/>
+    <listofallmembers>
+      <member refid="classme_1_1aflak_1_1bluetooth__library_1_1_r_1a48530cecc6a7a22c19e8f6a582ece3f9" prot="private" virt="non-virtual"><scope>me::aflak::bluetooth_library::R</scope><name>R</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

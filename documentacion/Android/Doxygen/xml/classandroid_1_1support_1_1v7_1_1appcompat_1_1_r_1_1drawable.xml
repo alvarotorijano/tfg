@@ -1,0 +1,1171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable" kind="class" language="Java" prot="public">
+    <compoundname>android::support::v7::appcompat::R::drawable</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a2617cd3cc5fd99bf8702673e973c716d" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ab_share_pack_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ab_share_pack_mtrl_alpha</name>
+        <initializer>= 0x7f060000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="407" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a48cb66511eb88f80686a25611e677bd3" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_action_bar_item_background_material</definition>
+        <argsstring></argsstring>
+        <name>abc_action_bar_item_background_material</name>
+        <initializer>= 0x7f060001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="408" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ad3b42c47b3c3ed014fd375136c62b76b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_borderless_material</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_borderless_material</name>
+        <initializer>= 0x7f060002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="409" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ad54104f0bfce1e7c5fa5f887c153557a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_check_material</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_check_material</name>
+        <initializer>= 0x7f060003</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="410" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a45c3ee07ad24f689749d83dccb1efe64" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_check_to_on_mtrl_000</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_check_to_on_mtrl_000</name>
+        <initializer>= 0x7f060004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="411" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa0d4e39356c8f7a8c87c6c74809e1e06" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_check_to_on_mtrl_015</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_check_to_on_mtrl_015</name>
+        <initializer>= 0x7f060005</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="412" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aedfa71414c1ad5fbc62fef5c218ff93c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_colored_material</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_colored_material</name>
+        <initializer>= 0x7f060006</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="413" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a498dee9d40c49a9928e85e8005f6f642" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_default_mtrl_shape</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_default_mtrl_shape</name>
+        <initializer>= 0x7f060007</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="414" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="414" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a8d689c41916dd0fa08c998419d610b2b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_radio_material</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_radio_material</name>
+        <initializer>= 0x7f060008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="415" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ac472b1c5ed381f5d525fb4598fb0c4b2" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_radio_to_on_mtrl_000</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_radio_to_on_mtrl_000</name>
+        <initializer>= 0x7f060009</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="416" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="416" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa024fc7b4e09d54127462f93d5cedb5d" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_radio_to_on_mtrl_015</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_radio_to_on_mtrl_015</name>
+        <initializer>= 0x7f06000a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="417" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a2ab4eeaa8859a5145253bd0e628bec3a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_rating_star_off_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_rating_star_off_mtrl_alpha</name>
+        <initializer>= 0x7f06000b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="418" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aacca1cc988f04bacd5b02db4ea316fc6" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_rating_star_on_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_rating_star_on_mtrl_alpha</name>
+        <initializer>= 0x7f06000c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="419" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aae6ca36c8463b7976f62802f516fa9c2" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_switch_to_on_mtrl_00001</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_switch_to_on_mtrl_00001</name>
+        <initializer>= 0x7f06000d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="420" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a8b52138f1e94d96533a360120e3b968c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_btn_switch_to_on_mtrl_00012</definition>
+        <argsstring></argsstring>
+        <name>abc_btn_switch_to_on_mtrl_00012</name>
+        <initializer>= 0x7f06000e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="421" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a8d01953003be949ad45d82c1c53b611a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_cab_background_internal_bg</definition>
+        <argsstring></argsstring>
+        <name>abc_cab_background_internal_bg</name>
+        <initializer>= 0x7f06000f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="422" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="422" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a3b9d6225bfc111a423e67eef1d49983e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_cab_background_top_material</definition>
+        <argsstring></argsstring>
+        <name>abc_cab_background_top_material</name>
+        <initializer>= 0x7f060010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="423" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="423" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a41a9763a8f9dea2aaac0cafd1806e7c6" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_cab_background_top_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_cab_background_top_mtrl_alpha</name>
+        <initializer>= 0x7f060011</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="424" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ac561554e239453bfc18860a32da6a496" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_control_background_material</definition>
+        <argsstring></argsstring>
+        <name>abc_control_background_material</name>
+        <initializer>= 0x7f060012</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="425" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="425" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a3c54c69c5b2e413b84ff3c1a7c96290b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_dialog_material_background_dark</definition>
+        <argsstring></argsstring>
+        <name>abc_dialog_material_background_dark</name>
+        <initializer>= 0x7f060013</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="426" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a092c3cbf7c96dd74237cec7fc5fc506d" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_dialog_material_background_light</definition>
+        <argsstring></argsstring>
+        <name>abc_dialog_material_background_light</name>
+        <initializer>= 0x7f060014</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="427" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a0022fde7523d3f42a2d9ea2591085cd0" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_edit_text_material</definition>
+        <argsstring></argsstring>
+        <name>abc_edit_text_material</name>
+        <initializer>= 0x7f060015</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="428" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a5abc07bf4568749640d49bdb0fc5184b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_ab_back_mtrl_am_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_ab_back_mtrl_am_alpha</name>
+        <initializer>= 0x7f060016</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="429" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="429" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a474cb3540b3a35748a8806885c659f7a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_clear_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_clear_mtrl_alpha</name>
+        <initializer>= 0x7f060017</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="430" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="430" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7755f018f8cfed959a6a680cc2eba8a3" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_commit_search_api_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_commit_search_api_mtrl_alpha</name>
+        <initializer>= 0x7f060018</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="431" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="431" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a33c53467e457eda373e8d8501c9c7b4c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_go_search_api_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_go_search_api_mtrl_alpha</name>
+        <initializer>= 0x7f060019</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="432" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7ee599d758a1ef263faa985737c3a031" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_menu_copy_mtrl_am_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_menu_copy_mtrl_am_alpha</name>
+        <initializer>= 0x7f06001a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="433" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="433" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a58b0dda1d7f5be83c45d2df10d54586b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_menu_cut_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_menu_cut_mtrl_alpha</name>
+        <initializer>= 0x7f06001b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="434" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="434" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ae8fd7e8aa4de33987f74658697285a13" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_menu_moreoverflow_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_menu_moreoverflow_mtrl_alpha</name>
+        <initializer>= 0x7f06001c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="435" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="435" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ada8719a6a441014d76e46dc8ab2d6dbf" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_menu_paste_mtrl_am_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_menu_paste_mtrl_am_alpha</name>
+        <initializer>= 0x7f06001d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="436" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="436" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a9303126c0d13cb9eadc0ef16815e5584" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_menu_selectall_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_menu_selectall_mtrl_alpha</name>
+        <initializer>= 0x7f06001e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="437" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="437" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a5528a05a387844af88152f610dbfe24b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_menu_share_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_menu_share_mtrl_alpha</name>
+        <initializer>= 0x7f06001f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="438" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa3433a9a6419e5e27f82325ef9805120" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_search_api_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_search_api_mtrl_alpha</name>
+        <initializer>= 0x7f060020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="439" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a56f03af4bb2bcee04f606ec14eff4635" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_star_black_16dp</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_star_black_16dp</name>
+        <initializer>= 0x7f060021</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="440" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="440" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1abd46dd2a47d6d179ed687bb3c31639d9" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_star_black_36dp</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_star_black_36dp</name>
+        <initializer>= 0x7f060022</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="441" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa44235eb8b014f2210df1f043132b42e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_star_half_black_16dp</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_star_half_black_16dp</name>
+        <initializer>= 0x7f060023</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="442" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="442" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1af3ebb1df5aa794821fb532a0027a6c68" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_star_half_black_36dp</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_star_half_black_36dp</name>
+        <initializer>= 0x7f060024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="443" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a0ea6faae2aabfb475a7f2cbbed94a702" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ic_voice_search_api_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_ic_voice_search_api_mtrl_alpha</name>
+        <initializer>= 0x7f060025</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="444" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a50a815e499d6570de533862115087d7f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_item_background_holo_dark</definition>
+        <argsstring></argsstring>
+        <name>abc_item_background_holo_dark</name>
+        <initializer>= 0x7f060026</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="445" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ab30bee9918966c3b0d07dd65642e220c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_item_background_holo_light</definition>
+        <argsstring></argsstring>
+        <name>abc_item_background_holo_light</name>
+        <initializer>= 0x7f060027</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="446" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ae2c4d472a1e46d0960fec1f3e246a6c7" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_list_divider_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_list_divider_mtrl_alpha</name>
+        <initializer>= 0x7f060028</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="447" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a500dcc477188851a1398b06e5ed2e58f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_list_focused_holo</definition>
+        <argsstring></argsstring>
+        <name>abc_list_focused_holo</name>
+        <initializer>= 0x7f060029</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="448" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aba4103a819257b789d9e51b6dfa5f7b1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_list_longpressed_holo</definition>
+        <argsstring></argsstring>
+        <name>abc_list_longpressed_holo</name>
+        <initializer>= 0x7f06002a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="449" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1acb39459f4cd5a1c92cc1d0a6041fd83c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_list_pressed_holo_dark</definition>
+        <argsstring></argsstring>
+        <name>abc_list_pressed_holo_dark</name>
+        <initializer>= 0x7f06002b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="450" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a6dc781b7ecc90a01c62f7caa93eaca25" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_list_pressed_holo_light</definition>
+        <argsstring></argsstring>
+        <name>abc_list_pressed_holo_light</name>
+        <initializer>= 0x7f06002c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="451" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a5206c8f4e83eecee100478248fd78ce2" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_list_selector_background_transition_holo_dark</definition>
+        <argsstring></argsstring>
+        <name>abc_list_selector_background_transition_holo_dark</name>
+        <initializer>= 0x7f06002d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="452" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="452" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa7337142d0dc014ff2de0d43341501f7" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_list_selector_background_transition_holo_light</definition>
+        <argsstring></argsstring>
+        <name>abc_list_selector_background_transition_holo_light</name>
+        <initializer>= 0x7f06002e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="453" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a71fb7eb02af378424330d479bc70445e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_list_selector_disabled_holo_dark</definition>
+        <argsstring></argsstring>
+        <name>abc_list_selector_disabled_holo_dark</name>
+        <initializer>= 0x7f06002f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="454" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ae88e6bec55a3fb3e15ef45c45a9b0a17" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_list_selector_disabled_holo_light</definition>
+        <argsstring></argsstring>
+        <name>abc_list_selector_disabled_holo_light</name>
+        <initializer>= 0x7f060030</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="455" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a8f42ab7ba96587cae658fe87d0476849" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_list_selector_holo_dark</definition>
+        <argsstring></argsstring>
+        <name>abc_list_selector_holo_dark</name>
+        <initializer>= 0x7f060031</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="456" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1afeaf9bb6857e838b95037f63d654e90b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_list_selector_holo_light</definition>
+        <argsstring></argsstring>
+        <name>abc_list_selector_holo_light</name>
+        <initializer>= 0x7f060032</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="457" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa677c8f22035c007340b8881b60fe2e6" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_menu_hardkey_panel_mtrl_mult</definition>
+        <argsstring></argsstring>
+        <name>abc_menu_hardkey_panel_mtrl_mult</name>
+        <initializer>= 0x7f060033</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="458" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a4b5e2894745ea21d9b5a6b2bbce32b54" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_popup_background_mtrl_mult</definition>
+        <argsstring></argsstring>
+        <name>abc_popup_background_mtrl_mult</name>
+        <initializer>= 0x7f060034</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="459" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7604ea46b8ab36b9392a1cfce4d47e99" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ratingbar_full_material</definition>
+        <argsstring></argsstring>
+        <name>abc_ratingbar_full_material</name>
+        <initializer>= 0x7f060035</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="460" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a4d7ca18f5e3dcadfa751189317a102c4" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ratingbar_indicator_material</definition>
+        <argsstring></argsstring>
+        <name>abc_ratingbar_indicator_material</name>
+        <initializer>= 0x7f060036</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="461" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa7100b2abc9f0bcf51d52bccca155ac0" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_ratingbar_small_material</definition>
+        <argsstring></argsstring>
+        <name>abc_ratingbar_small_material</name>
+        <initializer>= 0x7f060037</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="462" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a786c1c1dbb933d228f29c57580ccfe88" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_scrubber_control_off_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_scrubber_control_off_mtrl_alpha</name>
+        <initializer>= 0x7f060038</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="463" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a459f964eee43f7046aef6c61f5053ebd" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_scrubber_control_to_pressed_mtrl_000</definition>
+        <argsstring></argsstring>
+        <name>abc_scrubber_control_to_pressed_mtrl_000</name>
+        <initializer>= 0x7f060039</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="464" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a44d8906520ce99aaac99ab2de9f606e2" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_scrubber_control_to_pressed_mtrl_005</definition>
+        <argsstring></argsstring>
+        <name>abc_scrubber_control_to_pressed_mtrl_005</name>
+        <initializer>= 0x7f06003a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="465" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa46623b14f615bf00312c43345e41dd1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_scrubber_primary_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_scrubber_primary_mtrl_alpha</name>
+        <initializer>= 0x7f06003b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="466" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ac7ef05dfd990f2b95dca1fe3d23fb699" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_scrubber_track_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_scrubber_track_mtrl_alpha</name>
+        <initializer>= 0x7f06003c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="467" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a10a90ab4e9c2e5b845d62de80055649b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_seekbar_thumb_material</definition>
+        <argsstring></argsstring>
+        <name>abc_seekbar_thumb_material</name>
+        <initializer>= 0x7f06003d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="468" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a06b8080ba1daff29ed0c28b852f61172" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_seekbar_track_material</definition>
+        <argsstring></argsstring>
+        <name>abc_seekbar_track_material</name>
+        <initializer>= 0x7f06003e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="469" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a62de668e8275bb98dd05bc9d19b26513" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_spinner_mtrl_am_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_spinner_mtrl_am_alpha</name>
+        <initializer>= 0x7f06003f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="470" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a17391731f957db32d3e1562fda39e645" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_spinner_textfield_background_material</definition>
+        <argsstring></argsstring>
+        <name>abc_spinner_textfield_background_material</name>
+        <initializer>= 0x7f060040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="471" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ad7dddd1f9a02c34bd3854ab853bef876" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_switch_thumb_material</definition>
+        <argsstring></argsstring>
+        <name>abc_switch_thumb_material</name>
+        <initializer>= 0x7f060041</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="472" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="472" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a4922c776516a33df969754eeee3a767f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_switch_track_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_switch_track_mtrl_alpha</name>
+        <initializer>= 0x7f060042</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="473" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="473" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ad01fb974b00a197f97e18bda16585879" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_tab_indicator_material</definition>
+        <argsstring></argsstring>
+        <name>abc_tab_indicator_material</name>
+        <initializer>= 0x7f060043</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="474" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="474" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7f1049cbf557e1766067343e31d78efe" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_tab_indicator_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_tab_indicator_mtrl_alpha</name>
+        <initializer>= 0x7f060044</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="475" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1af136e33039ac3514baf9c234114932bb" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_text_cursor_material</definition>
+        <argsstring></argsstring>
+        <name>abc_text_cursor_material</name>
+        <initializer>= 0x7f060045</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="476" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="476" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ae8bbef6c2b80b044a07e1d6780e06aff" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_textfield_activated_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_textfield_activated_mtrl_alpha</name>
+        <initializer>= 0x7f060046</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="477" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7c33f295eda00f089cb60a480e595b5e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_textfield_default_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_textfield_default_mtrl_alpha</name>
+        <initializer>= 0x7f060047</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="478" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a00703e7605d149c1c96ba37e9a700fe0" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_textfield_search_activated_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_textfield_search_activated_mtrl_alpha</name>
+        <initializer>= 0x7f060048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="479" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="479" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7f879ca4144a7a5c7ce00c1365719a05" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_textfield_search_default_mtrl_alpha</definition>
+        <argsstring></argsstring>
+        <name>abc_textfield_search_default_mtrl_alpha</name>
+        <initializer>= 0x7f060049</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="480" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="480" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ab7f05c2630051bd2d1746ef890c755fa" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.abc_textfield_search_material</definition>
+        <argsstring></argsstring>
+        <name>abc_textfield_search_material</name>
+        <initializer>= 0x7f06004a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="481" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="481" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a418857631140eaea9a0ba11fa60ab72e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int android.support.v7.appcompat.R.drawable.notification_template_icon_bg</definition>
+        <argsstring></argsstring>
+        <name>notification_template_icon_bg</name>
+        <initializer>= 0x7f060052</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="482" column="33" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="482" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a5d8fb9b93561c90629b4dcf7ad9b9997" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>android.support.v7.appcompat.R.drawable.drawable</definition>
+        <argsstring>()</argsstring>
+        <name>drawable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="405" column="17" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="405" bodyend="405"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" line="404" column="39" bodyfile="E:/TFG/appAndroid/autosulivansFeederApp/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" bodystart="404" bodyend="483"/>
+    <listofallmembers>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a2617cd3cc5fd99bf8702673e973c716d" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ab_share_pack_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a48cb66511eb88f80686a25611e677bd3" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_action_bar_item_background_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ad3b42c47b3c3ed014fd375136c62b76b" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_borderless_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ad54104f0bfce1e7c5fa5f887c153557a" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_check_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a45c3ee07ad24f689749d83dccb1efe64" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_check_to_on_mtrl_000</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa0d4e39356c8f7a8c87c6c74809e1e06" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_check_to_on_mtrl_015</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aedfa71414c1ad5fbc62fef5c218ff93c" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_colored_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a498dee9d40c49a9928e85e8005f6f642" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_default_mtrl_shape</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a8d689c41916dd0fa08c998419d610b2b" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_radio_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ac472b1c5ed381f5d525fb4598fb0c4b2" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_radio_to_on_mtrl_000</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa024fc7b4e09d54127462f93d5cedb5d" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_radio_to_on_mtrl_015</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a2ab4eeaa8859a5145253bd0e628bec3a" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_rating_star_off_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aacca1cc988f04bacd5b02db4ea316fc6" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_rating_star_on_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aae6ca36c8463b7976f62802f516fa9c2" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_switch_to_on_mtrl_00001</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a8b52138f1e94d96533a360120e3b968c" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_btn_switch_to_on_mtrl_00012</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a8d01953003be949ad45d82c1c53b611a" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_cab_background_internal_bg</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a3b9d6225bfc111a423e67eef1d49983e" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_cab_background_top_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a41a9763a8f9dea2aaac0cafd1806e7c6" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_cab_background_top_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ac561554e239453bfc18860a32da6a496" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_control_background_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a3c54c69c5b2e413b84ff3c1a7c96290b" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_dialog_material_background_dark</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a092c3cbf7c96dd74237cec7fc5fc506d" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_dialog_material_background_light</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a0022fde7523d3f42a2d9ea2591085cd0" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_edit_text_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a5abc07bf4568749640d49bdb0fc5184b" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_ab_back_mtrl_am_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a474cb3540b3a35748a8806885c659f7a" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_clear_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7755f018f8cfed959a6a680cc2eba8a3" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_commit_search_api_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a33c53467e457eda373e8d8501c9c7b4c" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_go_search_api_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7ee599d758a1ef263faa985737c3a031" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_menu_copy_mtrl_am_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a58b0dda1d7f5be83c45d2df10d54586b" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_menu_cut_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ae8fd7e8aa4de33987f74658697285a13" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_menu_moreoverflow_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ada8719a6a441014d76e46dc8ab2d6dbf" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_menu_paste_mtrl_am_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a9303126c0d13cb9eadc0ef16815e5584" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_menu_selectall_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a5528a05a387844af88152f610dbfe24b" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_menu_share_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa3433a9a6419e5e27f82325ef9805120" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_search_api_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a56f03af4bb2bcee04f606ec14eff4635" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_star_black_16dp</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1abd46dd2a47d6d179ed687bb3c31639d9" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_star_black_36dp</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa44235eb8b014f2210df1f043132b42e" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_star_half_black_16dp</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1af3ebb1df5aa794821fb532a0027a6c68" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_star_half_black_36dp</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a0ea6faae2aabfb475a7f2cbbed94a702" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ic_voice_search_api_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a50a815e499d6570de533862115087d7f" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_item_background_holo_dark</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ab30bee9918966c3b0d07dd65642e220c" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_item_background_holo_light</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ae2c4d472a1e46d0960fec1f3e246a6c7" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_list_divider_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a500dcc477188851a1398b06e5ed2e58f" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_list_focused_holo</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aba4103a819257b789d9e51b6dfa5f7b1" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_list_longpressed_holo</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1acb39459f4cd5a1c92cc1d0a6041fd83c" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_list_pressed_holo_dark</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a6dc781b7ecc90a01c62f7caa93eaca25" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_list_pressed_holo_light</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a5206c8f4e83eecee100478248fd78ce2" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_list_selector_background_transition_holo_dark</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa7337142d0dc014ff2de0d43341501f7" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_list_selector_background_transition_holo_light</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a71fb7eb02af378424330d479bc70445e" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_list_selector_disabled_holo_dark</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ae88e6bec55a3fb3e15ef45c45a9b0a17" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_list_selector_disabled_holo_light</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a8f42ab7ba96587cae658fe87d0476849" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_list_selector_holo_dark</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1afeaf9bb6857e838b95037f63d654e90b" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_list_selector_holo_light</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa677c8f22035c007340b8881b60fe2e6" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_menu_hardkey_panel_mtrl_mult</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a4b5e2894745ea21d9b5a6b2bbce32b54" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_popup_background_mtrl_mult</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7604ea46b8ab36b9392a1cfce4d47e99" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ratingbar_full_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a4d7ca18f5e3dcadfa751189317a102c4" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ratingbar_indicator_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa7100b2abc9f0bcf51d52bccca155ac0" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_ratingbar_small_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a786c1c1dbb933d228f29c57580ccfe88" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_scrubber_control_off_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a459f964eee43f7046aef6c61f5053ebd" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_scrubber_control_to_pressed_mtrl_000</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a44d8906520ce99aaac99ab2de9f606e2" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_scrubber_control_to_pressed_mtrl_005</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1aa46623b14f615bf00312c43345e41dd1" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_scrubber_primary_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ac7ef05dfd990f2b95dca1fe3d23fb699" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_scrubber_track_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a10a90ab4e9c2e5b845d62de80055649b" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_seekbar_thumb_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a06b8080ba1daff29ed0c28b852f61172" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_seekbar_track_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a62de668e8275bb98dd05bc9d19b26513" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_spinner_mtrl_am_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a17391731f957db32d3e1562fda39e645" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_spinner_textfield_background_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ad7dddd1f9a02c34bd3854ab853bef876" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_switch_thumb_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a4922c776516a33df969754eeee3a767f" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_switch_track_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ad01fb974b00a197f97e18bda16585879" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_tab_indicator_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7f1049cbf557e1766067343e31d78efe" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_tab_indicator_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1af136e33039ac3514baf9c234114932bb" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_text_cursor_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ae8bbef6c2b80b044a07e1d6780e06aff" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_textfield_activated_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7c33f295eda00f089cb60a480e595b5e" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_textfield_default_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a00703e7605d149c1c96ba37e9a700fe0" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_textfield_search_activated_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a7f879ca4144a7a5c7ce00c1365719a05" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_textfield_search_default_mtrl_alpha</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1ab7f05c2630051bd2d1746ef890c755fa" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>abc_textfield_search_material</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a5d8fb9b93561c90629b4dcf7ad9b9997" prot="private" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>drawable</name></member>
+      <member refid="classandroid_1_1support_1_1v7_1_1appcompat_1_1_r_1_1drawable_1a418857631140eaea9a0ba11fa60ab72e" prot="public" virt="non-virtual"><scope>android::support::v7::appcompat::R::drawable</scope><name>notification_template_icon_bg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

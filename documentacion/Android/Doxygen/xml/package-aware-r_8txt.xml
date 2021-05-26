@@ -1,0 +1,1014 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="package-aware-r_8txt" kind="file" language="C++">
+    <compoundname>package-aware-r.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"><ref refid="namespacecom" kindref="compound">com</ref>.<ref refid="namespacecom_1_1torijano" kindref="compound">torijano</ref>.<ref refid="namespacecom_1_1torijano_1_1autosulivans_feeder" kindref="compound">autosulivansFeeder</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">anim<sp/>abc_fade_in</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">anim<sp/>abc_fade_out</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">anim<sp/>abc_grow_fade_in_from_bottom</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">anim<sp/>abc_popup_enter</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">anim<sp/>abc_popup_exit</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">anim<sp/>abc_shrink_fade_out_from_bottom</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">anim<sp/>abc_slide_in_bottom</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">anim<sp/>abc_slide_in_top</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">anim<sp/>abc_slide_out_bottom</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">anim<sp/>abc_slide_out_top</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">attr<sp/>actionBarDivider</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">attr<sp/>actionBarItemBackground</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">attr<sp/>actionBarPopupTheme</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">attr<sp/>actionBarSize</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">attr<sp/>actionBarSplitStyle</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">attr<sp/>actionBarStyle</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">attr<sp/>actionBarTabBarStyle</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">attr<sp/>actionBarTabStyle</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">attr<sp/>actionBarTabTextStyle</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">attr<sp/>actionBarTheme</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">attr<sp/>actionBarWidgetTheme</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">attr<sp/>actionButtonStyle</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">attr<sp/>actionDropDownStyle</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">attr<sp/>actionLayout</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">attr<sp/>actionMenuTextAppearance</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">attr<sp/>actionMenuTextColor</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">attr<sp/>actionModeBackground</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">attr<sp/>actionModeCloseButtonStyle</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">attr<sp/>actionModeCloseDrawable</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">attr<sp/>actionModeCopyDrawable</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">attr<sp/>actionModeCutDrawable</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">attr<sp/>actionModeFindDrawable</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">attr<sp/>actionModePasteDrawable</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">attr<sp/>actionModePopupWindowStyle</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">attr<sp/>actionModeSelectAllDrawable</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">attr<sp/>actionModeShareDrawable</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">attr<sp/>actionModeSplitBackground</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">attr<sp/>actionModeStyle</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">attr<sp/>actionModeWebSearchDrawable</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">attr<sp/>actionOverflowButtonStyle</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">attr<sp/>actionOverflowMenuStyle</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">attr<sp/>actionProviderClass</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">attr<sp/>actionViewClass</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">attr<sp/>activityChooserViewStyle</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">attr<sp/>alertDialogButtonGroupStyle</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">attr<sp/>alertDialogCenterButtons</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">attr<sp/>alertDialogStyle</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">attr<sp/>alertDialogTheme</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">attr<sp/>allowStacking</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">attr<sp/>arrowHeadLength</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">attr<sp/>arrowShaftLength</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">attr<sp/>autoCompleteTextViewStyle</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">attr<sp/>background</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">attr<sp/>backgroundSplit</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">attr<sp/>backgroundStacked</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">attr<sp/>backgroundTint</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">attr<sp/>backgroundTintMode</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">attr<sp/>barLength</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">attr<sp/>borderlessButtonStyle</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">attr<sp/>buttonBarButtonStyle</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">attr<sp/>buttonBarNegativeButtonStyle</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">attr<sp/>buttonBarNeutralButtonStyle</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">attr<sp/>buttonBarPositiveButtonStyle</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">attr<sp/>buttonBarStyle</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">attr<sp/>buttonPanelSideLayout</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">attr<sp/>buttonStyle</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">attr<sp/>buttonStyleSmall</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">attr<sp/>buttonTint</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">attr<sp/>buttonTintMode</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">attr<sp/>checkboxStyle</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">attr<sp/>checkedTextViewStyle</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">attr<sp/>closeIcon</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">attr<sp/>closeItemLayout</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">attr<sp/>collapseContentDescription</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">attr<sp/>collapseIcon</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">attr<sp/>color</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">attr<sp/>colorAccent</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">attr<sp/>colorButtonNormal</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">attr<sp/>colorControlActivated</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">attr<sp/>colorControlHighlight</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">attr<sp/>colorControlNormal</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">attr<sp/>colorPrimary</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">attr<sp/>colorPrimaryDark</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">attr<sp/>colorSwitchThumbNormal</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">attr<sp/>commitIcon</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">attr<sp/>contentInsetEnd</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">attr<sp/>contentInsetLeft</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">attr<sp/>contentInsetRight</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">attr<sp/>contentInsetStart</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">attr<sp/>controlBackground</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">attr<sp/>customNavigationLayout</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">attr<sp/>defaultQueryHint</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">attr<sp/>dialogPreferredPadding</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">attr<sp/>dialogTheme</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">attr<sp/>displayOptions</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">attr<sp/>divider</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">attr<sp/>dividerHorizontal</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">attr<sp/>dividerPadding</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">attr<sp/>dividerVertical</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">attr<sp/>drawableSize</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">attr<sp/>drawerArrowStyle</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">attr<sp/>dropDownListViewStyle</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">attr<sp/>dropdownListPreferredItemHeight</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">attr<sp/>editTextBackground</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">attr<sp/>editTextColor</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">attr<sp/>editTextStyle</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">attr<sp/>elevation</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">attr<sp/>expandActivityOverflowButtonDrawable</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">attr<sp/>gapBetweenBars</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">attr<sp/>goIcon</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">attr<sp/>height</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">attr<sp/>hideOnContentScroll</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">attr<sp/>homeAsUpIndicator</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">attr<sp/>homeLayout</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">attr<sp/>icon</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">attr<sp/>iconifiedByDefault</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">attr<sp/>imageButtonStyle</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">attr<sp/>indeterminateProgressStyle</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">attr<sp/>initialActivityCount</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">attr<sp/>isLightTheme</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">attr<sp/>itemPadding</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">attr<sp/>layout</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">attr<sp/>listChoiceBackgroundIndicator</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">attr<sp/>listDividerAlertDialog</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">attr<sp/>listItemLayout</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">attr<sp/>listLayout</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">attr<sp/>listPopupWindowStyle</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">attr<sp/>listPreferredItemHeight</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">attr<sp/>listPreferredItemHeightLarge</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">attr<sp/>listPreferredItemHeightSmall</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">attr<sp/>listPreferredItemPaddingLeft</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">attr<sp/>listPreferredItemPaddingRight</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">attr<sp/>logo</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">attr<sp/>logoDescription</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">attr<sp/>maxButtonHeight</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">attr<sp/>measureWithLargestChild</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">attr<sp/>multiChoiceItemLayout</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">attr<sp/>navigationContentDescription</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">attr<sp/>navigationIcon</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">attr<sp/>navigationMode</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">attr<sp/>overlapAnchor</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">attr<sp/>paddingEnd</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">attr<sp/>paddingStart</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">attr<sp/>panelBackground</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">attr<sp/>panelMenuListTheme</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">attr<sp/>panelMenuListWidth</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">attr<sp/>popupMenuStyle</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">attr<sp/>popupTheme</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">attr<sp/>popupWindowStyle</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">attr<sp/>preserveIconSpacing</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">attr<sp/>progressBarPadding</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">attr<sp/>progressBarStyle</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">attr<sp/>queryBackground</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">attr<sp/>queryHint</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">attr<sp/>radioButtonStyle</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">attr<sp/>ratingBarStyle</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">attr<sp/>ratingBarStyleIndicator</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">attr<sp/>ratingBarStyleSmall</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">attr<sp/>searchHintIcon</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">attr<sp/>searchIcon</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">attr<sp/>searchViewStyle</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">attr<sp/>seekBarStyle</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">attr<sp/>selectableItemBackground</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">attr<sp/>selectableItemBackgroundBorderless</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">attr<sp/>showAsAction</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">attr<sp/>showDividers</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">attr<sp/>showText</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">attr<sp/>singleChoiceItemLayout</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">attr<sp/>spinBars</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">attr<sp/>spinnerDropDownItemStyle</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">attr<sp/>spinnerStyle</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">attr<sp/>splitTrack</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">attr<sp/>srcCompat</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">attr<sp/>state_above_anchor</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">attr<sp/>submitBackground</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">attr<sp/>subtitle</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">attr<sp/>subtitleTextAppearance</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">attr<sp/>subtitleTextColor</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">attr<sp/>subtitleTextStyle</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">attr<sp/>suggestionRowLayout</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">attr<sp/>switchMinWidth</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">attr<sp/>switchPadding</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">attr<sp/>switchStyle</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">attr<sp/>switchTextAppearance</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">attr<sp/>textAllCaps</highlight></codeline>
+<codeline lineno="187"><highlight class="normal">attr<sp/>textAppearanceLargePopupMenu</highlight></codeline>
+<codeline lineno="188"><highlight class="normal">attr<sp/>textAppearanceListItem</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">attr<sp/>textAppearanceListItemSmall</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">attr<sp/>textAppearanceSearchResultSubtitle</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">attr<sp/>textAppearanceSearchResultTitle</highlight></codeline>
+<codeline lineno="192"><highlight class="normal">attr<sp/>textAppearanceSmallPopupMenu</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">attr<sp/>textColorAlertDialogListItem</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">attr<sp/>textColorSearchUrl</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">attr<sp/>theme</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">attr<sp/>thickness</highlight></codeline>
+<codeline lineno="197"><highlight class="normal">attr<sp/>thumbTextPadding</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">attr<sp/>title</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">attr<sp/>titleMarginBottom</highlight></codeline>
+<codeline lineno="200"><highlight class="normal">attr<sp/>titleMarginEnd</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">attr<sp/>titleMarginStart</highlight></codeline>
+<codeline lineno="202"><highlight class="normal">attr<sp/>titleMarginTop</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">attr<sp/>titleMargins</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">attr<sp/>titleTextAppearance</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">attr<sp/>titleTextColor</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">attr<sp/>titleTextStyle</highlight></codeline>
+<codeline lineno="207"><highlight class="normal">attr<sp/>toolbarNavigationButtonStyle</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">attr<sp/>toolbarStyle</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">attr<sp/>track</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">attr<sp/>voiceIcon</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">attr<sp/>windowActionBar</highlight></codeline>
+<codeline lineno="212"><highlight class="normal">attr<sp/>windowActionBarOverlay</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">attr<sp/>windowActionModeOverlay</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">attr<sp/>windowFixedHeightMajor</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">attr<sp/>windowFixedHeightMinor</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">attr<sp/>windowFixedWidthMajor</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">attr<sp/>windowFixedWidthMinor</highlight></codeline>
+<codeline lineno="218"><highlight class="normal">attr<sp/>windowMinWidthMajor</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">attr<sp/>windowMinWidthMinor</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">attr<sp/>windowNoTitle</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>abc_action_bar_embed_tabs</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>abc_action_bar_embed_tabs_pre_jb</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>abc_action_bar_expanded_action_views_exclusive</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>abc_allow_stacked_button_bar</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>abc_config_actionMenuItemAllCaps</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>abc_config_allowActionMenuItemTextWithIcon</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>abc_config_closeDialogWhenTouchOutside</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>abc_config_showMenuShortcutsWhenKeyboardPresent</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">color<sp/>abc_background_cache_hint_selector_material_dark</highlight></codeline>
+<codeline lineno="230"><highlight class="normal">color<sp/>abc_background_cache_hint_selector_material_light</highlight></codeline>
+<codeline lineno="231"><highlight class="normal">color<sp/>abc_color_highlight_material</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">color<sp/>abc_input_method_navigation_guard</highlight></codeline>
+<codeline lineno="233"><highlight class="normal">color<sp/>abc_primary_text_disable_only_material_dark</highlight></codeline>
+<codeline lineno="234"><highlight class="normal">color<sp/>abc_primary_text_disable_only_material_light</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">color<sp/>abc_primary_text_material_dark</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">color<sp/>abc_primary_text_material_light</highlight></codeline>
+<codeline lineno="237"><highlight class="normal">color<sp/>abc_search_url_text</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">color<sp/>abc_search_url_text_normal</highlight></codeline>
+<codeline lineno="239"><highlight class="normal">color<sp/>abc_search_url_text_pressed</highlight></codeline>
+<codeline lineno="240"><highlight class="normal">color<sp/>abc_search_url_text_selected</highlight></codeline>
+<codeline lineno="241"><highlight class="normal">color<sp/>abc_secondary_text_material_dark</highlight></codeline>
+<codeline lineno="242"><highlight class="normal">color<sp/>abc_secondary_text_material_light</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">color<sp/>accent_material_dark</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">color<sp/>accent_material_light</highlight></codeline>
+<codeline lineno="245"><highlight class="normal">color<sp/>background_floating_material_dark</highlight></codeline>
+<codeline lineno="246"><highlight class="normal">color<sp/>background_floating_material_light</highlight></codeline>
+<codeline lineno="247"><highlight class="normal">color<sp/>background_material_dark</highlight></codeline>
+<codeline lineno="248"><highlight class="normal">color<sp/>background_material_light</highlight></codeline>
+<codeline lineno="249"><highlight class="normal">color<sp/>bg</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">color<sp/>bright_foreground_disabled_material_dark</highlight></codeline>
+<codeline lineno="251"><highlight class="normal">color<sp/>bright_foreground_disabled_material_light</highlight></codeline>
+<codeline lineno="252"><highlight class="normal">color<sp/>bright_foreground_inverse_material_dark</highlight></codeline>
+<codeline lineno="253"><highlight class="normal">color<sp/>bright_foreground_inverse_material_light</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">color<sp/>bright_foreground_material_dark</highlight></codeline>
+<codeline lineno="255"><highlight class="normal">color<sp/>bright_foreground_material_light</highlight></codeline>
+<codeline lineno="256"><highlight class="normal">color<sp/>button_material_dark</highlight></codeline>
+<codeline lineno="257"><highlight class="normal">color<sp/>button_material_light</highlight></codeline>
+<codeline lineno="258"><highlight class="normal">color<sp/>dim_foreground_disabled_material_dark</highlight></codeline>
+<codeline lineno="259"><highlight class="normal">color<sp/>dim_foreground_disabled_material_light</highlight></codeline>
+<codeline lineno="260"><highlight class="normal">color<sp/>dim_foreground_material_dark</highlight></codeline>
+<codeline lineno="261"><highlight class="normal">color<sp/>dim_foreground_material_light</highlight></codeline>
+<codeline lineno="262"><highlight class="normal">color<sp/>foreground_material_dark</highlight></codeline>
+<codeline lineno="263"><highlight class="normal">color<sp/>foreground_material_light</highlight></codeline>
+<codeline lineno="264"><highlight class="normal">color<sp/>highlighted_text_material_dark</highlight></codeline>
+<codeline lineno="265"><highlight class="normal">color<sp/>highlighted_text_material_light</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">color<sp/>hint_foreground_material_dark</highlight></codeline>
+<codeline lineno="267"><highlight class="normal">color<sp/>hint_foreground_material_light</highlight></codeline>
+<codeline lineno="268"><highlight class="normal">color<sp/>ic_launcher_background</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">color<sp/>material_blue_grey_800</highlight></codeline>
+<codeline lineno="270"><highlight class="normal">color<sp/>material_blue_grey_900</highlight></codeline>
+<codeline lineno="271"><highlight class="normal">color<sp/>material_blue_grey_950</highlight></codeline>
+<codeline lineno="272"><highlight class="normal">color<sp/>material_deep_teal_200</highlight></codeline>
+<codeline lineno="273"><highlight class="normal">color<sp/>material_deep_teal_500</highlight></codeline>
+<codeline lineno="274"><highlight class="normal">color<sp/>material_grey_100</highlight></codeline>
+<codeline lineno="275"><highlight class="normal">color<sp/>material_grey_300</highlight></codeline>
+<codeline lineno="276"><highlight class="normal">color<sp/>material_grey_50</highlight></codeline>
+<codeline lineno="277"><highlight class="normal">color<sp/>material_grey_600</highlight></codeline>
+<codeline lineno="278"><highlight class="normal">color<sp/>material_grey_800</highlight></codeline>
+<codeline lineno="279"><highlight class="normal">color<sp/>material_grey_850</highlight></codeline>
+<codeline lineno="280"><highlight class="normal">color<sp/>material_grey_900</highlight></codeline>
+<codeline lineno="281"><highlight class="normal">color<sp/>primary_dark_material_dark</highlight></codeline>
+<codeline lineno="282"><highlight class="normal">color<sp/>primary_dark_material_light</highlight></codeline>
+<codeline lineno="283"><highlight class="normal">color<sp/>primary_material_dark</highlight></codeline>
+<codeline lineno="284"><highlight class="normal">color<sp/>primary_material_light</highlight></codeline>
+<codeline lineno="285"><highlight class="normal">color<sp/>primary_text_default_material_dark</highlight></codeline>
+<codeline lineno="286"><highlight class="normal">color<sp/>primary_text_default_material_light</highlight></codeline>
+<codeline lineno="287"><highlight class="normal">color<sp/>primary_text_disabled_material_dark</highlight></codeline>
+<codeline lineno="288"><highlight class="normal">color<sp/>primary_text_disabled_material_light</highlight></codeline>
+<codeline lineno="289"><highlight class="normal">color<sp/>ripple_material_dark</highlight></codeline>
+<codeline lineno="290"><highlight class="normal">color<sp/>ripple_material_light</highlight></codeline>
+<codeline lineno="291"><highlight class="normal">color<sp/>secondary_text_default_material_dark</highlight></codeline>
+<codeline lineno="292"><highlight class="normal">color<sp/>secondary_text_default_material_light</highlight></codeline>
+<codeline lineno="293"><highlight class="normal">color<sp/>secondary_text_disabled_material_dark</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">color<sp/>secondary_text_disabled_material_light</highlight></codeline>
+<codeline lineno="295"><highlight class="normal">color<sp/>switch_thumb_disabled_material_dark</highlight></codeline>
+<codeline lineno="296"><highlight class="normal">color<sp/>switch_thumb_disabled_material_light</highlight></codeline>
+<codeline lineno="297"><highlight class="normal">color<sp/>switch_thumb_material_dark</highlight></codeline>
+<codeline lineno="298"><highlight class="normal">color<sp/>switch_thumb_material_light</highlight></codeline>
+<codeline lineno="299"><highlight class="normal">color<sp/>switch_thumb_normal_material_dark</highlight></codeline>
+<codeline lineno="300"><highlight class="normal">color<sp/>switch_thumb_normal_material_light</highlight></codeline>
+<codeline lineno="301"><highlight class="normal">dimen<sp/>abc_action_bar_content_inset_material</highlight></codeline>
+<codeline lineno="302"><highlight class="normal">dimen<sp/>abc_action_bar_default_height_material</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">dimen<sp/>abc_action_bar_default_padding_end_material</highlight></codeline>
+<codeline lineno="304"><highlight class="normal">dimen<sp/>abc_action_bar_default_padding_start_material</highlight></codeline>
+<codeline lineno="305"><highlight class="normal">dimen<sp/>abc_action_bar_icon_vertical_padding_material</highlight></codeline>
+<codeline lineno="306"><highlight class="normal">dimen<sp/>abc_action_bar_overflow_padding_end_material</highlight></codeline>
+<codeline lineno="307"><highlight class="normal">dimen<sp/>abc_action_bar_overflow_padding_start_material</highlight></codeline>
+<codeline lineno="308"><highlight class="normal">dimen<sp/>abc_action_bar_progress_bar_size</highlight></codeline>
+<codeline lineno="309"><highlight class="normal">dimen<sp/>abc_action_bar_stacked_max_height</highlight></codeline>
+<codeline lineno="310"><highlight class="normal">dimen<sp/>abc_action_bar_stacked_tab_max_width</highlight></codeline>
+<codeline lineno="311"><highlight class="normal">dimen<sp/>abc_action_bar_subtitle_bottom_margin_material</highlight></codeline>
+<codeline lineno="312"><highlight class="normal">dimen<sp/>abc_action_bar_subtitle_top_margin_material</highlight></codeline>
+<codeline lineno="313"><highlight class="normal">dimen<sp/>abc_action_button_min_height_material</highlight></codeline>
+<codeline lineno="314"><highlight class="normal">dimen<sp/>abc_action_button_min_width_material</highlight></codeline>
+<codeline lineno="315"><highlight class="normal">dimen<sp/>abc_action_button_min_width_overflow_material</highlight></codeline>
+<codeline lineno="316"><highlight class="normal">dimen<sp/>abc_alert_dialog_button_bar_height</highlight></codeline>
+<codeline lineno="317"><highlight class="normal">dimen<sp/>abc_button_inset_horizontal_material</highlight></codeline>
+<codeline lineno="318"><highlight class="normal">dimen<sp/>abc_button_inset_vertical_material</highlight></codeline>
+<codeline lineno="319"><highlight class="normal">dimen<sp/>abc_button_padding_horizontal_material</highlight></codeline>
+<codeline lineno="320"><highlight class="normal">dimen<sp/>abc_button_padding_vertical_material</highlight></codeline>
+<codeline lineno="321"><highlight class="normal">dimen<sp/>abc_config_prefDialogWidth</highlight></codeline>
+<codeline lineno="322"><highlight class="normal">dimen<sp/>abc_control_corner_material</highlight></codeline>
+<codeline lineno="323"><highlight class="normal">dimen<sp/>abc_control_inset_material</highlight></codeline>
+<codeline lineno="324"><highlight class="normal">dimen<sp/>abc_control_padding_material</highlight></codeline>
+<codeline lineno="325"><highlight class="normal">dimen<sp/>abc_dialog_fixed_height_major</highlight></codeline>
+<codeline lineno="326"><highlight class="normal">dimen<sp/>abc_dialog_fixed_height_minor</highlight></codeline>
+<codeline lineno="327"><highlight class="normal">dimen<sp/>abc_dialog_fixed_width_major</highlight></codeline>
+<codeline lineno="328"><highlight class="normal">dimen<sp/>abc_dialog_fixed_width_minor</highlight></codeline>
+<codeline lineno="329"><highlight class="normal">dimen<sp/>abc_dialog_list_padding_vertical_material</highlight></codeline>
+<codeline lineno="330"><highlight class="normal">dimen<sp/>abc_dialog_min_width_major</highlight></codeline>
+<codeline lineno="331"><highlight class="normal">dimen<sp/>abc_dialog_min_width_minor</highlight></codeline>
+<codeline lineno="332"><highlight class="normal">dimen<sp/>abc_dialog_padding_material</highlight></codeline>
+<codeline lineno="333"><highlight class="normal">dimen<sp/>abc_dialog_padding_top_material</highlight></codeline>
+<codeline lineno="334"><highlight class="normal">dimen<sp/>abc_disabled_alpha_material_dark</highlight></codeline>
+<codeline lineno="335"><highlight class="normal">dimen<sp/>abc_disabled_alpha_material_light</highlight></codeline>
+<codeline lineno="336"><highlight class="normal">dimen<sp/>abc_dropdownitem_icon_width</highlight></codeline>
+<codeline lineno="337"><highlight class="normal">dimen<sp/>abc_dropdownitem_text_padding_left</highlight></codeline>
+<codeline lineno="338"><highlight class="normal">dimen<sp/>abc_dropdownitem_text_padding_right</highlight></codeline>
+<codeline lineno="339"><highlight class="normal">dimen<sp/>abc_edit_text_inset_bottom_material</highlight></codeline>
+<codeline lineno="340"><highlight class="normal">dimen<sp/>abc_edit_text_inset_horizontal_material</highlight></codeline>
+<codeline lineno="341"><highlight class="normal">dimen<sp/>abc_edit_text_inset_top_material</highlight></codeline>
+<codeline lineno="342"><highlight class="normal">dimen<sp/>abc_floating_window_z</highlight></codeline>
+<codeline lineno="343"><highlight class="normal">dimen<sp/>abc_list_item_padding_horizontal_material</highlight></codeline>
+<codeline lineno="344"><highlight class="normal">dimen<sp/>abc_panel_menu_list_width</highlight></codeline>
+<codeline lineno="345"><highlight class="normal">dimen<sp/>abc_search_view_preferred_width</highlight></codeline>
+<codeline lineno="346"><highlight class="normal">dimen<sp/>abc_search_view_text_min_width</highlight></codeline>
+<codeline lineno="347"><highlight class="normal">dimen<sp/>abc_seekbar_track_background_height_material</highlight></codeline>
+<codeline lineno="348"><highlight class="normal">dimen<sp/>abc_seekbar_track_progress_height_material</highlight></codeline>
+<codeline lineno="349"><highlight class="normal">dimen<sp/>abc_select_dialog_padding_start_material</highlight></codeline>
+<codeline lineno="350"><highlight class="normal">dimen<sp/>abc_switch_padding</highlight></codeline>
+<codeline lineno="351"><highlight class="normal">dimen<sp/>abc_text_size_body_1_material</highlight></codeline>
+<codeline lineno="352"><highlight class="normal">dimen<sp/>abc_text_size_body_2_material</highlight></codeline>
+<codeline lineno="353"><highlight class="normal">dimen<sp/>abc_text_size_button_material</highlight></codeline>
+<codeline lineno="354"><highlight class="normal">dimen<sp/>abc_text_size_caption_material</highlight></codeline>
+<codeline lineno="355"><highlight class="normal">dimen<sp/>abc_text_size_display_1_material</highlight></codeline>
+<codeline lineno="356"><highlight class="normal">dimen<sp/>abc_text_size_display_2_material</highlight></codeline>
+<codeline lineno="357"><highlight class="normal">dimen<sp/>abc_text_size_display_3_material</highlight></codeline>
+<codeline lineno="358"><highlight class="normal">dimen<sp/>abc_text_size_display_4_material</highlight></codeline>
+<codeline lineno="359"><highlight class="normal">dimen<sp/>abc_text_size_headline_material</highlight></codeline>
+<codeline lineno="360"><highlight class="normal">dimen<sp/>abc_text_size_large_material</highlight></codeline>
+<codeline lineno="361"><highlight class="normal">dimen<sp/>abc_text_size_medium_material</highlight></codeline>
+<codeline lineno="362"><highlight class="normal">dimen<sp/>abc_text_size_menu_material</highlight></codeline>
+<codeline lineno="363"><highlight class="normal">dimen<sp/>abc_text_size_small_material</highlight></codeline>
+<codeline lineno="364"><highlight class="normal">dimen<sp/>abc_text_size_subhead_material</highlight></codeline>
+<codeline lineno="365"><highlight class="normal">dimen<sp/>abc_text_size_subtitle_material_toolbar</highlight></codeline>
+<codeline lineno="366"><highlight class="normal">dimen<sp/>abc_text_size_title_material</highlight></codeline>
+<codeline lineno="367"><highlight class="normal">dimen<sp/>abc_text_size_title_material_toolbar</highlight></codeline>
+<codeline lineno="368"><highlight class="normal">dimen<sp/>activity_horizontal_margin</highlight></codeline>
+<codeline lineno="369"><highlight class="normal">dimen<sp/>activity_vertical_margin</highlight></codeline>
+<codeline lineno="370"><highlight class="normal">dimen<sp/>disabled_alpha_material_dark</highlight></codeline>
+<codeline lineno="371"><highlight class="normal">dimen<sp/>disabled_alpha_material_light</highlight></codeline>
+<codeline lineno="372"><highlight class="normal">dimen<sp/>highlight_alpha_material_colored</highlight></codeline>
+<codeline lineno="373"><highlight class="normal">dimen<sp/>highlight_alpha_material_dark</highlight></codeline>
+<codeline lineno="374"><highlight class="normal">dimen<sp/>highlight_alpha_material_light</highlight></codeline>
+<codeline lineno="375"><highlight class="normal">dimen<sp/>notification_large_icon_height</highlight></codeline>
+<codeline lineno="376"><highlight class="normal">dimen<sp/>notification_large_icon_width</highlight></codeline>
+<codeline lineno="377"><highlight class="normal">dimen<sp/>notification_subtext_size</highlight></codeline>
+<codeline lineno="378"><highlight class="normal">drawable<sp/>abc_ab_share_pack_mtrl_alpha</highlight></codeline>
+<codeline lineno="379"><highlight class="normal">drawable<sp/>abc_action_bar_item_background_material</highlight></codeline>
+<codeline lineno="380"><highlight class="normal">drawable<sp/>abc_btn_borderless_material</highlight></codeline>
+<codeline lineno="381"><highlight class="normal">drawable<sp/>abc_btn_check_material</highlight></codeline>
+<codeline lineno="382"><highlight class="normal">drawable<sp/>abc_btn_check_to_on_mtrl_000</highlight></codeline>
+<codeline lineno="383"><highlight class="normal">drawable<sp/>abc_btn_check_to_on_mtrl_015</highlight></codeline>
+<codeline lineno="384"><highlight class="normal">drawable<sp/>abc_btn_colored_material</highlight></codeline>
+<codeline lineno="385"><highlight class="normal">drawable<sp/>abc_btn_default_mtrl_shape</highlight></codeline>
+<codeline lineno="386"><highlight class="normal">drawable<sp/>abc_btn_radio_material</highlight></codeline>
+<codeline lineno="387"><highlight class="normal">drawable<sp/>abc_btn_radio_to_on_mtrl_000</highlight></codeline>
+<codeline lineno="388"><highlight class="normal">drawable<sp/>abc_btn_radio_to_on_mtrl_015</highlight></codeline>
+<codeline lineno="389"><highlight class="normal">drawable<sp/>abc_btn_rating_star_off_mtrl_alpha</highlight></codeline>
+<codeline lineno="390"><highlight class="normal">drawable<sp/>abc_btn_rating_star_on_mtrl_alpha</highlight></codeline>
+<codeline lineno="391"><highlight class="normal">drawable<sp/>abc_btn_switch_to_on_mtrl_00001</highlight></codeline>
+<codeline lineno="392"><highlight class="normal">drawable<sp/>abc_btn_switch_to_on_mtrl_00012</highlight></codeline>
+<codeline lineno="393"><highlight class="normal">drawable<sp/>abc_cab_background_internal_bg</highlight></codeline>
+<codeline lineno="394"><highlight class="normal">drawable<sp/>abc_cab_background_top_material</highlight></codeline>
+<codeline lineno="395"><highlight class="normal">drawable<sp/>abc_cab_background_top_mtrl_alpha</highlight></codeline>
+<codeline lineno="396"><highlight class="normal">drawable<sp/>abc_control_background_material</highlight></codeline>
+<codeline lineno="397"><highlight class="normal">drawable<sp/>abc_dialog_material_background_dark</highlight></codeline>
+<codeline lineno="398"><highlight class="normal">drawable<sp/>abc_dialog_material_background_light</highlight></codeline>
+<codeline lineno="399"><highlight class="normal">drawable<sp/>abc_edit_text_material</highlight></codeline>
+<codeline lineno="400"><highlight class="normal">drawable<sp/>abc_ic_ab_back_mtrl_am_alpha</highlight></codeline>
+<codeline lineno="401"><highlight class="normal">drawable<sp/>abc_ic_clear_mtrl_alpha</highlight></codeline>
+<codeline lineno="402"><highlight class="normal">drawable<sp/>abc_ic_commit_search_api_mtrl_alpha</highlight></codeline>
+<codeline lineno="403"><highlight class="normal">drawable<sp/>abc_ic_go_search_api_mtrl_alpha</highlight></codeline>
+<codeline lineno="404"><highlight class="normal">drawable<sp/>abc_ic_menu_copy_mtrl_am_alpha</highlight></codeline>
+<codeline lineno="405"><highlight class="normal">drawable<sp/>abc_ic_menu_cut_mtrl_alpha</highlight></codeline>
+<codeline lineno="406"><highlight class="normal">drawable<sp/>abc_ic_menu_moreoverflow_mtrl_alpha</highlight></codeline>
+<codeline lineno="407"><highlight class="normal">drawable<sp/>abc_ic_menu_paste_mtrl_am_alpha</highlight></codeline>
+<codeline lineno="408"><highlight class="normal">drawable<sp/>abc_ic_menu_selectall_mtrl_alpha</highlight></codeline>
+<codeline lineno="409"><highlight class="normal">drawable<sp/>abc_ic_menu_share_mtrl_alpha</highlight></codeline>
+<codeline lineno="410"><highlight class="normal">drawable<sp/>abc_ic_search_api_mtrl_alpha</highlight></codeline>
+<codeline lineno="411"><highlight class="normal">drawable<sp/>abc_ic_star_black_16dp</highlight></codeline>
+<codeline lineno="412"><highlight class="normal">drawable<sp/>abc_ic_star_black_36dp</highlight></codeline>
+<codeline lineno="413"><highlight class="normal">drawable<sp/>abc_ic_star_half_black_16dp</highlight></codeline>
+<codeline lineno="414"><highlight class="normal">drawable<sp/>abc_ic_star_half_black_36dp</highlight></codeline>
+<codeline lineno="415"><highlight class="normal">drawable<sp/>abc_ic_voice_search_api_mtrl_alpha</highlight></codeline>
+<codeline lineno="416"><highlight class="normal">drawable<sp/>abc_item_background_holo_dark</highlight></codeline>
+<codeline lineno="417"><highlight class="normal">drawable<sp/>abc_item_background_holo_light</highlight></codeline>
+<codeline lineno="418"><highlight class="normal">drawable<sp/>abc_list_divider_mtrl_alpha</highlight></codeline>
+<codeline lineno="419"><highlight class="normal">drawable<sp/>abc_list_focused_holo</highlight></codeline>
+<codeline lineno="420"><highlight class="normal">drawable<sp/>abc_list_longpressed_holo</highlight></codeline>
+<codeline lineno="421"><highlight class="normal">drawable<sp/>abc_list_pressed_holo_dark</highlight></codeline>
+<codeline lineno="422"><highlight class="normal">drawable<sp/>abc_list_pressed_holo_light</highlight></codeline>
+<codeline lineno="423"><highlight class="normal">drawable<sp/>abc_list_selector_background_transition_holo_dark</highlight></codeline>
+<codeline lineno="424"><highlight class="normal">drawable<sp/>abc_list_selector_background_transition_holo_light</highlight></codeline>
+<codeline lineno="425"><highlight class="normal">drawable<sp/>abc_list_selector_disabled_holo_dark</highlight></codeline>
+<codeline lineno="426"><highlight class="normal">drawable<sp/>abc_list_selector_disabled_holo_light</highlight></codeline>
+<codeline lineno="427"><highlight class="normal">drawable<sp/>abc_list_selector_holo_dark</highlight></codeline>
+<codeline lineno="428"><highlight class="normal">drawable<sp/>abc_list_selector_holo_light</highlight></codeline>
+<codeline lineno="429"><highlight class="normal">drawable<sp/>abc_menu_hardkey_panel_mtrl_mult</highlight></codeline>
+<codeline lineno="430"><highlight class="normal">drawable<sp/>abc_popup_background_mtrl_mult</highlight></codeline>
+<codeline lineno="431"><highlight class="normal">drawable<sp/>abc_ratingbar_full_material</highlight></codeline>
+<codeline lineno="432"><highlight class="normal">drawable<sp/>abc_ratingbar_indicator_material</highlight></codeline>
+<codeline lineno="433"><highlight class="normal">drawable<sp/>abc_ratingbar_small_material</highlight></codeline>
+<codeline lineno="434"><highlight class="normal">drawable<sp/>abc_scrubber_control_off_mtrl_alpha</highlight></codeline>
+<codeline lineno="435"><highlight class="normal">drawable<sp/>abc_scrubber_control_to_pressed_mtrl_000</highlight></codeline>
+<codeline lineno="436"><highlight class="normal">drawable<sp/>abc_scrubber_control_to_pressed_mtrl_005</highlight></codeline>
+<codeline lineno="437"><highlight class="normal">drawable<sp/>abc_scrubber_primary_mtrl_alpha</highlight></codeline>
+<codeline lineno="438"><highlight class="normal">drawable<sp/>abc_scrubber_track_mtrl_alpha</highlight></codeline>
+<codeline lineno="439"><highlight class="normal">drawable<sp/>abc_seekbar_thumb_material</highlight></codeline>
+<codeline lineno="440"><highlight class="normal">drawable<sp/>abc_seekbar_track_material</highlight></codeline>
+<codeline lineno="441"><highlight class="normal">drawable<sp/>abc_spinner_mtrl_am_alpha</highlight></codeline>
+<codeline lineno="442"><highlight class="normal">drawable<sp/>abc_spinner_textfield_background_material</highlight></codeline>
+<codeline lineno="443"><highlight class="normal">drawable<sp/>abc_switch_thumb_material</highlight></codeline>
+<codeline lineno="444"><highlight class="normal">drawable<sp/>abc_switch_track_mtrl_alpha</highlight></codeline>
+<codeline lineno="445"><highlight class="normal">drawable<sp/>abc_tab_indicator_material</highlight></codeline>
+<codeline lineno="446"><highlight class="normal">drawable<sp/>abc_tab_indicator_mtrl_alpha</highlight></codeline>
+<codeline lineno="447"><highlight class="normal">drawable<sp/>abc_text_cursor_material</highlight></codeline>
+<codeline lineno="448"><highlight class="normal">drawable<sp/>abc_textfield_activated_mtrl_alpha</highlight></codeline>
+<codeline lineno="449"><highlight class="normal">drawable<sp/>abc_textfield_default_mtrl_alpha</highlight></codeline>
+<codeline lineno="450"><highlight class="normal">drawable<sp/>abc_textfield_search_activated_mtrl_alpha</highlight></codeline>
+<codeline lineno="451"><highlight class="normal">drawable<sp/>abc_textfield_search_default_mtrl_alpha</highlight></codeline>
+<codeline lineno="452"><highlight class="normal">drawable<sp/>abc_textfield_search_material</highlight></codeline>
+<codeline lineno="453"><highlight class="normal">drawable<sp/>bowl</highlight></codeline>
+<codeline lineno="454"><highlight class="normal">drawable<sp/>bulb</highlight></codeline>
+<codeline lineno="455"><highlight class="normal">drawable<sp/>connect</highlight></codeline>
+<codeline lineno="456"><highlight class="normal">drawable<sp/>disconnect</highlight></codeline>
+<codeline lineno="457"><highlight class="normal">drawable<sp/>ic_autorenew_24px</highlight></codeline>
+<codeline lineno="458"><highlight class="normal">drawable<sp/>ic_watch_24px</highlight></codeline>
+<codeline lineno="459"><highlight class="normal">drawable<sp/>logo</highlight></codeline>
+<codeline lineno="460"><highlight class="normal">drawable<sp/>notification_template_icon_bg</highlight></codeline>
+<codeline lineno="461"><highlight class="normal">drawable<sp/>rounded</highlight></codeline>
+<codeline lineno="462"><highlight class="normal">drawable<sp/>rounded_gray</highlight></codeline>
+<codeline lineno="463"><highlight class="normal">drawable<sp/>weight</highlight></codeline>
+<codeline lineno="464"><highlight class="normal">drawable<sp/>weight_scale</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action0</highlight></codeline>
+<codeline lineno="466"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_bar</highlight></codeline>
+<codeline lineno="467"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_bar_activity_content</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_bar_container</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_bar_root</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_bar_spinner</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_bar_subtitle</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_bar_title</highlight></codeline>
+<codeline lineno="473"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_context_bar</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_divider</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_menu_divider</highlight></codeline>
+<codeline lineno="476"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_menu_presenter</highlight></codeline>
+<codeline lineno="477"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_mode_bar</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_mode_bar_stub</highlight></codeline>
+<codeline lineno="479"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>action_mode_close_button</highlight></codeline>
+<codeline lineno="480"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>activity_chooser_view_content</highlight></codeline>
+<codeline lineno="481"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>alertTitle</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>always</highlight></codeline>
+<codeline lineno="483"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>beginning</highlight></codeline>
+<codeline lineno="484"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>buttonPanel</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>cancel_action</highlight></codeline>
+<codeline lineno="486"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>checkbox</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>chronometer</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>close</highlight></codeline>
+<codeline lineno="489"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>collapseActionView</highlight></codeline>
+<codeline lineno="490"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>command_option</highlight></codeline>
+<codeline lineno="491"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>connectionSatus</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>contentPanel</highlight></codeline>
+<codeline lineno="493"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>custom</highlight></codeline>
+<codeline lineno="494"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>customPanel</highlight></codeline>
+<codeline lineno="495"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>decor_content_parent</highlight></codeline>
+<codeline lineno="496"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>default_activity_button</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>disableHome</highlight></codeline>
+<codeline lineno="498"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>dosis_input</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>edit_query</highlight></codeline>
+<codeline lineno="500"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>end</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>end_padder</highlight></codeline>
+<codeline lineno="502"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>expand_activities_button</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>expanded_menu</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>gramos_input</highlight></codeline>
+<codeline lineno="505"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>home</highlight></codeline>
+<codeline lineno="506"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>homeAsUp</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>icon</highlight></codeline>
+<codeline lineno="508"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>ifRoom</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>image</highlight></codeline>
+<codeline lineno="510"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>info</highlight></codeline>
+<codeline lineno="511"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>light_button</highlight></codeline>
+<codeline lineno="512"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>line1</highlight></codeline>
+<codeline lineno="513"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>line3</highlight></codeline>
+<codeline lineno="514"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>list</highlight></codeline>
+<codeline lineno="515"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>listMode</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>list_item</highlight></codeline>
+<codeline lineno="517"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>media_actions</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>message</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>middle</highlight></codeline>
+<codeline lineno="520"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>multiply</highlight></codeline>
+<codeline lineno="521"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>never</highlight></codeline>
+<codeline lineno="522"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>none</highlight></codeline>
+<codeline lineno="523"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>normal</highlight></codeline>
+<codeline lineno="524"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>not_in_list</highlight></codeline>
+<codeline lineno="525"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>parentPanel</highlight></codeline>
+<codeline lineno="526"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>pesoInput</highlight></codeline>
+<codeline lineno="527"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>progress_circular</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>progress_horizontal</highlight></codeline>
+<codeline lineno="529"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>prueba</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>pull_to_refresh</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>radio</highlight></codeline>
+<codeline lineno="532"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>rate</highlight></codeline>
+<codeline lineno="533"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>reset_button</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>rl</highlight></codeline>
+<codeline lineno="535"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>scan_list</highlight></codeline>
+<codeline lineno="536"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>scan_progress</highlight></codeline>
+<codeline lineno="537"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>scan_scan_again</highlight></codeline>
+<codeline lineno="538"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>scan_state</highlight></codeline>
+<codeline lineno="539"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>screen</highlight></codeline>
+<codeline lineno="540"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>scrollIndicatorDown</highlight></codeline>
+<codeline lineno="541"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>scrollIndicatorUp</highlight></codeline>
+<codeline lineno="542"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>scrollView</highlight></codeline>
+<codeline lineno="543"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>search_badge</highlight></codeline>
+<codeline lineno="544"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>search_bar</highlight></codeline>
+<codeline lineno="545"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>search_button</highlight></codeline>
+<codeline lineno="546"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>search_close_btn</highlight></codeline>
+<codeline lineno="547"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>search_edit_frame</highlight></codeline>
+<codeline lineno="548"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>search_go_btn</highlight></codeline>
+<codeline lineno="549"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>search_mag_icon</highlight></codeline>
+<codeline lineno="550"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>search_plate</highlight></codeline>
+<codeline lineno="551"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>search_src_text</highlight></codeline>
+<codeline lineno="552"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>search_voice_btn</highlight></codeline>
+<codeline lineno="553"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>select_dialog_listview</highlight></codeline>
+<codeline lineno="554"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>send</highlight></codeline>
+<codeline lineno="555"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>shortcut</highlight></codeline>
+<codeline lineno="556"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>showCustom</highlight></codeline>
+<codeline lineno="557"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>showHome</highlight></codeline>
+<codeline lineno="558"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>showTitle</highlight></codeline>
+<codeline lineno="559"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>spacer</highlight></codeline>
+<codeline lineno="560"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>split_action_bar</highlight></codeline>
+<codeline lineno="561"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>src_atop</highlight></codeline>
+<codeline lineno="562"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>src_in</highlight></codeline>
+<codeline lineno="563"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>src_over</highlight></codeline>
+<codeline lineno="564"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>status_bar_latest_event_content</highlight></codeline>
+<codeline lineno="565"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>submit_area</highlight></codeline>
+<codeline lineno="566"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>tabMode</highlight></codeline>
+<codeline lineno="567"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>text</highlight></codeline>
+<codeline lineno="568"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>text2</highlight></codeline>
+<codeline lineno="569"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>textSpacerNoButtons</highlight></codeline>
+<codeline lineno="570"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>textView2</highlight></codeline>
+<codeline lineno="571"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>textView3</highlight></codeline>
+<codeline lineno="572"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>time</highlight></codeline>
+<codeline lineno="573"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>timePicker</highlight></codeline>
+<codeline lineno="574"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>title</highlight></codeline>
+<codeline lineno="575"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>title_template</highlight></codeline>
+<codeline lineno="576"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>topPanel</highlight></codeline>
+<codeline lineno="577"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>up</highlight></codeline>
+<codeline lineno="578"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>useLogo</highlight></codeline>
+<codeline lineno="579"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>withText</highlight></codeline>
+<codeline lineno="580"><highlight class="normal"></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>wrap_content</highlight></codeline>
+<codeline lineno="581"><highlight class="normal">integer<sp/>abc_config_activityDefaultDur</highlight></codeline>
+<codeline lineno="582"><highlight class="normal">integer<sp/>abc_config_activityShortDur</highlight></codeline>
+<codeline lineno="583"><highlight class="normal">integer<sp/>abc_max_action_buttons</highlight></codeline>
+<codeline lineno="584"><highlight class="normal">integer<sp/>cancel_button_image_alpha</highlight></codeline>
+<codeline lineno="585"><highlight class="normal">integer<sp/>status_bar_notification_info_maxnum</highlight></codeline>
+<codeline lineno="586"><highlight class="normal">layout<sp/>abc_action_bar_title_item</highlight></codeline>
+<codeline lineno="587"><highlight class="normal">layout<sp/>abc_action_bar_up_container</highlight></codeline>
+<codeline lineno="588"><highlight class="normal">layout<sp/>abc_action_bar_view_list_nav_layout</highlight></codeline>
+<codeline lineno="589"><highlight class="normal">layout<sp/>abc_action_menu_item_layout</highlight></codeline>
+<codeline lineno="590"><highlight class="normal">layout<sp/>abc_action_menu_layout</highlight></codeline>
+<codeline lineno="591"><highlight class="normal">layout<sp/>abc_action_mode_bar</highlight></codeline>
+<codeline lineno="592"><highlight class="normal">layout<sp/>abc_action_mode_close_item_material</highlight></codeline>
+<codeline lineno="593"><highlight class="normal">layout<sp/>abc_activity_chooser_view</highlight></codeline>
+<codeline lineno="594"><highlight class="normal">layout<sp/>abc_activity_chooser_view_list_item</highlight></codeline>
+<codeline lineno="595"><highlight class="normal">layout<sp/>abc_alert_dialog_button_bar_material</highlight></codeline>
+<codeline lineno="596"><highlight class="normal">layout<sp/>abc_alert_dialog_material</highlight></codeline>
+<codeline lineno="597"><highlight class="normal">layout<sp/>abc_dialog_title_material</highlight></codeline>
+<codeline lineno="598"><highlight class="normal">layout<sp/>abc_expanded_menu_layout</highlight></codeline>
+<codeline lineno="599"><highlight class="normal">layout<sp/>abc_list_menu_item_checkbox</highlight></codeline>
+<codeline lineno="600"><highlight class="normal">layout<sp/>abc_list_menu_item_icon</highlight></codeline>
+<codeline lineno="601"><highlight class="normal">layout<sp/>abc_list_menu_item_layout</highlight></codeline>
+<codeline lineno="602"><highlight class="normal">layout<sp/>abc_list_menu_item_radio</highlight></codeline>
+<codeline lineno="603"><highlight class="normal">layout<sp/>abc_popup_menu_item_layout</highlight></codeline>
+<codeline lineno="604"><highlight class="normal">layout<sp/>abc_screen_content_include</highlight></codeline>
+<codeline lineno="605"><highlight class="normal">layout<sp/>abc_screen_simple</highlight></codeline>
+<codeline lineno="606"><highlight class="normal">layout<sp/>abc_screen_simple_overlay_action_mode</highlight></codeline>
+<codeline lineno="607"><highlight class="normal">layout<sp/>abc_screen_toolbar</highlight></codeline>
+<codeline lineno="608"><highlight class="normal">layout<sp/>abc_search_dropdown_item_icons_2line</highlight></codeline>
+<codeline lineno="609"><highlight class="normal">layout<sp/>abc_search_view</highlight></codeline>
+<codeline lineno="610"><highlight class="normal">layout<sp/>abc_select_dialog_material</highlight></codeline>
+<codeline lineno="611"><highlight class="normal">layout<sp/>activity_main</highlight></codeline>
+<codeline lineno="612"><highlight class="normal">layout<sp/>notification_media_action</highlight></codeline>
+<codeline lineno="613"><highlight class="normal">layout<sp/>notification_media_cancel_action</highlight></codeline>
+<codeline lineno="614"><highlight class="normal">layout<sp/>notification_template_big_media</highlight></codeline>
+<codeline lineno="615"><highlight class="normal">layout<sp/>notification_template_big_media_narrow</highlight></codeline>
+<codeline lineno="616"><highlight class="normal">layout<sp/>notification_template_lines</highlight></codeline>
+<codeline lineno="617"><highlight class="normal">layout<sp/>notification_template_media</highlight></codeline>
+<codeline lineno="618"><highlight class="normal">layout<sp/>notification_template_part_chronometer</highlight></codeline>
+<codeline lineno="619"><highlight class="normal">layout<sp/>notification_template_part_time</highlight></codeline>
+<codeline lineno="620"><highlight class="normal">layout<sp/>scan</highlight></codeline>
+<codeline lineno="621"><highlight class="normal">layout<sp/>select</highlight></codeline>
+<codeline lineno="622"><highlight class="normal">layout<sp/>select_dialog_item_material</highlight></codeline>
+<codeline lineno="623"><highlight class="normal">layout<sp/>select_dialog_multichoice_material</highlight></codeline>
+<codeline lineno="624"><highlight class="normal">layout<sp/>select_dialog_singlechoice_material</highlight></codeline>
+<codeline lineno="625"><highlight class="normal">layout<sp/>splash</highlight></codeline>
+<codeline lineno="626"><highlight class="normal">layout<sp/>support_simple_spinner_dropdown_item</highlight></codeline>
+<codeline lineno="627"><highlight class="normal">menu<sp/>menu_main</highlight></codeline>
+<codeline lineno="628"><highlight class="normal">mipmap<sp/>ic_launcher</highlight></codeline>
+<codeline lineno="629"><highlight class="normal">mipmap<sp/>ic_launcher_foreground</highlight></codeline>
+<codeline lineno="630"><highlight class="normal">mipmap<sp/>ic_launcher_round</highlight></codeline>
+<codeline lineno="631"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_action_bar_home_description</highlight></codeline>
+<codeline lineno="632"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_action_bar_home_description_format</highlight></codeline>
+<codeline lineno="633"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_action_bar_home_subtitle_description_format</highlight></codeline>
+<codeline lineno="634"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_action_bar_up_description</highlight></codeline>
+<codeline lineno="635"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_action_menu_overflow_description</highlight></codeline>
+<codeline lineno="636"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_action_mode_done</highlight></codeline>
+<codeline lineno="637"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_activity_chooser_view_see_all</highlight></codeline>
+<codeline lineno="638"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_activitychooserview_choose_application</highlight></codeline>
+<codeline lineno="639"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_capital_off</highlight></codeline>
+<codeline lineno="640"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_capital_on</highlight></codeline>
+<codeline lineno="641"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_search_hint</highlight></codeline>
+<codeline lineno="642"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_searchview_description_clear</highlight></codeline>
+<codeline lineno="643"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_searchview_description_query</highlight></codeline>
+<codeline lineno="644"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_searchview_description_search</highlight></codeline>
+<codeline lineno="645"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_searchview_description_submit</highlight></codeline>
+<codeline lineno="646"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_searchview_description_voice</highlight></codeline>
+<codeline lineno="647"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_shareactionprovider_share_with</highlight></codeline>
+<codeline lineno="648"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_shareactionprovider_share_with_application</highlight></codeline>
+<codeline lineno="649"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>abc_toolbar_collapse_description</highlight></codeline>
+<codeline lineno="650"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>action_settings</highlight></codeline>
+<codeline lineno="651"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>app_name</highlight></codeline>
+<codeline lineno="652"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>hello_world</highlight></codeline>
+<codeline lineno="653"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>status_bar_notification_info_overflow</highlight></codeline>
+<codeline lineno="654"><highlight class="normal">style<sp/>AlertDialog_AppCompat</highlight></codeline>
+<codeline lineno="655"><highlight class="normal">style<sp/>AlertDialog_AppCompat_Light</highlight></codeline>
+<codeline lineno="656"><highlight class="normal">style<sp/>Animation_AppCompat_Dialog</highlight></codeline>
+<codeline lineno="657"><highlight class="normal">style<sp/>Animation_AppCompat_DropDownUp</highlight></codeline>
+<codeline lineno="658"><highlight class="normal">style<sp/>AppTheme</highlight></codeline>
+<codeline lineno="659"><highlight class="normal">style<sp/>Base_AlertDialog_AppCompat</highlight></codeline>
+<codeline lineno="660"><highlight class="normal">style<sp/>Base_AlertDialog_AppCompat_Light</highlight></codeline>
+<codeline lineno="661"><highlight class="normal">style<sp/>Base_Animation_AppCompat_Dialog</highlight></codeline>
+<codeline lineno="662"><highlight class="normal">style<sp/>Base_Animation_AppCompat_DropDownUp</highlight></codeline>
+<codeline lineno="663"><highlight class="normal">style<sp/>Base_DialogWindowTitle_AppCompat</highlight></codeline>
+<codeline lineno="664"><highlight class="normal">style<sp/>Base_DialogWindowTitleBackground_AppCompat</highlight></codeline>
+<codeline lineno="665"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat</highlight></codeline>
+<codeline lineno="666"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Body1</highlight></codeline>
+<codeline lineno="667"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Body2</highlight></codeline>
+<codeline lineno="668"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Button</highlight></codeline>
+<codeline lineno="669"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Caption</highlight></codeline>
+<codeline lineno="670"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Display1</highlight></codeline>
+<codeline lineno="671"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Display2</highlight></codeline>
+<codeline lineno="672"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Display3</highlight></codeline>
+<codeline lineno="673"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Display4</highlight></codeline>
+<codeline lineno="674"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Headline</highlight></codeline>
+<codeline lineno="675"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Inverse</highlight></codeline>
+<codeline lineno="676"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Large</highlight></codeline>
+<codeline lineno="677"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Large_Inverse</highlight></codeline>
+<codeline lineno="678"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large</highlight></codeline>
+<codeline lineno="679"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small</highlight></codeline>
+<codeline lineno="680"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Medium</highlight></codeline>
+<codeline lineno="681"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Medium_Inverse</highlight></codeline>
+<codeline lineno="682"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Menu</highlight></codeline>
+<codeline lineno="683"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_SearchResult</highlight></codeline>
+<codeline lineno="684"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_SearchResult_Subtitle</highlight></codeline>
+<codeline lineno="685"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_SearchResult_Title</highlight></codeline>
+<codeline lineno="686"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Small</highlight></codeline>
+<codeline lineno="687"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Small_Inverse</highlight></codeline>
+<codeline lineno="688"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Subhead</highlight></codeline>
+<codeline lineno="689"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Subhead_Inverse</highlight></codeline>
+<codeline lineno="690"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Title</highlight></codeline>
+<codeline lineno="691"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Title_Inverse</highlight></codeline>
+<codeline lineno="692"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_ActionBar_Menu</highlight></codeline>
+<codeline lineno="693"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle</highlight></codeline>
+<codeline lineno="694"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse</highlight></codeline>
+<codeline lineno="695"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_ActionBar_Title</highlight></codeline>
+<codeline lineno="696"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse</highlight></codeline>
+<codeline lineno="697"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle</highlight></codeline>
+<codeline lineno="698"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_ActionMode_Title</highlight></codeline>
+<codeline lineno="699"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_Button</highlight></codeline>
+<codeline lineno="700"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_Button_Inverse</highlight></codeline>
+<codeline lineno="701"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_DropDownItem</highlight></codeline>
+<codeline lineno="702"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_PopupMenu_Large</highlight></codeline>
+<codeline lineno="703"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_PopupMenu_Small</highlight></codeline>
+<codeline lineno="704"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_Switch</highlight></codeline>
+<codeline lineno="705"><highlight class="normal">style<sp/>Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem</highlight></codeline>
+<codeline lineno="706"><highlight class="normal">style<sp/>Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item</highlight></codeline>
+<codeline lineno="707"><highlight class="normal">style<sp/>Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle</highlight></codeline>
+<codeline lineno="708"><highlight class="normal">style<sp/>Base_TextAppearance_Widget_AppCompat_Toolbar_Title</highlight></codeline>
+<codeline lineno="709"><highlight class="normal">style<sp/>Base_Theme_AppCompat</highlight></codeline>
+<codeline lineno="710"><highlight class="normal">style<sp/>Base_Theme_AppCompat_CompactMenu</highlight></codeline>
+<codeline lineno="711"><highlight class="normal">style<sp/>Base_Theme_AppCompat_Dialog</highlight></codeline>
+<codeline lineno="712"><highlight class="normal">style<sp/>Base_Theme_AppCompat_Dialog_Alert</highlight></codeline>
+<codeline lineno="713"><highlight class="normal">style<sp/>Base_Theme_AppCompat_Dialog_FixedSize</highlight></codeline>
+<codeline lineno="714"><highlight class="normal">style<sp/>Base_Theme_AppCompat_Dialog_MinWidth</highlight></codeline>
+<codeline lineno="715"><highlight class="normal">style<sp/>Base_Theme_AppCompat_DialogWhenLarge</highlight></codeline>
+<codeline lineno="716"><highlight class="normal">style<sp/>Base_Theme_AppCompat_Light</highlight></codeline>
+<codeline lineno="717"><highlight class="normal">style<sp/>Base_Theme_AppCompat_Light_DarkActionBar</highlight></codeline>
+<codeline lineno="718"><highlight class="normal">style<sp/>Base_Theme_AppCompat_Light_Dialog</highlight></codeline>
+<codeline lineno="719"><highlight class="normal">style<sp/>Base_Theme_AppCompat_Light_Dialog_Alert</highlight></codeline>
+<codeline lineno="720"><highlight class="normal">style<sp/>Base_Theme_AppCompat_Light_Dialog_FixedSize</highlight></codeline>
+<codeline lineno="721"><highlight class="normal">style<sp/>Base_Theme_AppCompat_Light_Dialog_MinWidth</highlight></codeline>
+<codeline lineno="722"><highlight class="normal">style<sp/>Base_Theme_AppCompat_Light_DialogWhenLarge</highlight></codeline>
+<codeline lineno="723"><highlight class="normal">style<sp/>Base_ThemeOverlay_AppCompat</highlight></codeline>
+<codeline lineno="724"><highlight class="normal">style<sp/>Base_ThemeOverlay_AppCompat_ActionBar</highlight></codeline>
+<codeline lineno="725"><highlight class="normal">style<sp/>Base_ThemeOverlay_AppCompat_Dark</highlight></codeline>
+<codeline lineno="726"><highlight class="normal">style<sp/>Base_ThemeOverlay_AppCompat_Dark_ActionBar</highlight></codeline>
+<codeline lineno="727"><highlight class="normal">style<sp/>Base_ThemeOverlay_AppCompat_Light</highlight></codeline>
+<codeline lineno="728"><highlight class="normal">style<sp/>Base_V11_Theme_AppCompat_Dialog</highlight></codeline>
+<codeline lineno="729"><highlight class="normal">style<sp/>Base_V11_Theme_AppCompat_Light_Dialog</highlight></codeline>
+<codeline lineno="730"><highlight class="normal">style<sp/>Base_V12_Widget_AppCompat_AutoCompleteTextView</highlight></codeline>
+<codeline lineno="731"><highlight class="normal">style<sp/>Base_V12_Widget_AppCompat_EditText</highlight></codeline>
+<codeline lineno="732"><highlight class="normal">style<sp/>Base_V21_Theme_AppCompat</highlight></codeline>
+<codeline lineno="733"><highlight class="normal">style<sp/>Base_V21_Theme_AppCompat_Dialog</highlight></codeline>
+<codeline lineno="734"><highlight class="normal">style<sp/>Base_V21_Theme_AppCompat_Light</highlight></codeline>
+<codeline lineno="735"><highlight class="normal">style<sp/>Base_V21_Theme_AppCompat_Light_Dialog</highlight></codeline>
+<codeline lineno="736"><highlight class="normal">style<sp/>Base_V22_Theme_AppCompat</highlight></codeline>
+<codeline lineno="737"><highlight class="normal">style<sp/>Base_V22_Theme_AppCompat_Light</highlight></codeline>
+<codeline lineno="738"><highlight class="normal">style<sp/>Base_V23_Theme_AppCompat</highlight></codeline>
+<codeline lineno="739"><highlight class="normal">style<sp/>Base_V23_Theme_AppCompat_Light</highlight></codeline>
+<codeline lineno="740"><highlight class="normal">style<sp/>Base_V7_Theme_AppCompat</highlight></codeline>
+<codeline lineno="741"><highlight class="normal">style<sp/>Base_V7_Theme_AppCompat_Dialog</highlight></codeline>
+<codeline lineno="742"><highlight class="normal">style<sp/>Base_V7_Theme_AppCompat_Light</highlight></codeline>
+<codeline lineno="743"><highlight class="normal">style<sp/>Base_V7_Theme_AppCompat_Light_Dialog</highlight></codeline>
+<codeline lineno="744"><highlight class="normal">style<sp/>Base_V7_Widget_AppCompat_AutoCompleteTextView</highlight></codeline>
+<codeline lineno="745"><highlight class="normal">style<sp/>Base_V7_Widget_AppCompat_EditText</highlight></codeline>
+<codeline lineno="746"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ActionBar</highlight></codeline>
+<codeline lineno="747"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ActionBar_Solid</highlight></codeline>
+<codeline lineno="748"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ActionBar_TabBar</highlight></codeline>
+<codeline lineno="749"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ActionBar_TabText</highlight></codeline>
+<codeline lineno="750"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ActionBar_TabView</highlight></codeline>
+<codeline lineno="751"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ActionButton</highlight></codeline>
+<codeline lineno="752"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ActionButton_CloseMode</highlight></codeline>
+<codeline lineno="753"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ActionButton_Overflow</highlight></codeline>
+<codeline lineno="754"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ActionMode</highlight></codeline>
+<codeline lineno="755"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ActivityChooserView</highlight></codeline>
+<codeline lineno="756"><highlight class="normal">style<sp/>Base_Widget_AppCompat_AutoCompleteTextView</highlight></codeline>
+<codeline lineno="757"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Button</highlight></codeline>
+<codeline lineno="758"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Button_Borderless</highlight></codeline>
+<codeline lineno="759"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Button_Borderless_Colored</highlight></codeline>
+<codeline lineno="760"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Button_ButtonBar_AlertDialog</highlight></codeline>
+<codeline lineno="761"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Button_Colored</highlight></codeline>
+<codeline lineno="762"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Button_Small</highlight></codeline>
+<codeline lineno="763"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ButtonBar</highlight></codeline>
+<codeline lineno="764"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ButtonBar_AlertDialog</highlight></codeline>
+<codeline lineno="765"><highlight class="normal">style<sp/>Base_Widget_AppCompat_CompoundButton_CheckBox</highlight></codeline>
+<codeline lineno="766"><highlight class="normal">style<sp/>Base_Widget_AppCompat_CompoundButton_RadioButton</highlight></codeline>
+<codeline lineno="767"><highlight class="normal">style<sp/>Base_Widget_AppCompat_CompoundButton_Switch</highlight></codeline>
+<codeline lineno="768"><highlight class="normal">style<sp/>Base_Widget_AppCompat_DrawerArrowToggle</highlight></codeline>
+<codeline lineno="769"><highlight class="normal">style<sp/>Base_Widget_AppCompat_DrawerArrowToggle_Common</highlight></codeline>
+<codeline lineno="770"><highlight class="normal">style<sp/>Base_Widget_AppCompat_DropDownItem_Spinner</highlight></codeline>
+<codeline lineno="771"><highlight class="normal">style<sp/>Base_Widget_AppCompat_EditText</highlight></codeline>
+<codeline lineno="772"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ImageButton</highlight></codeline>
+<codeline lineno="773"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Light_ActionBar</highlight></codeline>
+<codeline lineno="774"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Light_ActionBar_Solid</highlight></codeline>
+<codeline lineno="775"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Light_ActionBar_TabBar</highlight></codeline>
+<codeline lineno="776"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Light_ActionBar_TabText</highlight></codeline>
+<codeline lineno="777"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse</highlight></codeline>
+<codeline lineno="778"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Light_ActionBar_TabView</highlight></codeline>
+<codeline lineno="779"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Light_PopupMenu</highlight></codeline>
+<codeline lineno="780"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Light_PopupMenu_Overflow</highlight></codeline>
+<codeline lineno="781"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ListPopupWindow</highlight></codeline>
+<codeline lineno="782"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ListView</highlight></codeline>
+<codeline lineno="783"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ListView_DropDown</highlight></codeline>
+<codeline lineno="784"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ListView_Menu</highlight></codeline>
+<codeline lineno="785"><highlight class="normal">style<sp/>Base_Widget_AppCompat_PopupMenu</highlight></codeline>
+<codeline lineno="786"><highlight class="normal">style<sp/>Base_Widget_AppCompat_PopupMenu_Overflow</highlight></codeline>
+<codeline lineno="787"><highlight class="normal">style<sp/>Base_Widget_AppCompat_PopupWindow</highlight></codeline>
+<codeline lineno="788"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ProgressBar</highlight></codeline>
+<codeline lineno="789"><highlight class="normal">style<sp/>Base_Widget_AppCompat_ProgressBar_Horizontal</highlight></codeline>
+<codeline lineno="790"><highlight class="normal">style<sp/>Base_Widget_AppCompat_RatingBar</highlight></codeline>
+<codeline lineno="791"><highlight class="normal">style<sp/>Base_Widget_AppCompat_RatingBar_Indicator</highlight></codeline>
+<codeline lineno="792"><highlight class="normal">style<sp/>Base_Widget_AppCompat_RatingBar_Small</highlight></codeline>
+<codeline lineno="793"><highlight class="normal">style<sp/>Base_Widget_AppCompat_SearchView</highlight></codeline>
+<codeline lineno="794"><highlight class="normal">style<sp/>Base_Widget_AppCompat_SearchView_ActionBar</highlight></codeline>
+<codeline lineno="795"><highlight class="normal">style<sp/>Base_Widget_AppCompat_SeekBar</highlight></codeline>
+<codeline lineno="796"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Spinner</highlight></codeline>
+<codeline lineno="797"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Spinner_Underlined</highlight></codeline>
+<codeline lineno="798"><highlight class="normal">style<sp/>Base_Widget_AppCompat_TextView_SpinnerItem</highlight></codeline>
+<codeline lineno="799"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Toolbar</highlight></codeline>
+<codeline lineno="800"><highlight class="normal">style<sp/>Base_Widget_AppCompat_Toolbar_Button_Navigation</highlight></codeline>
+<codeline lineno="801"><highlight class="normal">style<sp/>Platform_AppCompat</highlight></codeline>
+<codeline lineno="802"><highlight class="normal">style<sp/>Platform_AppCompat_Light</highlight></codeline>
+<codeline lineno="803"><highlight class="normal">style<sp/>Platform_ThemeOverlay_AppCompat</highlight></codeline>
+<codeline lineno="804"><highlight class="normal">style<sp/>Platform_ThemeOverlay_AppCompat_Dark</highlight></codeline>
+<codeline lineno="805"><highlight class="normal">style<sp/>Platform_ThemeOverlay_AppCompat_Light</highlight></codeline>
+<codeline lineno="806"><highlight class="normal">style<sp/>Platform_V11_AppCompat</highlight></codeline>
+<codeline lineno="807"><highlight class="normal">style<sp/>Platform_V11_AppCompat_Light</highlight></codeline>
+<codeline lineno="808"><highlight class="normal">style<sp/>Platform_V14_AppCompat</highlight></codeline>
+<codeline lineno="809"><highlight class="normal">style<sp/>Platform_V14_AppCompat_Light</highlight></codeline>
+<codeline lineno="810"><highlight class="normal">style<sp/>Platform_Widget_AppCompat_Spinner</highlight></codeline>
+<codeline lineno="811"><highlight class="normal">style<sp/>RtlOverlay_DialogWindowTitle_AppCompat</highlight></codeline>
+<codeline lineno="812"><highlight class="normal">style<sp/>RtlOverlay_Widget_AppCompat_ActionBar_TitleItem</highlight></codeline>
+<codeline lineno="813"><highlight class="normal">style<sp/>RtlOverlay_Widget_AppCompat_DialogTitle_Icon</highlight></codeline>
+<codeline lineno="814"><highlight class="normal">style<sp/>RtlOverlay_Widget_AppCompat_PopupMenuItem</highlight></codeline>
+<codeline lineno="815"><highlight class="normal">style<sp/>RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup</highlight></codeline>
+<codeline lineno="816"><highlight class="normal">style<sp/>RtlOverlay_Widget_AppCompat_PopupMenuItem_Text</highlight></codeline>
+<codeline lineno="817"><highlight class="normal">style<sp/>RtlOverlay_Widget_AppCompat_Search_DropDown</highlight></codeline>
+<codeline lineno="818"><highlight class="normal">style<sp/>RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1</highlight></codeline>
+<codeline lineno="819"><highlight class="normal">style<sp/>RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2</highlight></codeline>
+<codeline lineno="820"><highlight class="normal">style<sp/>RtlOverlay_Widget_AppCompat_Search_DropDown_Query</highlight></codeline>
+<codeline lineno="821"><highlight class="normal">style<sp/>RtlOverlay_Widget_AppCompat_Search_DropDown_Text</highlight></codeline>
+<codeline lineno="822"><highlight class="normal">style<sp/>RtlOverlay_Widget_AppCompat_SearchView_MagIcon</highlight></codeline>
+<codeline lineno="823"><highlight class="normal">style<sp/>RtlUnderlay_Widget_AppCompat_ActionButton</highlight></codeline>
+<codeline lineno="824"><highlight class="normal">style<sp/>RtlUnderlay_Widget_AppCompat_ActionButton_Overflow</highlight></codeline>
+<codeline lineno="825"><highlight class="normal">style<sp/>TextAppearance_AppCompat</highlight></codeline>
+<codeline lineno="826"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Body1</highlight></codeline>
+<codeline lineno="827"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Body2</highlight></codeline>
+<codeline lineno="828"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Button</highlight></codeline>
+<codeline lineno="829"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Caption</highlight></codeline>
+<codeline lineno="830"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Display1</highlight></codeline>
+<codeline lineno="831"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Display2</highlight></codeline>
+<codeline lineno="832"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Display3</highlight></codeline>
+<codeline lineno="833"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Display4</highlight></codeline>
+<codeline lineno="834"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Headline</highlight></codeline>
+<codeline lineno="835"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Inverse</highlight></codeline>
+<codeline lineno="836"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Large</highlight></codeline>
+<codeline lineno="837"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Large_Inverse</highlight></codeline>
+<codeline lineno="838"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Light_SearchResult_Subtitle</highlight></codeline>
+<codeline lineno="839"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Light_SearchResult_Title</highlight></codeline>
+<codeline lineno="840"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Light_Widget_PopupMenu_Large</highlight></codeline>
+<codeline lineno="841"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Light_Widget_PopupMenu_Small</highlight></codeline>
+<codeline lineno="842"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Medium</highlight></codeline>
+<codeline lineno="843"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Medium_Inverse</highlight></codeline>
+<codeline lineno="844"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Menu</highlight></codeline>
+<codeline lineno="845"><highlight class="normal">style<sp/>TextAppearance_AppCompat_SearchResult_Subtitle</highlight></codeline>
+<codeline lineno="846"><highlight class="normal">style<sp/>TextAppearance_AppCompat_SearchResult_Title</highlight></codeline>
+<codeline lineno="847"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Small</highlight></codeline>
+<codeline lineno="848"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Small_Inverse</highlight></codeline>
+<codeline lineno="849"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Subhead</highlight></codeline>
+<codeline lineno="850"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Subhead_Inverse</highlight></codeline>
+<codeline lineno="851"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Title</highlight></codeline>
+<codeline lineno="852"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Title_Inverse</highlight></codeline>
+<codeline lineno="853"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_ActionBar_Menu</highlight></codeline>
+<codeline lineno="854"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_ActionBar_Subtitle</highlight></codeline>
+<codeline lineno="855"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse</highlight></codeline>
+<codeline lineno="856"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_ActionBar_Title</highlight></codeline>
+<codeline lineno="857"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse</highlight></codeline>
+<codeline lineno="858"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_ActionMode_Subtitle</highlight></codeline>
+<codeline lineno="859"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse</highlight></codeline>
+<codeline lineno="860"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_ActionMode_Title</highlight></codeline>
+<codeline lineno="861"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse</highlight></codeline>
+<codeline lineno="862"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_Button</highlight></codeline>
+<codeline lineno="863"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_Button_Inverse</highlight></codeline>
+<codeline lineno="864"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_DropDownItem</highlight></codeline>
+<codeline lineno="865"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_PopupMenu_Large</highlight></codeline>
+<codeline lineno="866"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_PopupMenu_Small</highlight></codeline>
+<codeline lineno="867"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_Switch</highlight></codeline>
+<codeline lineno="868"><highlight class="normal">style<sp/>TextAppearance_AppCompat_Widget_TextView_SpinnerItem</highlight></codeline>
+<codeline lineno="869"><highlight class="normal">style<sp/>TextAppearance_StatusBar_EventContent</highlight></codeline>
+<codeline lineno="870"><highlight class="normal">style<sp/>TextAppearance_StatusBar_EventContent_Info</highlight></codeline>
+<codeline lineno="871"><highlight class="normal">style<sp/>TextAppearance_StatusBar_EventContent_Line2</highlight></codeline>
+<codeline lineno="872"><highlight class="normal">style<sp/>TextAppearance_StatusBar_EventContent_Time</highlight></codeline>
+<codeline lineno="873"><highlight class="normal">style<sp/>TextAppearance_StatusBar_EventContent_Title</highlight></codeline>
+<codeline lineno="874"><highlight class="normal">style<sp/>TextAppearance_Widget_AppCompat_ExpandedMenu_Item</highlight></codeline>
+<codeline lineno="875"><highlight class="normal">style<sp/>TextAppearance_Widget_AppCompat_Toolbar_Subtitle</highlight></codeline>
+<codeline lineno="876"><highlight class="normal">style<sp/>TextAppearance_Widget_AppCompat_Toolbar_Title</highlight></codeline>
+<codeline lineno="877"><highlight class="normal">style<sp/>Theme_AppCompat</highlight></codeline>
+<codeline lineno="878"><highlight class="normal">style<sp/>Theme_AppCompat_CompactMenu</highlight></codeline>
+<codeline lineno="879"><highlight class="normal">style<sp/>Theme_AppCompat_DayNight</highlight></codeline>
+<codeline lineno="880"><highlight class="normal">style<sp/>Theme_AppCompat_DayNight_DarkActionBar</highlight></codeline>
+<codeline lineno="881"><highlight class="normal">style<sp/>Theme_AppCompat_DayNight_Dialog</highlight></codeline>
+<codeline lineno="882"><highlight class="normal">style<sp/>Theme_AppCompat_DayNight_Dialog_Alert</highlight></codeline>
+<codeline lineno="883"><highlight class="normal">style<sp/>Theme_AppCompat_DayNight_Dialog_MinWidth</highlight></codeline>
+<codeline lineno="884"><highlight class="normal">style<sp/>Theme_AppCompat_DayNight_DialogWhenLarge</highlight></codeline>
+<codeline lineno="885"><highlight class="normal">style<sp/>Theme_AppCompat_DayNight_NoActionBar</highlight></codeline>
+<codeline lineno="886"><highlight class="normal">style<sp/>Theme_AppCompat_Dialog</highlight></codeline>
+<codeline lineno="887"><highlight class="normal">style<sp/>Theme_AppCompat_Dialog_Alert</highlight></codeline>
+<codeline lineno="888"><highlight class="normal">style<sp/>Theme_AppCompat_Dialog_MinWidth</highlight></codeline>
+<codeline lineno="889"><highlight class="normal">style<sp/>Theme_AppCompat_DialogWhenLarge</highlight></codeline>
+<codeline lineno="890"><highlight class="normal">style<sp/>Theme_AppCompat_Light</highlight></codeline>
+<codeline lineno="891"><highlight class="normal">style<sp/>Theme_AppCompat_Light_DarkActionBar</highlight></codeline>
+<codeline lineno="892"><highlight class="normal">style<sp/>Theme_AppCompat_Light_Dialog</highlight></codeline>
+<codeline lineno="893"><highlight class="normal">style<sp/>Theme_AppCompat_Light_Dialog_Alert</highlight></codeline>
+<codeline lineno="894"><highlight class="normal">style<sp/>Theme_AppCompat_Light_Dialog_MinWidth</highlight></codeline>
+<codeline lineno="895"><highlight class="normal">style<sp/>Theme_AppCompat_Light_DialogWhenLarge</highlight></codeline>
+<codeline lineno="896"><highlight class="normal">style<sp/>Theme_AppCompat_Light_NoActionBar</highlight></codeline>
+<codeline lineno="897"><highlight class="normal">style<sp/>Theme_AppCompat_NoActionBar</highlight></codeline>
+<codeline lineno="898"><highlight class="normal">style<sp/>ThemeOverlay_AppCompat</highlight></codeline>
+<codeline lineno="899"><highlight class="normal">style<sp/>ThemeOverlay_AppCompat_ActionBar</highlight></codeline>
+<codeline lineno="900"><highlight class="normal">style<sp/>ThemeOverlay_AppCompat_Dark</highlight></codeline>
+<codeline lineno="901"><highlight class="normal">style<sp/>ThemeOverlay_AppCompat_Dark_ActionBar</highlight></codeline>
+<codeline lineno="902"><highlight class="normal">style<sp/>ThemeOverlay_AppCompat_Light</highlight></codeline>
+<codeline lineno="903"><highlight class="normal">style<sp/>Widget_AppCompat_ActionBar</highlight></codeline>
+<codeline lineno="904"><highlight class="normal">style<sp/>Widget_AppCompat_ActionBar_Solid</highlight></codeline>
+<codeline lineno="905"><highlight class="normal">style<sp/>Widget_AppCompat_ActionBar_TabBar</highlight></codeline>
+<codeline lineno="906"><highlight class="normal">style<sp/>Widget_AppCompat_ActionBar_TabText</highlight></codeline>
+<codeline lineno="907"><highlight class="normal">style<sp/>Widget_AppCompat_ActionBar_TabView</highlight></codeline>
+<codeline lineno="908"><highlight class="normal">style<sp/>Widget_AppCompat_ActionButton</highlight></codeline>
+<codeline lineno="909"><highlight class="normal">style<sp/>Widget_AppCompat_ActionButton_CloseMode</highlight></codeline>
+<codeline lineno="910"><highlight class="normal">style<sp/>Widget_AppCompat_ActionButton_Overflow</highlight></codeline>
+<codeline lineno="911"><highlight class="normal">style<sp/>Widget_AppCompat_ActionMode</highlight></codeline>
+<codeline lineno="912"><highlight class="normal">style<sp/>Widget_AppCompat_ActivityChooserView</highlight></codeline>
+<codeline lineno="913"><highlight class="normal">style<sp/>Widget_AppCompat_AutoCompleteTextView</highlight></codeline>
+<codeline lineno="914"><highlight class="normal">style<sp/>Widget_AppCompat_Button</highlight></codeline>
+<codeline lineno="915"><highlight class="normal">style<sp/>Widget_AppCompat_Button_Borderless</highlight></codeline>
+<codeline lineno="916"><highlight class="normal">style<sp/>Widget_AppCompat_Button_Borderless_Colored</highlight></codeline>
+<codeline lineno="917"><highlight class="normal">style<sp/>Widget_AppCompat_Button_ButtonBar_AlertDialog</highlight></codeline>
+<codeline lineno="918"><highlight class="normal">style<sp/>Widget_AppCompat_Button_Colored</highlight></codeline>
+<codeline lineno="919"><highlight class="normal">style<sp/>Widget_AppCompat_Button_Small</highlight></codeline>
+<codeline lineno="920"><highlight class="normal">style<sp/>Widget_AppCompat_ButtonBar</highlight></codeline>
+<codeline lineno="921"><highlight class="normal">style<sp/>Widget_AppCompat_ButtonBar_AlertDialog</highlight></codeline>
+<codeline lineno="922"><highlight class="normal">style<sp/>Widget_AppCompat_CompoundButton_CheckBox</highlight></codeline>
+<codeline lineno="923"><highlight class="normal">style<sp/>Widget_AppCompat_CompoundButton_RadioButton</highlight></codeline>
+<codeline lineno="924"><highlight class="normal">style<sp/>Widget_AppCompat_CompoundButton_Switch</highlight></codeline>
+<codeline lineno="925"><highlight class="normal">style<sp/>Widget_AppCompat_DrawerArrowToggle</highlight></codeline>
+<codeline lineno="926"><highlight class="normal">style<sp/>Widget_AppCompat_DropDownItem_Spinner</highlight></codeline>
+<codeline lineno="927"><highlight class="normal">style<sp/>Widget_AppCompat_EditText</highlight></codeline>
+<codeline lineno="928"><highlight class="normal">style<sp/>Widget_AppCompat_ImageButton</highlight></codeline>
+<codeline lineno="929"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionBar</highlight></codeline>
+<codeline lineno="930"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionBar_Solid</highlight></codeline>
+<codeline lineno="931"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionBar_Solid_Inverse</highlight></codeline>
+<codeline lineno="932"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionBar_TabBar</highlight></codeline>
+<codeline lineno="933"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionBar_TabBar_Inverse</highlight></codeline>
+<codeline lineno="934"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionBar_TabText</highlight></codeline>
+<codeline lineno="935"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionBar_TabText_Inverse</highlight></codeline>
+<codeline lineno="936"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionBar_TabView</highlight></codeline>
+<codeline lineno="937"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionBar_TabView_Inverse</highlight></codeline>
+<codeline lineno="938"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionButton</highlight></codeline>
+<codeline lineno="939"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionButton_CloseMode</highlight></codeline>
+<codeline lineno="940"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionButton_Overflow</highlight></codeline>
+<codeline lineno="941"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActionMode_Inverse</highlight></codeline>
+<codeline lineno="942"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ActivityChooserView</highlight></codeline>
+<codeline lineno="943"><highlight class="normal">style<sp/>Widget_AppCompat_Light_AutoCompleteTextView</highlight></codeline>
+<codeline lineno="944"><highlight class="normal">style<sp/>Widget_AppCompat_Light_DropDownItem_Spinner</highlight></codeline>
+<codeline lineno="945"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ListPopupWindow</highlight></codeline>
+<codeline lineno="946"><highlight class="normal">style<sp/>Widget_AppCompat_Light_ListView_DropDown</highlight></codeline>
+<codeline lineno="947"><highlight class="normal">style<sp/>Widget_AppCompat_Light_PopupMenu</highlight></codeline>
+<codeline lineno="948"><highlight class="normal">style<sp/>Widget_AppCompat_Light_PopupMenu_Overflow</highlight></codeline>
+<codeline lineno="949"><highlight class="normal">style<sp/>Widget_AppCompat_Light_SearchView</highlight></codeline>
+<codeline lineno="950"><highlight class="normal">style<sp/>Widget_AppCompat_Light_Spinner_DropDown_ActionBar</highlight></codeline>
+<codeline lineno="951"><highlight class="normal">style<sp/>Widget_AppCompat_ListPopupWindow</highlight></codeline>
+<codeline lineno="952"><highlight class="normal">style<sp/>Widget_AppCompat_ListView</highlight></codeline>
+<codeline lineno="953"><highlight class="normal">style<sp/>Widget_AppCompat_ListView_DropDown</highlight></codeline>
+<codeline lineno="954"><highlight class="normal">style<sp/>Widget_AppCompat_ListView_Menu</highlight></codeline>
+<codeline lineno="955"><highlight class="normal">style<sp/>Widget_AppCompat_PopupMenu</highlight></codeline>
+<codeline lineno="956"><highlight class="normal">style<sp/>Widget_AppCompat_PopupMenu_Overflow</highlight></codeline>
+<codeline lineno="957"><highlight class="normal">style<sp/>Widget_AppCompat_PopupWindow</highlight></codeline>
+<codeline lineno="958"><highlight class="normal">style<sp/>Widget_AppCompat_ProgressBar</highlight></codeline>
+<codeline lineno="959"><highlight class="normal">style<sp/>Widget_AppCompat_ProgressBar_Horizontal</highlight></codeline>
+<codeline lineno="960"><highlight class="normal">style<sp/>Widget_AppCompat_RatingBar</highlight></codeline>
+<codeline lineno="961"><highlight class="normal">style<sp/>Widget_AppCompat_RatingBar_Indicator</highlight></codeline>
+<codeline lineno="962"><highlight class="normal">style<sp/>Widget_AppCompat_RatingBar_Small</highlight></codeline>
+<codeline lineno="963"><highlight class="normal">style<sp/>Widget_AppCompat_SearchView</highlight></codeline>
+<codeline lineno="964"><highlight class="normal">style<sp/>Widget_AppCompat_SearchView_ActionBar</highlight></codeline>
+<codeline lineno="965"><highlight class="normal">style<sp/>Widget_AppCompat_SeekBar</highlight></codeline>
+<codeline lineno="966"><highlight class="normal">style<sp/>Widget_AppCompat_Spinner</highlight></codeline>
+<codeline lineno="967"><highlight class="normal">style<sp/>Widget_AppCompat_Spinner_DropDown</highlight></codeline>
+<codeline lineno="968"><highlight class="normal">style<sp/>Widget_AppCompat_Spinner_DropDown_ActionBar</highlight></codeline>
+<codeline lineno="969"><highlight class="normal">style<sp/>Widget_AppCompat_Spinner_Underlined</highlight></codeline>
+<codeline lineno="970"><highlight class="normal">style<sp/>Widget_AppCompat_TextView_SpinnerItem</highlight></codeline>
+<codeline lineno="971"><highlight class="normal">style<sp/>Widget_AppCompat_Toolbar</highlight></codeline>
+<codeline lineno="972"><highlight class="normal">style<sp/>Widget_AppCompat_Toolbar_Button_Navigation</highlight></codeline>
+<codeline lineno="973"><highlight class="normal">styleable<sp/>ActionBar<sp/>background<sp/>backgroundSplit<sp/>backgroundStacked<sp/>contentInsetEnd<sp/>contentInsetLeft<sp/>contentInsetRight<sp/>contentInsetStart<sp/>customNavigationLayout<sp/>displayOptions<sp/>divider<sp/>elevation<sp/>height<sp/>hideOnContentScroll<sp/>homeAsUpIndicator<sp/>homeLayout<sp/>icon<sp/>indeterminateProgressStyle<sp/>itemPadding<sp/>logo<sp/>navigationMode<sp/>popupTheme<sp/>progressBarPadding<sp/>progressBarStyle<sp/>subtitle<sp/>subtitleTextStyle<sp/>title<sp/>titleTextStyle</highlight></codeline>
+<codeline lineno="974"><highlight class="normal">styleable<sp/>ActionBarLayout<sp/>android_layout_gravity</highlight></codeline>
+<codeline lineno="975"><highlight class="normal">styleable<sp/>ActionMenuItemView<sp/>android_minWidth</highlight></codeline>
+<codeline lineno="976"><highlight class="normal">styleable<sp/>ActionMenuView</highlight></codeline>
+<codeline lineno="977"><highlight class="normal">styleable<sp/>ActionMode<sp/>background<sp/>backgroundSplit<sp/>closeItemLayout<sp/>height<sp/>subtitleTextStyle<sp/>titleTextStyle</highlight></codeline>
+<codeline lineno="978"><highlight class="normal">styleable<sp/>ActivityChooserView<sp/>expandActivityOverflowButtonDrawable<sp/>initialActivityCount</highlight></codeline>
+<codeline lineno="979"><highlight class="normal">styleable<sp/>AlertDialog<sp/>android_layout<sp/>buttonPanelSideLayout<sp/>listItemLayout<sp/>listLayout<sp/>multiChoiceItemLayout<sp/>singleChoiceItemLayout</highlight></codeline>
+<codeline lineno="980"><highlight class="normal">styleable<sp/>AppCompatImageView<sp/>android_src<sp/>srcCompat</highlight></codeline>
+<codeline lineno="981"><highlight class="normal">styleable<sp/>AppCompatTextView<sp/>android_textAppearance<sp/>textAllCaps</highlight></codeline>
+<codeline lineno="982"><highlight class="normal">styleable<sp/>AppCompatTheme<sp/>android_windowIsFloating<sp/>android_windowAnimationStyle<sp/>actionBarDivider<sp/>actionBarItemBackground<sp/>actionBarPopupTheme<sp/>actionBarSize<sp/>actionBarSplitStyle<sp/>actionBarStyle<sp/>actionBarTabBarStyle<sp/>actionBarTabStyle<sp/>actionBarTabTextStyle<sp/>actionBarTheme<sp/>actionBarWidgetTheme<sp/>actionButtonStyle<sp/>actionDropDownStyle<sp/>actionMenuTextAppearance<sp/>actionMenuTextColor<sp/>actionModeBackground<sp/>actionModeCloseButtonStyle<sp/>actionModeCloseDrawable<sp/>actionModeCopyDrawable<sp/>actionModeCutDrawable<sp/>actionModeFindDrawable<sp/>actionModePasteDrawable<sp/>actionModePopupWindowStyle<sp/>actionModeSelectAllDrawable<sp/>actionModeShareDrawable<sp/>actionModeSplitBackground<sp/>actionModeStyle<sp/>actionModeWebSearchDrawable<sp/>actionOverflowButtonStyle<sp/>actionOverflowMenuStyle<sp/>activityChooserViewStyle<sp/>alertDialogButtonGroupStyle<sp/>alertDialogCenterButtons<sp/>alertDialogStyle<sp/>alertDialogTheme<sp/>autoCompleteTextViewStyle<sp/>borderlessButtonStyle<sp/>buttonBarButtonStyle<sp/>buttonBarNegativeButtonStyle<sp/>buttonBarNeutralButtonStyle<sp/>buttonBarPositiveButtonStyle<sp/>buttonBarStyle<sp/>buttonStyle<sp/>buttonStyleSmall<sp/>checkboxStyle<sp/>checkedTextViewStyle<sp/>colorAccent<sp/>colorButtonNormal<sp/>colorControlActivated<sp/>colorControlHighlight<sp/>colorControlNormal<sp/>colorPrimary<sp/>colorPrimaryDark<sp/>colorSwitchThumbNormal<sp/>controlBackground<sp/>dialogPreferredPadding<sp/>dialogTheme<sp/>dividerHorizontal<sp/>dividerVertical<sp/>dropDownListViewStyle<sp/>dropdownListPreferredItemHeight<sp/>editTextBackground<sp/>editTextColor<sp/>editTextStyle<sp/>homeAsUpIndicator<sp/>imageButtonStyle<sp/>listChoiceBackgroundIndicator<sp/>listDividerAlertDialog<sp/>listPopupWindowStyle<sp/>listPreferredItemHeight<sp/>listPreferredItemHeightLarge<sp/>listPreferredItemHeightSmall<sp/>listPreferredItemPaddingLeft<sp/>listPreferredItemPaddingRight<sp/>panelBackground<sp/>panelMenuListTheme<sp/>panelMenuListWidth<sp/>popupMenuStyle<sp/>popupWindowStyle<sp/>radioButtonStyle<sp/>ratingBarStyle<sp/>ratingBarStyleIndicator<sp/>ratingBarStyleSmall<sp/>searchViewStyle<sp/>seekBarStyle<sp/>selectableItemBackground<sp/>selectableItemBackgroundBorderless<sp/>spinnerDropDownItemStyle<sp/>spinnerStyle<sp/>switchStyle<sp/>textAppearanceLargePopupMenu<sp/>textAppearanceListItem<sp/>textAppearanceListItemSmall<sp/>textAppearanceSearchResultSubtitle<sp/>textAppearanceSearchResultTitle<sp/>textAppearanceSmallPopupMenu<sp/>textColorAlertDialogListItem<sp/>textColorSearchUrl<sp/>toolbarNavigationButtonStyle<sp/>toolbarStyle<sp/>windowActionBar<sp/>windowActionBarOverlay<sp/>windowActionModeOverlay<sp/>windowFixedHeightMajor<sp/>windowFixedHeightMinor<sp/>windowFixedWidthMajor<sp/>windowFixedWidthMinor<sp/>windowMinWidthMajor<sp/>windowMinWidthMinor<sp/>windowNoTitle</highlight></codeline>
+<codeline lineno="983"><highlight class="normal">styleable<sp/>ButtonBarLayout<sp/>allowStacking</highlight></codeline>
+<codeline lineno="984"><highlight class="normal">styleable<sp/>CompoundButton<sp/>android_button<sp/>buttonTint<sp/>buttonTintMode</highlight></codeline>
+<codeline lineno="985"><highlight class="normal">styleable<sp/>DrawerArrowToggle<sp/>arrowHeadLength<sp/>arrowShaftLength<sp/>barLength<sp/>color<sp/>drawableSize<sp/>gapBetweenBars<sp/>spinBars<sp/>thickness</highlight></codeline>
+<codeline lineno="986"><highlight class="normal">styleable<sp/>LinearLayoutCompat<sp/>android_gravity<sp/>android_orientation<sp/>android_baselineAligned<sp/>android_baselineAlignedChildIndex<sp/>android_weightSum<sp/>divider<sp/>dividerPadding<sp/>measureWithLargestChild<sp/>showDividers</highlight></codeline>
+<codeline lineno="987"><highlight class="normal">styleable<sp/>LinearLayoutCompat_Layout<sp/>android_layout_gravity<sp/>android_layout_width<sp/>android_layout_height<sp/>android_layout_weight</highlight></codeline>
+<codeline lineno="988"><highlight class="normal">styleable<sp/>ListPopupWindow<sp/>android_dropDownHorizontalOffset<sp/>android_dropDownVerticalOffset</highlight></codeline>
+<codeline lineno="989"><highlight class="normal">styleable<sp/>MenuGroup<sp/>android_enabled<sp/>android_id<sp/>android_visible<sp/>android_menuCategory<sp/>android_orderInCategory<sp/>android_checkableBehavior</highlight></codeline>
+<codeline lineno="990"><highlight class="normal">styleable<sp/>MenuItem<sp/>android_icon<sp/>android_enabled<sp/>android_id<sp/>android_checked<sp/>android_visible<sp/>android_menuCategory<sp/>android_orderInCategory<sp/>android_title<sp/>android_titleCondensed<sp/>android_alphabeticShortcut<sp/>android_numericShortcut<sp/>android_checkable<sp/>android_onClick<sp/>actionLayout<sp/>actionProviderClass<sp/>actionViewClass<sp/>showAsAction</highlight></codeline>
+<codeline lineno="991"><highlight class="normal">styleable<sp/>MenuView<sp/>android_windowAnimationStyle<sp/>android_itemTextAppearance<sp/>android_horizontalDivider<sp/>android_verticalDivider<sp/>android_headerBackground<sp/>android_itemBackground<sp/>android_itemIconDisabledAlpha<sp/>preserveIconSpacing</highlight></codeline>
+<codeline lineno="992"><highlight class="normal">styleable<sp/>PopupWindow<sp/>android_popupBackground<sp/>overlapAnchor</highlight></codeline>
+<codeline lineno="993"><highlight class="normal">styleable<sp/>PopupWindowBackgroundState<sp/>state_above_anchor</highlight></codeline>
+<codeline lineno="994"><highlight class="normal">styleable<sp/>SearchView<sp/>android_focusable<sp/>android_maxWidth<sp/>android_inputType<sp/>android_imeOptions<sp/>closeIcon<sp/>commitIcon<sp/>defaultQueryHint<sp/>goIcon<sp/>iconifiedByDefault<sp/>layout<sp/>queryBackground<sp/>queryHint<sp/>searchHintIcon<sp/>searchIcon<sp/>submitBackground<sp/>suggestionRowLayout<sp/>voiceIcon</highlight></codeline>
+<codeline lineno="995"><highlight class="normal">styleable<sp/>Spinner<sp/>android_entries<sp/>android_popupBackground<sp/>android_prompt<sp/>android_dropDownWidth<sp/>popupTheme</highlight></codeline>
+<codeline lineno="996"><highlight class="normal">styleable<sp/>SwitchCompat<sp/>android_textOn<sp/>android_textOff<sp/>android_thumb<sp/>showText<sp/>splitTrack<sp/>switchMinWidth<sp/>switchPadding<sp/>switchTextAppearance<sp/>thumbTextPadding<sp/>track</highlight></codeline>
+<codeline lineno="997"><highlight class="normal">styleable<sp/>TextAppearance<sp/>android_textSize<sp/>android_typeface<sp/>android_textStyle<sp/>android_textColor<sp/>android_shadowColor<sp/>android_shadowDx<sp/>android_shadowDy<sp/>android_shadowRadius<sp/>textAllCaps</highlight></codeline>
+<codeline lineno="998"><highlight class="normal">styleable<sp/>Toolbar<sp/>android_gravity<sp/>android_minHeight<sp/>collapseContentDescription<sp/>collapseIcon<sp/>contentInsetEnd<sp/>contentInsetLeft<sp/>contentInsetRight<sp/>contentInsetStart<sp/>logo<sp/>logoDescription<sp/>maxButtonHeight<sp/>navigationContentDescription<sp/>navigationIcon<sp/>popupTheme<sp/>subtitle<sp/>subtitleTextAppearance<sp/>subtitleTextColor<sp/>title<sp/>titleMarginBottom<sp/>titleMarginEnd<sp/>titleMarginStart<sp/>titleMarginTop<sp/>titleMargins<sp/>titleTextAppearance<sp/>titleTextColor</highlight></codeline>
+<codeline lineno="999"><highlight class="normal">styleable<sp/>View<sp/>android_theme<sp/>android_focusable<sp/>paddingEnd<sp/>paddingStart<sp/>theme</highlight></codeline>
+<codeline lineno="1000"><highlight class="normal">styleable<sp/>ViewBackgroundHelper<sp/>android_background<sp/>backgroundTint<sp/>backgroundTintMode</highlight></codeline>
+<codeline lineno="1001"><highlight class="normal">styleable<sp/>ViewStubCompat<sp/>android_id<sp/>android_layout<sp/>android_inflatedId</highlight></codeline>
+    </programlisting>
+    <location file="E:/TFG/appAndroid/autosulivansFeederApp/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt"/>
+  </compounddef>
+</doxygen>
